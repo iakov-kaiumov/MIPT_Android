@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:alpha="0.87"
+        android:id="@+id/dayText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="22" />
+
+    <View
+        android:id="@+id/dotView"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/calendar_selected_bg" />
+</FrameLayout>
+

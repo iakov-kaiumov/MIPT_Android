@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:padding="18dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Text.Standard_14.Medium.SmallCaps"
+        android:textColor="@color/color_android_main"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="@string/add_auditory"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

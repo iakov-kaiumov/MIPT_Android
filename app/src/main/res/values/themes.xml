@@ -1,0 +1,204 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MIPT" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MIPT.OnBoarding" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorOnPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimarySurface">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.DarkActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="popupTheme">@style/Theme.AppCompat.DayNight</item>
+    </style>
+
+
+    <style name="CustomTabStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/sfprodisplay_regular</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="android:colorBackground">@color/colorSurface</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="PickerTheme" parent="ThemeOverlay.MaterialComponents.TimePicker">
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    </style>
+
+
+    <style name="BottomNavigation" parent="Theme.MaterialComponents">
+        <item name="android:textSize">10sp</item>
+        <item name="itemIconSize">24dp</item>
+        <item name="labelVisibilityMode">labeled</item>
+
+    </style>
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CollapsedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Text">
+        <item name="fontFamily">@font/sfprodisplay_regular</item>
+    </style>
+
+    <style name="Text.Menu">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text.Small_10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text.Small_11">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="Text.Small_12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Small_12_up">
+        <item name="android:textSize">12sp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="Text.Standard_13">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Text.Standard_13.SmallCaps">
+        <item name="android:fontFeatureSettings">smcp</item>
+    </style>
+
+    <style name="Text.Standard_13.Medium">
+        <item name="android:textSize">13sp</item>
+        <item name="fontFamily">@font/sfprodisplay_medium</item>
+    </style>
+
+    <style name="Text.Standard_13.Medium.Up">
+        <item name="android:textSize">13sp</item>
+        <item name="fontFamily">@font/sfprodisplay_medium</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="Text.Standard_14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Standard_14.Bold">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/sfprodisplay_bold</item>
+    </style>
+
+    <style name="Text.Standard_14.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/sfprodisplay_medium</item>
+    </style>
+
+    <style name="Text.Standard_14.Medium.SmallCaps">
+        <item name="android:fontFeatureSettings">smcp</item>
+    </style>
+
+    <style name="Text.Standard_15">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Text.Standard_16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Standard_16.Bold">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/sfprodisplay_bold</item>
+    </style>
+
+    <style name="Text.Standard_16.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/sfprodisplay_medium</item>
+    </style>
+
+    <style name="Text.Big_17">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="Text.Big_17.SB">
+        <item name="android:textSize">17sp</item>
+        <item name="fontFamily">@font/sfprodisplay_semibold</item>
+    </style>
+
+    <style name="Text.Big_17.Bold">
+        <item name="android:textSize">17sp</item>
+        <item name="fontFamily">@font/sfprodisplay_bold</item>
+    </style>
+
+    <style name="Text.Big_18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Big_18.Bold">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/sfprodisplay_bold</item>
+    </style>
+
+    <style name="Text.Big">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/sfprodisplay_regular</item>
+    </style>
+
+    <style name="Text.Big.Bold">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/sfprodisplay_bold</item>
+    </style>
+
+    <style name="Text.Big.Very">
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/sfprodisplay_regular</item>
+    </style>
+
+    <style name="Text.Big.Very.Bold">
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/sfprodisplay_bold</item>
+    </style>
+
+    <style name="TextRobotoHeaderBold">
+        <item name="android:textSize">34sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="SwitchTheme">
+        <item name="android:colorControlActivated">@color/black</item>
+        <item name="android:colorControlNormal">@color/light_gray</item>
+    </style>
+
+</resources>

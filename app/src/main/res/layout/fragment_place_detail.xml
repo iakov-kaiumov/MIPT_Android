@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@color/white"
+            android:elevation="10dp">
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="8dp"
+                android:layout_marginStart="6dp"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Text.Big_18.Bold"
+                tools:text="Общежитие №12"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/ivBack"/>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/imageRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            tools:listitem="@layout/item_place_image"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="4"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="24dp">
+            <TextView
+                android:id="@+id/tvPlaceType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Text.Standard_14"
+                android:textColor="@color/logo_color"
+                android:layout_marginTop="16dp"
+                tools:text="Жилое помещение"/>
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Text.Standard_14"
+                android:textColor="@color/black"
+                android:layout_marginTop="4dp"
+                tools:text="Институтский пер., 6А"/>
+            <LinearLayout
+                android:id="@+id/llNeedPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/id_pass_card"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/place_detail_pass_text"
+                    style="@style/Text.Standard_14"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerConvenience"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="14dp"
+            tools:listitem="@layout/item_convenience"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Text.Standard_16"
+            android:textColor="@color/text_color"
+            android:paddingHorizontal="24dp"
+            android:layout_marginTop="10dp"
+            tools:text="11 октября состоялось торжественное открытие общежития №12. Строительство тринадцатиэтажного здания велось с февраля 2016 года. В нём разместились уютные квартиры, тренажерный зал, постирочная комната и склады для хранения личных вещей. Также есть классы для самоподготовки и просторные помещения, которые можно использовать для учёбы и отдыха."/>
+
+        <TextView
+            android:id="@+id/tvLegendTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text.Big_18.Bold"
+            android:text="@string/place_detail_legends_title"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="24dp"
+            android:textColor="@color/text_color"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvLegend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="2"
+            tools:listitem="@layout/item_legend" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

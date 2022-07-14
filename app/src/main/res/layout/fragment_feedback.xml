@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:contentInsetStart="0dp"
+        android:background="@color/color_android_main"
+        android:paddingEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="8dp"
+                android:background="@drawable/bg_blue_oval_selectable"
+                android:paddingHorizontal="8dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="@string/feedback_title"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fill_mark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfprodisplay_medium"
+                android:paddingHorizontal="4dp"
+                android:paddingTop="20dp"
+                android:text="@string/feedback_title"
+                android:textAllCaps="true"
+                android:textColor="@color/secondary_text"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_rounded_view_10"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp">
+
+                <TextView
+                    android:id="@+id/tvShare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    android:paddingHorizontal="4dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/feedback_share"
+                    android:textColor="@color/logo_color"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/whiteSmoke" />
+
+                <TextView
+                    android:id="@+id/tvRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    android:paddingHorizontal="4dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/feedback_rate"
+                    android:textColor="@color/logo_color"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/whiteSmoke" />
+
+                <TextView
+                    android:id="@+id/tvSupport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    android:paddingHorizontal="4dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="15dp"
+                    android:text="@string/feedback_write_support"
+                    android:textColor="@color/logo_color"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfprodisplay_medium"
+                android:paddingHorizontal="4dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/feedback_bottom_text"
+                android:textAllCaps="true"
+                android:textColor="@color/secondary_text"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/etFormQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_rounded_view_with_border_10"
+                android:gravity="start"
+                android:hint="@string/feedback_question_hint"
+                android:lines="5"
+                android:padding="14dp" />
+
+            <TextView
+                android:id="@+id/tvSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@drawable/bg_rounded_view_20"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:paddingHorizontal="40dp"
+                android:paddingVertical="10dp"
+                android:text="@string/feedback_send"
+                android:textColor="@color/secondary_text"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvThanksMessage"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:gravity="center"
+                android:paddingHorizontal="4dp"
+                android:paddingTop="30dp"
+                android:paddingBottom="10dp"
+                android:text="@string/feedback_thanks_message"
+                android:textColor="@color/logo_color"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text.Big_17"
+        android:text="@string/nothing_found"
+        android:layout_marginVertical="16dp"
+        android:textColor="@color/black"/>
+
+    <RelativeLayout
+        android:id="@+id/rlCreateScheduler"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="16dp"
+        android:background="@drawable/bg_item_stroked_r4_ripple">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text.Standard_14.Medium"
+            android:layout_centerInParent="true"
+            android:layout_marginVertical="12dp"
+            android:textColor="@color/color_android_main"
+            android:textAllCaps="true"
+            android:text="@string/create_scheduler"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

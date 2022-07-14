@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:contentInsetStart="0dp"
+        android:background="@color/color_android_main"
+        android:paddingEnd="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_blue_oval_selectable"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="@string/new_auditory"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/ivEdit"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="@drawable/bg_blue_oval_selectable"
+                android:padding="10dp"
+                android:src="@drawable/ic_save" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/wrapName"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:hint="@string/new_auditory_name"
+                    android:textColorHint="@drawable/state_color"
+                    app:boxBackgroundColor="@color/white"
+                    app:errorEnabled="true"
+                    app:hintTextColor="@color/color_android_main">
+
+                    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="66dp"
+                        android:background="@color/white"
+                        android:paddingTop="16dp" />
+
+                    <View
+                        android:id="@+id/boxCourse"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/wrapBuilding"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="@string/new_auditory_building"
+                android:paddingStart="-16dp"
+                android:textColorHint="@drawable/state_color"
+                app:boxBackgroundColor="@color/white"
+                app:errorEnabled="true"
+                app:hintTextColor="@color/color_android_main">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/tvBuilding"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@color/white"
+                    android:inputType="none" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/wrapType"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="@string/new_auditory_type"
+                android:paddingStart="-16dp"
+                android:textColorHint="@drawable/state_color"
+                app:boxBackgroundColor="@color/white"
+                app:errorEnabled="true"
+                app:hintTextColor="@color/color_android_main">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/tvType"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@color/white"
+                    android:inputType="none" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/wrapFloor"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="@string/new_auditory_floor"
+                android:textColorHint="@drawable/state_color"
+                app:boxBackgroundColor="@color/white"
+                app:errorEnabled="true"
+                app:hintTextColor="@color/color_android_main">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/tvFloor"
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:background="@color/white"
+                    android:inputType="number"
+                    android:paddingTop="16dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#8E8E93"
+                android:textSize="13sp"
+                android:text="@string/new_auditory_description"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

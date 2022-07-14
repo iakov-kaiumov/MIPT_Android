@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_item_study"
+        android:icon="@drawable/ic_menu_study"
+        android:title="@string/menu_study"/>
+
+    <item android:id="@+id/menu_item_news"
+        android:icon="@drawable/ic_menu_newspaper"
+        android:title="@string/menu_news"/>
+
+    <item android:id="@+id/menu_item_navigator"
+        android:icon="@drawable/ic_menu_location"
+        android:title="@string/menu_navigator"/>
+
+    <item android:id="@+id/menu_item_services"
+        android:icon="@drawable/ic_menu_option"
+        android:title="@string/menu_services"/>
+
+</menu>

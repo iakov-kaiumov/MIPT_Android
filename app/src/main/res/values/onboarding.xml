@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_subtitle1">Расписание</string>
+    <string name="onboarding_text1">Удобное расписание пар, которое поможет вам эффективнее планировать свое время 🤓</string>
+    <string name="onboarding_subtitle2">Новости</string>
+    <string name="onboarding_text2">Вы всегда будете в курсе последних новостей и мероприятий на Физтехе 📻</string>
+    <string name="onboarding_subtitle3">Чат</string>
+    <string name="onboarding_text3">Появилась возможность задать вопрос круглосуточной  поддержке 🍀</string>
+    <string name="onboarding_subtitle4">Навигатор</string>
+    <string name="onboarding_text4">Добавили справочник контактов и поиск по всему разделу навигатора 📞</string>
+    <string name="onboarding_subtitle5">Сервисы</string>
+    <string name="onboarding_text5">Собрали все счета для оплаты в одном месте 💸</string>
+</resources>

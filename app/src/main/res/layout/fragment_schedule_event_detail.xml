@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:contentInsetStart="0dp"
+        android:background="@color/color_android_main"
+        android:paddingEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="8dp"
+                android:layout_marginStart="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/bg_blue_oval_selectable"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="@string/events_bar_title"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/ivEdit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/bg_blue_oval_selectable"
+                android:src="@drawable/ic_edit" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlWrap"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:tint="@color/black" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/sfprodisplay_bold"
+                    android:paddingTop="4dp"
+                    android:text="@string/fragment_detail_title"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="6dp"
+                    android:paddingTop="6dp"
+                    android:text="@string/fragment_detail_edit"
+                    android:textColor="@color/logo_color" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/light_gray" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="37dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingTop="22dp"
+                tools:ignore="RtlSymmetry">
+
+                <TextView
+                    android:id="@+id/tvType"
+                    style="@style/Text.Small_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="9dp"
+                    android:textColor="@color/color_android_main"
+                    tools:text="Лекция" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:layout_marginBottom="12dp">
+
+                    <RelativeLayout
+                        android:id="@+id/viewMarkerWrap"
+                        android:layout_marginTop="6dp"
+                        android:layout_width="24dp"
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:id="@+id/viewMarker"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/bg_item_stroked_r4"
+                            tools:backgroundTint="#FF97C9" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_toRightOf="@id/viewMarkerWrap"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSchedulerName"
+                            style="@style/Text.Big.Bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingEnd="16dp"
+                            android:textColor="@color/black"
+                            tools:text="Общая физика: электричество и магнетизм" />
+
+                        <TextView
+                            android:id="@+id/tvDateTime"
+                            style="@style/Text.Standard_15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/secondary_text"
+                            tools:text="Понедельник, 10:45 - 13:45 (четные недели)" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/llFieldPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:paddingStart="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="16dp"
+                        android:paddingEnd="24dp">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_geo_pointer" />
+
+                        <TextView
+                            android:id="@+id/tvRoom"
+                            style="@style/Text.Standard_16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="6dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            tools:text="Гл. Физ. (ГК)" />
+
+                        <TextView
+                            android:id="@+id/tvFloor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/Text.Standard_16"
+                            android:textColor="@color/secondary_text"
+                            android:layout_marginEnd="8dp"
+                            tools:text="5 этаж"/>
+
+
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_arrow_right_text"
+                            app:tint="@color/color_android_main" />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="30dp"
+                        android:background="@color/light_gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llFieldTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:paddingStart="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="16dp"
+                        android:paddingEnd="24dp">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_user" />
+
+                    <TextView
+                        android:id="@+id/tvLectors"
+                        style="@style/Text.Standard_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        tools:text="Протодьяконов Константин Станиславович" />
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_arrow_right_text"
+                        app:tint="@color/color_android_main" />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="30dp"
+                        android:background="@color/light_gray" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvSource"
+                    style="@style/Text.Standard_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="15dp"
+                    android:textColor="@color/secondary_text"
+                    tools:text="Загружено из lms" />
+
+                <LinearLayout
+                    android:id="@+id/llAdditionFields"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/llTranslation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingStart="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingVertical="16dp"
+                            android:paddingEnd="24dp">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_media" />
+
+                            <TextView
+                                android:id="@+id/tvTranslation"
+                                style="@style/Text.Standard_16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="6dp"
+                                android:layout_weight="1"
+                                android:text="@string/events_translations"
+                                android:textColor="@color/black" />
+
+
+                            <TextView
+                                android:id="@+id/tvDescriptionTranslation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Text.Standard_16"
+                                android:textColor="@color/secondary_text"
+                                android:layout_marginHorizontal="6dp"
+                                tools:text="zoom.us"/>
+
+                            <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_arrow_right_text"
+                            app:tint="@color/color_android_main" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="30dp"
+                            android:background="@color/light_gray" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llRecords"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingStart="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingVertical="16dp"
+                            android:paddingEnd="24dp">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_records"
+                                app:tint="@color/black" />
+
+                            <TextView
+                                style="@style/Text.Standard_16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="6dp"
+                                android:layout_weight="1"
+                                android:text="@string/events_records"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/tvDescriptionRecords"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Text.Standard_16"
+                                android:textColor="@color/secondary_text"
+                                android:layout_marginHorizontal="6dp"
+                                tools:text="zoom.us"/>
+
+                            <ImageView
+                                android:layout_width="12dp"
+                                android:layout_height="12dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_arrow_right_text"
+                                app:tint="@color/color_android_main" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="30dp"
+                            android:background="@color/light_gray" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llMaterials"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingStart="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingVertical="16dp"
+                            android:paddingEnd="24dp">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_materials"
+                                app:tint="@color/black" />
+
+                            <TextView
+                                style="@style/Text.Standard_16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="6dp"
+                                android:layout_weight="1"
+                                android:text="@string/events_materials"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/tvDescriptionMaterials"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Text.Standard_16"
+                                android:textColor="@color/secondary_text"
+                                android:layout_marginHorizontal="6dp"
+                                tools:text="zoom.us"/>
+
+                            <ImageView
+                                android:layout_width="12dp"
+                                android:layout_height="12dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_arrow_right_text"
+                                app:tint="@color/color_android_main" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="30dp"
+                            android:background="@color/light_gray" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llCourse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingStart="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingVertical="16dp"
+                            android:paddingEnd="24dp">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_course"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                style="@style/Text.Standard_16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="6dp"
+                                android:layout_weight="1"
+                                android:text="@string/lms_course_page"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/tvDescriptionCourse"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Text.Standard_16"
+                                android:textColor="@color/secondary_text"
+                                android:layout_marginHorizontal="6dp"
+                                tools:text="zoom.us"/>
+
+                            <ImageView
+                                android:layout_width="12dp"
+                                android:layout_height="12dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_arrow_right_text"
+                                app:tint="@color/color_android_main" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="30dp"
+                            android:background="@color/light_gray" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llUsers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingStart="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingVertical="16dp"
+                            android:paddingEnd="24dp">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_users"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                style="@style/Text.Standard_16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="6dp"
+                                android:layout_weight="1"
+                                android:text="@string/participants_title"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/tvDescriptionUsers"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Text.Standard_16"
+                                android:textColor="@color/secondary_text"
+                                android:layout_marginHorizontal="6dp"
+                                tools:text="zoom.us"/>
+
+                            <ImageView
+                                android:layout_width="12dp"
+                                android:layout_height="12dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_arrow_right_text"
+                                app:tint="@color/color_android_main" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="30dp"
+                            android:background="@color/light_gray" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llPersonalNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/light_gray" />
+
+                <TextView
+                    style="@style/Text.Standard_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_detail_personal_marks"
+                    android:textColor="@color/secondary_text" />
+
+                <EditText
+                    android:id="@+id/etPersonalNotes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="start"
+                    android:inputType="textMultiLine"
+                    android:minLines="3"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="10dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/light_gray" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="40dp"
+                android:background="@color/light_gray"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rlShare"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/bg_item_stroked_r4_ripple"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/tvShare"
+                    style="@style/Text.Standard_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/event_share"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_android_main" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

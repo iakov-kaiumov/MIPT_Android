@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorSurface"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Text.Big.Bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="30dp"
+        android:text="@string/schedule_notify_title"
+        android:textAlignment="textStart"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingHorizontal="30dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/radio_button"
+            android:text="@string/min_1"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:buttonTint="@color/radio_button"
+            android:layout_height="wrap_content"
+            android:text="@string/min_2"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/radio_button"
+            android:text="@string/min_5"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/radio_button"
+            android:text="@string/min_10"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnEditForSelf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:textColor="@color/logo_color"
+        android:visibility="gone"
+        android:textAlignment="textEnd"
+        android:text="@string/edit_for_self"/>
+
+
+</LinearLayout>

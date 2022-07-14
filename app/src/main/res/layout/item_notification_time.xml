@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded_view_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/ivCheck"
+        android:orientation="vertical"
+        android:paddingVertical="8dp">
+
+        <TextView
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/tvValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/sfprodisplay_regular"
+            android:paddingTop="4dp"
+            tools:text="1 минуту"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivCheck"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/ic_baseline_check_24"
+        android:visibility="invisible"
+        app:tint="@color/logo_color" />
+
+</RelativeLayout>
+

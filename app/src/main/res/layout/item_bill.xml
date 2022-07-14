@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded_view_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/ivArrow"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/sfprodisplay_bold"
+            android:paddingTop="4dp"
+            tools:text="Договор №123456-54321"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/sfprodisplay_regular"
+            android:paddingTop="4dp"
+            tools:text="Ожидается оплата"
+            android:textColor="@color/badge"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:paddingTop="4dp"
+                android:paddingEnd="16dp"
+                tools:text="Общая сумма к оплате"
+                android:textColor="@color/secondary_text"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:paddingTop="4dp"
+                tools:text="9 187 ₽"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:paddingTop="4dp"
+                android:paddingEnd="16dp"
+                tools:text="01.04.2021"
+                android:textColor="@color/secondary_text"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:paddingTop="4dp"
+                tools:text="ОБЩЕЖИТИЕ №7"
+                android:textColor="@color/secondary_text"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivArrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:rotation="180"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        app:tint="@color/logo_color" />
+
+</RelativeLayout>
+

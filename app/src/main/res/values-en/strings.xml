@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="toolbar_schedulers">Schedule</string>
+    <string name="toolbar_news">News</string>
+    <string name="toolbar_navigator">Navigator</string>
+
+    <string name="app_name">MIPT</string>
+    <string name="empty" />
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="message_some_error_try_late">Error. Please, try again later.</string>
+
+    <string name="menu_study">Study</string>
+    <string name="menu_news">News</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_navigator">Navigator</string>
+    <string name="menu_services">Services</string>
+
+
+    <string name="what_news.title">What\'s new?</string>
+    <string name="what_news.item1">Value 1</string>
+    <string name="what_news.item2">Value 2</string>
+    <string name="what_news.item3">Value 3</string>
+    <string name="what_news.item4">Value 4</string>
+    <string name="what_news.item5">Long value Long value Long value Long value Long value Long value Long value Long value Long value Long value Long value Long value Long value</string>
+    <string name="accept_title">Cool</string>
+
+
+    <string name="authorization.title">To continue, you need to log in through your personal account</string>
+    <string name="authorization.student.title">I\'m a student</string>
+    <string name="authorization.student.subtitle">You need mail in the domain @phystech.edu</string>
+    <string name="authorization.employee.title">I\'m an employee</string>
+    <string name="authorization.employee.subtitle">You need a corporate account (login in the form of ivanov.ii and password)</string>
+    <string name="authorization.guest.title">I\'m a guest</string>
+    <string name="authorization.guest.dialog.title">Are you sure?</string>
+    <string name="authorization.guest.dialog.description">This will limit the available functionality of the app</string>
+
+    <!-- MainActivity -->
+    <string name="add_group">Add</string>
+    <string name="delete_group">Delete group</string>
+    <string name="spaces_switcher">Spaces</string>
+    <string-array name="week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="week_short">
+        <item>MO</item>
+        <item>TU</item>
+        <item>WE</item>
+        <item>TH</item>
+        <item>FR</item>
+        <item>SA</item>
+        <item>SU</item>
+    </string-array>
+
+    <string name="Monday_short">M</string>
+    <string name="Tuesday_short">T</string>
+    <string name="Wednesday_short">W</string>
+    <string name="Thursday_short">T</string>
+    <string name="Friday_short">F</string>
+    <string name="Saturday_short">S</string>
+    <string name="Sunday_short">S</string>
+
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+
+    <string-array name="month">
+        <item name="January">January</item>
+        <item name="February">February</item>
+        <item name="March">March</item>
+        <item name="April">April</item>
+        <item name="May">May</item>
+        <item name="June">June</item>
+        <item name="July">July</item>
+        <item name="August">August</item>
+        <item name="September">September</item>
+        <item name="October">October</item>
+        <item name="November">November</item>
+        <item name="December">December</item>
+    </string-array>
+
+    <string name="today">today</string>
+    <string name="yesterday">yesterday</string>
+
+    <!-- Tips -->
+    <string name="tip_add_group_title">Favourite groups</string>
+    <string name="tip_add_group_summary">Now you can switch between favourite groups easily</string>
+    <string name="tip_edit_title">Tap to edit</string>
+    <string name="tip_edit_summary">You can edit any subject, just click on it!</string>
+    <string name="tip_add_subject_title">Add new subject</string>
+    <string name="tip_add_subject_summary">Tap to add new subject</string>
+    <string name="tip_settings_title">Settings</string>
+    <string name="tip_settings_summary">Open to set up theme and notifications</string>
+    <!-- Start Activity -->
+    <string name="edit_text_hint">Enter your group number</string>
+    <string name="button_start">Start</string>
+    <string name="search_hint">Search for a group</string>
+
+    <string name="create_dialog_title">Create new group</string>
+    <string name="create_dialog_positive">Create</string>
+    <string name="create_dialog_negative">Cancel</string>
+    <string name="create_dialog_hint">Enter group name</string>
+    <string name="create_dialog_error">Group name must be not empty</string>
+    <!-- EditActivity -->
+    <string name="title_new">New lesson</string>
+    <string name="title_edit">Edit lesson</string>
+    <string name="name_hint">Lesson</string>
+    <string name="place_hint">Place</string>
+    <string name="prof_hint">Professor</string>
+    <string name="start_time_hint">Start time</string>
+    <string name="end_time_hint">End time</string>
+    <string name="notes_hint">Notes</string>
+    <string name="type_hint">Lesson type</string>
+    <string name="day_hint">Day of the week</string>
+    <string name="default_start_time">9:00</string>
+    <string name="default_end_time">10:25</string>
+    <string name="error_empty_string">Text must be not empty</string>
+    <string name="error_time">Incorrect time</string>
+    <string name="error_hint">Cannot be saved</string>
+    <string name="empty_string" />
+    <string-array name="lesson_types_text">
+        <item>Seminar</item>
+        <item>Lecture</item>
+        <item>Laboratory</item>
+        <item>Rest</item>
+        <item>Botay</item>
+    </string-array>
+    <!-- Confirm dialog -->
+    <string name="dialog_title">Confirmation</string>
+    <string name="delete_message">Are you sure you want to delete?</string>
+    <string name="reset_message">"Are you sure that you want to reset? "</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <!-- TimePicker -->
+    <!-- Widget -->
+    <string name="next_button">Next</string>
+    <string name="prev_button">Previous</string>
+    <string name="image">Image</string>
+    <string name="delete">Delete</string>
+
+
+    <!-- Settings Activity -->
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Appearance Preferences -->
+
+    <string name="pref_header_appearance">Appearance</string>
+
+    <string name="pref_theme_title">Choose theme</string>
+
+    <string-array name="pref_theme_list_titles">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Default</item>
+    </string-array>
+
+    <string-array name="pref_theme_list_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+
+    <string name="pref_stars_title">Night sky</string>
+    <string name="pref_stars_summary">Animated night sky is available in the Dark theme</string>
+
+    <string name="pref_spaces_title">Spaces</string>
+    <string name="pref_spaces_summary">Show spaces between lessons</string>
+
+    <!-- Schedule Preferences -->
+    <string name="pref_header_data_sync">Schedule</string>
+
+    <string name="pref_reset_title">Reset schedule</string>
+    <string name="pref_reset_summary">Delete all changes you\'ve made</string>
+
+    <!-- Notification Preferences -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_lesson_notification_title">Lesson notifications</string>
+    <string name="pref_lesson_notification_summary">"App will notify you before each lesson "</string>
+
+    <string name="pref_notification_before_title">Notify about the lesson in</string>
+    <string-array name="pref_notification_before_list_titles">
+        <item>1 minute</item>
+        <item>2 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+    <string-array name="pref_notification_before_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="pref_group_title">Group for notifications</string>
+
+    <string name="pref_title_ringtone">Sound</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="pref_system_notification_title">System settings</string>
+
+    <!-- Communication Preferences -->
+
+    <string name="pref_header_communication">Communication</string>
+    <string name="pref_share_app_title">Share this app</string>
+    <string name="pref_share_message">Try MIPT app</string>
+    <string name="pref_write_developer_title">Write to developer</string>
+    <string name="pref_write_developer_url">https://vk.com/yasha_kayumov</string>
+
+    <string name="pref_rate_app_title">Rate this app</string>
+    <string name="pref_rate_app_url">https://play.google.com/store/apps/details?id=dev.phystech.mipt</string>
+
+    <!-- Notifications -->
+
+    <string name="notification_title">%s (%s)</string>
+
+    <string name="notification_text_place">\u0020in %s</string>
+    <string name="notification_time_is_up">The lesson has already begun</string>
+
+    <!-- Schedule item -->
+    <string name="break_extra_short">Break is just %d minutes :(</string>
+    <string name="break_short">%d minute break - a cup of tea?</string>
+    <string name="break_medium">%d minutes are enough to eat</string>
+    <string name="break_long">%d-minute break. Finally, some good sleep!</string>
+
+    <string name="break_title">Перерыв %d минут.</string>
+
+    <string name="break_extra_short_comment">Short break</string>
+    <string name="break_short_comment">A cup of tea?</string>
+    <string name="break_medium_comment">Lunch?</string>
+    <string name="break_long_comment">Finally, some good sleep!</string>
+
+    <string name="schedule_item_sem">Seminar</string>
+    <string name="schedule_item_lec">Lecture</string>
+    <string name="schedule_item_lab">Laboratory</string>
+
+    <string-array name="lesson_types">
+        <item>SEM</item>
+        <item>LEC</item>
+        <item>LAB</item>
+        <item>RST</item>
+        <item>BOT</item>
+    </string-array>
+
+    <string name="pref_main_group_key">group_main_number</string>
+
+    <string name="pref_groups_key">groups_number</string>
+
+    <!-- Tips -->
+    <string name="pref_tip_key">pref_tip</string>
+
+    <!-- Settings Activity -->
+    <string name="pref_theme_key">pref_theme</string>
+    <string name="pref_stars_key">pref_stars</string>
+
+    <string name="pref_reset_key">pref_reset</string>
+
+    <string name="pref_show_spaces">pref_spaces</string>
+
+    <string name="pref_notification_enabled_key">pref_notification_enabled</string>
+    <string name="pref_notification_before_key">pref_notification_before</string>
+    <string name="pref_notification_ringtone_key">pref_notification_ringtone</string>
+    <string name="pref_notification_selected_item_key">pref_notification_selected_item_key</string>
+    <string name="pref_notification_vibrate_key">pref_notification_vibrate</string>
+    <string name="pref_notification_system_key">pref_notification_system</string>
+    <string name="pref_notification_group_key">notification_group_number</string>
+
+    <string name="pref_notification_size_key">pref_notification_size</string>
+
+    <string name="pref_share_key">pref_share_key</string>
+    <string name="news_details_text">С 23 по 29 ноября пройдет ежегодная 63-я Всероссийская научная конференция МФТИ. Участвовать в конференции могут студенты, аспиранты, преподаватели и ученые, как из России, так и из ближнего и дальнего зарубежья. Подача заявок открыта до 25 октября, и по результатам их рецензирования 1 ноября будут оглашены списки выступающих.<br/><br/>В рамках конференции проходит конкурс научных работ: призеры получают дополнительные баллы за индивидуальные достижения при подаче документов в магистратуру или аспирантуру МФТИ, а победители могут поступать на эти ступени образования без вступительных испытаний.<br/><br/>Конференция охватывает следующие тематики:<br/><br/>радиотехника и компьютерные технологии;<br/>фундаментальная и прикладная физика;<br/>аэрокосмические технологии;<br/>электроника, фотоника и молекулярная физика;<br/>прикладная математика и информатика;<br/>биологическая и медицинская физика;<br/>нано-, био-, информационные, когнитивные и социогуманитарные науки и технологии;<br/>гуманитарные науки и педагогика;<br/>технологическое предпринимательство.<br/><br/>Все работы, прошедшие через рецензирование, будут опубликованы в Сборнике трудов конференции, а лучшие доклады войдут в сборник «Труды МФТИ», включенный в перечень ВАК и индексируемый РИНЦ.  В рамках конференции запланирована Выставка лабораторий МФТИ, где можно будет узнать о возможностях совмещения учебы и научной работы, стажировках и перспективных направлениях.</string>
+    <string name="toolbar_support">Support</string>
+    <string name="toolbar_support_secondary">Always near</string>
+    <string name="navigator_search">Search</string>
+    <string name="support_chat_hint">Write a message</string>
+    <string name="guest_name">Guest</string>
+    <string name="qr_code_title">Scan QR code</string>
+    <string name="schedulers_will_be_created">The schedule will appear soon</string>
+
+    <string name="people">People</string>
+    <string name="black_list">Block list</string>
+    <string name="lock">Block</string>
+    <string name="unlock">Unblock</string>
+    <string name="user_lock_text">Are you sure you want to block the user %1$s?</string>
+    <string name="user_unlock_text">Are you sure you want to unblock the user %1$s?</string>
+    <string name="no_write_block">You cannot send a message to this user.</string>
+
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="not_logged_to_app">Does not use the app</string>
+    <string name="was_time">last seen %1$s</string>
+
+    <string name="delete_dialog">Delete dialog</string>
+    <string name="block_user">Block user</string>
+    <string name="unblock_user">Unblock user</string>
+    <string name="connection">Connecting…</string>
+
+    <string name="participants_1">%1$s members</string>
+    <string name="participants_2">%1$s member</string>
+    <string name="participants_3">%1$s members</string>
+
+    <string name="lesson_card">Lesson card</string>
+    <string name="participants">Participants</string>
+
+    <string name="user_no_autorizate_email_send">The user is not logged in to the application. The message will be sent by email.</string>
+    <string name="write_message">Write a message</string>
+    <string name="user_unavailable">The user is unavailable</string>
+
+    <string name="chat_send_message_no_work">The user is currently unavailable. Try again later</string>
+
+    <string-array name="roles">
+        <item>Admin</item>
+        <item>Manager</item>
+        <item>Tester</item>
+        <item>Student</item>
+        <item>On academic leave</item>
+        <item>Alumnus</item>
+        <item>Professor</item>
+        <item>Employee</item>
+        <item>Undergraduate</item>
+        <item>Graduate</item>
+        <item>Postgraduate</item>
+        <item>Psychologist</item>
+        <item>Expelled</item>
+    </string-array>
+
+    <string-array name="schedulers_times_titles">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+
+    <string-array name="schedulers_times_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="schedulers_files_no_loaded">The data has not been updated</string>
+    <string name="fragment_detail_edit">Edit</string>
+    <string name="fragment_detail_title">Details</string>
+    <string name="fragment_detail_auditory">Auditorium</string>
+    <string name="fragment_detail_teacher">professor</string>
+    <string name="fragment_detail_type">Type of lesson</string>
+    <string name="fragment_detail_personal_marks">Personal notes</string>
+
+    <string name="fragment_details_alert_title">Individual schedule changes feature will appear in the next release. If you find an error, please write to us</string>
+
+    <string name="fragment_details_alert_write">Send message</string>
+    <string name="fragment_details_alert_road_map">Our RoadMap</string>
+    <string name="fragment_details_alert_wait">OK</string>
+    <string name="title_call">Call</string>
+    <string name="title_copy">Copy</string>
+    <string name="title_write_email">Write an e-mail</string>
+    <string name="cancel">Cancel</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="feedback_share">Share this app</string>
+    <string name="feedback_rate">Rate this app</string>
+    <string name="feedback_write_support">Write to support</string>
+    <string name="feedback_bottom_text">Any other questions or comments? Leave them in the form below</string>
+    <string name="feedback_message_sent">The message has been sent</string>
+    <string name="feedback_question_hint">Start writing a message</string>
+    <string name="feedback_send">Send</string>
+    <string name="feedback_thanks_message">Thank you for your feedback!</string>
+    <string name="notification_settings_title">Settings</string>
+    <string name="notification_settings_subtitle">Notify about a lesson in </string>
+    <string name="place_detail_pass_text">Pass required</string>
+    <string name="place_detail_legends_title">There are rumors…</string>
+    <string name="legend_detail_places_title">In the Footsteps of History</string>
+    <string name="schedule_item_detail_course">Предмет</string>
+    <string name="schedule_item_detail_marks">Notes</string>
+    <string name="schedulers_files_subtitle">You can view and download the following files</string>
+    <string name="services_bills">Bills</string>
+    <string name="services_subtitle">Through this service, you can pay your living and training bills, as well as view previously paid bills.</string>
+    <string name="services_feedback_title">Feedback</string>
+    <string name="services_feedback_subtitle">You can leave feedback to the development team to improve the app, as well as share it with your friends</string>
+    <string name="services_dev_title">Services in development</string>
+    <string name="services_dev_subtitle">We are working on adding even more services to our app</string>
+    <string name="login">Log in</string>
+    <string name="login_warning">For full access, you need to log in to your personal account</string>
+    <string name="settings">Settings</string>
+    <string name="settings_feedback">Feedback</string>
+    <string name="settings_break_title">Breaks</string>
+    <string name="settings_break_subtitle">Show breaks</string>
+    <string name="settings_notifications_title">Schedule</string>
+    <string name="settings_notifications_subtitle">Notifications about an upcoming lesson</string>
+    <string name="settings_notifications_subtitle_desc">Notifications about an upcoming lesson</string>
+    <string name="settings_notifications_time_before">Notify about a lesson in </string>
+    <string name="settings_notifications_time_before_value_default">5 minutes</string>
+    <string name="settings_notifications_chats_title">Email notifications</string>
+    <string name="settings_notifications_chats_text">Receive email notifications</string>
+    <string name="reset_changes">Reset changes</string>
+    <string name="reset_changes_detail">This action will delete all the changes you have made</string>
+    <string name="logout_title">Quit</string>
+    <string name="catalog_email">E-mail</string>
+    <string name="catalog_ext_phone">Phone</string>
+    <string name="catalog_inter_phone">Inner phone</string>
+    <string name="back">Back</string>
+    <string name="places">Places</string>
+
+
+    <string name="tab_bar_places">Places</string>
+    <string name="tab_bar_legends">Legends</string>
+    <string name="tab_bar_ref_book">Phonebook</string>
+    <string name="chairs">Chairs</string>
+
+
+    <!--  [New string]  -->
+    <string name="tabbar_news">MIPT</string>
+    <string name="tabbar_events">Events</string>
+    <string name="tabbar_inner">Internal</string>
+
+    <string name="navigator_places">Places</string>
+    <string name="navigator_legends">Legends</string>
+    <string name="navigator_references">Phonebook</string>
+
+    <string name="support_t1">Hello</string>
+    <string name="support_t2">What can you do?</string>
+    <string name="support_t3">What\'s the weather like?</string>
+    <string name="support_t4">Library</string>
+    <string name="support_t5">Schedule</string>
+
+    <string name="break_prefix">Перерыв</string>
+    <plurals name="minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
+        <item quantity="two">%d минуты</item>
+        <item quantity="zero" />
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
+        <item quantity="two">%d часа</item>
+        <item quantity="zero" />
+    </plurals>
+    <string name="event_item_exam">Exam</string>
+    <string name="event_item_conf">Conference</string>
+    <string name="event_item_quiz">Test</string>
+    <string name="event_item_assign">Assignment</string>
+    <string name="event_item_other">Other</string>
+    <string name="pref_show_events">pref_events</string>
+    <string name="toolbar_support_no_internet">Waiting for the network…</string>
+    <string name="even">even</string>
+    <string name="odd">odd</string>
+    <string name="events_title">Events</string>
+    <string name="scheduler">Schedule</string>
+    <string name="add_lesson">Add lesson</string>
+    <string name="back_changes">Reset changes</string>
+    <string name="notify_error">Report a bug</string>
+    <string name="add_deadline">Add deadline</string>
+    <string name="add_event">Add event</string>
+    <string name="show_breaks">Show breaks</string>
+    <string name="show_events">Show events</string>
+    <string name="link_live_title">Broadcast</string>
+    <string name="link_records_title">Lessons recordings</string>
+    <string name="link_meterials_title">Course materials</string>
+    <string name="change_description">Do you want to make a change to the lesson:</string>
+    <string name="edit_for_self">For myself</string>
+    <string name="edit_for_group">For all participants</string>
+    <string name="edit_scheduler_change">Change lesson</string>
+    <string name="edit_change">Change</string>
+    <string name="edit_create">Create</string>
+    <string name="change_title">Change</string>
+    <string name="edit_cancel">Cancel</string>
+    <string name="edit_save">Save</string>
+    <string name="edit_confirm_self_title">Edit for yourself</string>
+    <string name="edit_confirm_group_title">Edit for everyone</string>
+    <string name="edit_confirm_self_description">You will lose synchronization of the lesson with the server</string>
+    <string name="edit_confirm_group_description">The lesson will be sent for review and updated for all participants within 24 hours.</string>
+    <string name="text_field_name">Name</string>
+    <string name="text_field_search">Search</string>
+    <string name="show_less">Show fewer filters</string>
+    <string name="show_more">Show more filters</string>
+    <string name="nothing_found">Nothing found</string>
+    <string name="create_scheduler">Create a lesson</string>
+    <string name="context_delete">Delete</string>
+    <string name="context_edit">Edit</string>
+    <string name="teacher_prof">Professor</string>
+    <string name="prof_post_example">Профессор, доктор физико-математических наук (2005).</string>
+    <string name="schedulter_event_conference">Conference</string>
+    <string name="schedulter_event_quiz">Quiz</string>
+    <string name="schedulter_event_exam">Exam</string>
+    <string name="schedulter_event_assign">Assignment</string>
+    <string name="schedulter_event_other">Other</string>
+    <string name="toolbar_events">Events</string>
+    <string name="teachers">Professors</string>
+    <string name="auditory_title">Auditorium</string>
+    <string name="settings_others">Other</string>
+    <string name="settings_schedulers">Lessons and events</string>
+    <string name="add">Add</string>
+    <string name="add_scheduler">Add lesson</string>
+    <string name="add_auditory">Add auditorium</string>
+    <string name="changes_reseted">Changes have been reset</string>
+    <string name="empty_day_description_friends">You can meet with friends</string>
+    <string name="empty_day_description_sunday">Finally, some good sleep!</string>
+    <string name="section_detail_example">"Алтимат фрисби — командная неконтактная спортивная игра с летающим диском. "</string>
+    <string name="success">Successfully</string>
+    <string name="fill_field">Fill in the field</string>
+    <string name="changed_for_user">Changed by user %1$s</string>
+    <string name="load_from_lms">Synchronized with lms</string>
+    <string name="floor_value">%1$s floor</string>
+    <string name="event_not_found">Event not found</string>
+    <string name="scheduler_not_found">Lesson not found</string>
+    <string name="teacher_not_found">Professor not found</string>
+    <string name="auditory_not_found">Auditorium not found</string>
+    <string name="new_deadline_description">Do you want to create an event</string>
+    <string name="hane_not_permission">An error has occurred. You may not have the rights to do this</string>
+    <string name="simular_fragment_title">We found similar classes in the catalog. Select the appropriate option or click <b>save your own.</b></string>
+    <string name="profile_vk_title">VK profile</string>
+    <string name="profile_links">Links</string>
+    <string name="profile_link_mipt">Page on mipt.ru</string>
+    <string name="profile_link_wiki_phystech">Page on wikimipt.org</string>
+    <string name="schedules_app_bar_title">Lesson</string>
+    <string name="filter_week_day">Day of the week</string>
+    <string name="filter_start">Start</string>
+    <string name="filter_auditory">Auditorium</string>
+    <string name="filter_teacher">Professor</string>
+    <string name="filter_schedule_type">Lesson type</string>
+    <string name="profile_contact">Contacts</string>
+    <string name="profile_title">Profile</string>
+    <string name="sections_title">Sections</string>
+    <string name="section_web_site">Website</string>
+    <string name="section_contacts">Contacts</string>
+    <string name="section_schedule_title">Schedule</string>
+    <string name="section_add_to_schedule">Add to Schedule</string>
+    <string name="settings_chat_description">Notify about new messages</string>
+    <string name="settings_chats">Chats</string>
+    <string name="settings_title">Settings</string>
+    <string name="services_develop_description">What services will appear in the app soon</string>
+    <string name="services_develop">In the development</string>
+    <string name="services_sections_descriptions">Get information about MIPT sports sections</string>
+    <string name="services_sections">Sports sections</string>
+    <string name="services_feedback_description">Leave a comment to improve the app</string>
+    <string name="services_psychologist">Psychological help</string>
+    <string name="services_psychologist_descriptions">Make an appointment with a psychologist</string>
+    <string name="services_feedback">Feedback</string>
+    <string name="services_questions_description">Take surveys about the quality of training</string>
+    <string name="services_questions">Surveys</string>
+    <string name="services_analytics_description">View your rating</string>
+    <string name="services_analytics">Academic performance</string>
+    <string name="services_bills_description">View and pay bills for accommodation and training</string>
+    <string name="schedule_list_title">Catalog of classes</string>
+    <string name="create_screen_add_link">Add a link</string>
+    <string name="create_screen_schedule_type">Type of activity</string>
+    <string name="create_screen_addition">Additionally</string>
+    <string name="create_screen_all_day">All day</string>
+    <string name="create_screen_start">Start</string>
+    <string name="create_screen_end">End</string>
+    <string name="create_screen_date">Date</string>
+    <string name="create_screen_date_time">Date and time</string>
+    <string name="create_screen_schedule">Lesson</string>
+    <string name="create_screen_teacher">Professor</string>
+    <string name="create_screen_auditory">Auditorium</string>
+    <string name="create_screen_name">Name</string>
+    <string name="create_screen_common_information">General information</string>
+    <string name="create_screen_title">Create</string>
+    <string name="save_own">Keep mine</string>
+    <string name="change_page_reset_changes">Reset Changes</string>
+    <string name="change_page_add_link">Add a link</string>
+    <string name="change_page_schedule_type">Lesson type</string>
+    <string name="change_page_addition">Extra</string>
+    <string name="change_page_repeat">Frequency</string>
+    <string name="change_page_end">End</string>
+    <string name="change_page_start">Start</string>
+    <string name="change_page_week_day">Day of the week</string>
+    <string name="change_page_date_time">Date and time</string>
+    <string name="change_page_teacher">Professor</string>
+    <string name="change_page_auditory">Auditorium</string>
+    <string name="change_page_lesson">Name</string>
+    <string name="change_page_common_information">General information</string>
+    <string name="change_page_title">Changes</string>
+    <string name="event_share">share an event</string>
+    <string name="events_materials">Course materials</string>
+    <string name="events_translations">Broadcast</string>
+    <string name="events_records">Lessons recordings</string>
+    <string name="events_bar_title">Event</string>
+    <string name="deadlines_empty_now">There are no deadlines yet</string>
+    <string name="streams_other_header_title">STUDENT ASSOCIATIONS</string>
+    <string name="streams_chair_header_title">DEPARTMENTS</string>
+    <string name="streams_official_header_title">OFFICIAL SOURCES</string>
+    <string name="new_auditory_floor">Floor</string>
+    <string name="new_auditory_type">Audience type</string>
+    <string name="new_auditory_building">Building</string>
+    <string name="new_auditory_name">Name</string>
+    <string name="new_auditory">New auditorium</string>
+    <string name="no_schedule">No classes</string>
+    <string name="streams_bar_title">Sources</string>
+    <string name="min_10">10 minutes</string>
+    <string name="min_5">5 minutes</string>
+    <string name="min_2">2 minutes</string>
+    <string name="min_1">1 minute</string>
+    <string name="curr_week">"current, "</string>
+    <string name="schedule_app_bar_title">Lesson</string>
+    <string name="translation_title">Broadcast</string>
+    <string name="deadlines_title">Deadlines</string>
+    <string name="lms_course_page">Course page in lms</string>
+    <string name="participants_title">Participants</string>
+    <string name="schedule_share">Share a lesson</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="schedule_notify_title">Notify about a lesson in</string>
+    <string name="lesson_messages_title">Lesson chat</string>
+    <string name="lessons_messages_title">Lesson chats</string>
+    <string name="onboarding_title_1">Two display modes</string>
+    <string name="onboarding_description_1">"Use new Events screen to monitor exams and consultation schedule "</string>
+    <string name="onboarding_title_2">Events and deadlines</string>
+    <string name="onboarding_title_3">Complete editing freedom</string>
+    <string name="onboarding_title_4">Sharing is easy</string>
+    <string name="onboarding_title_5">Useful notifications</string>
+    <string name="onboarding_description_5">The app will send notifications about upcoming classes</string>
+    <string name="onboarding_description_4">Just send the link to your friends</string>
+    <string name="onboarding_description_3">You can change the schedule for yourself or for the your group</string>
+    <string name="onboarding_description_2">Along with the usual schedule</string>
+    <string name="onboarding_chats_description_1">An easy way to communicate with classmates and teachers.</string>
+    <string name="onboarding_chats_title_1">Meet the Chats</string>
+    <string name="onboarding_chats_description_2">You can write only one message to the professor. If he answers, then you can continue the communication.</string>
+    <string name="onboarding_chats_title_2">Rules</string>
+    <string name="onboarding_chats_description_3">Email notifications can be disabled in the settings section or in the LMS personal account.</string>
+    <string name="onboarding_chats_title_3">Notifications</string>
+    <string name="services_documents">Records</string>
+    <string name="services_documents_description">Request a transcript of training</string>
+    <string name="users">Users</string>
+    <string name="base_day_alert_title">Base day</string>
+    <string name="base_day_alert_subtitle">You can remove this lesson from the schedule, create classes of your department yourself and share them with friends.</string>
+
+    <string name="new_auditory_description">The audience will appear in the list of all audiences and will be visible to all users of the application. The name of the audience should be short, for example: \"114 ГК\", \"Актовый зал ЛК\" or \"112 ИСА РАН\".\nIt is not necessary to specify building and auditorium type.</string>
+
+
+    <string-array name="scheduler_repeat">
+        <item>Every week</item>
+        <item>Odd weeks</item>
+        <item>Even weeks</item>
+    </string-array>
+
+    <string-array name="weeks">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="weeks_en">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string name="notification_text_time">At %s</string>
+
+    <string name="psy_service_description"><font color="#3887E6">MIPT psychologists</font> will help you find ways to cope with stress, apathy, sort out relationships with a loved one and find a way out of a difficult situation.</string>
+    <string name="psy_service_offline_apply">Get face-to-face consultation</string>
+    <string name="psy_service_online_apply">Get online consultation</string>
+    <string name="psy_service_urgent_help">Get urgent help</string>
+    <string name="psy_service_details">Details</string>
+    <string name="psy_service_mipt_website">Official website</string>
+    <string name="psy_service_vk">VKontakte group</string>
+    <string name="psy_service_psychologists_info">Information about psychologists</string>
+    <string name="psy_date_picker_title">Appointment</string>
+    <string name="psy_date_picker_psychologist">Specialist</string>
+    <string name="psy_date_picker_psychologist_any">Any</string>
+    <string name="psy_date_picker_time_header">Pick time and specialist</string>
+    <string name="psy_location_title">Location</string>
+    <string name="psy_location_dolg">Dolgoprudny</string>
+    <string name="psy_location_zhuck">Zhukovsky</string>
+    <string name="psy_picker_title">Choose a specialist</string>
+    <string name="psy_picker_timeslot">Timeslot: </string>
+    <string name="psy_catalog_title">Psychologists</string>
+    <string name="psy_apply_title">Appointment Confirmation</string>
+    <string name="psy_apply_event_type">Event</string>
+    <string name="psy_apply_event_title">Appointment with a psychologist</string>
+    <string name="psy_apply_description">A confirmation email will be sent to your email address.\nWe ask you to take the time booking responsibly and, in case of cancellation, notify us about it as early as possible by phone or email.</string>
+    <string name="psy_apply_phone">Contact phone number:</string>
+    <string name="psy_apply_button">Confirm an appointment</string>
+    <string name="psy_apple_success">Success</string>
+    <string name="psy_apply_error">Error</string>
+    <string name="psy_phone">+7 980 333 44 55</string>
+    <string name="psy_urgent_help">Urgent help</string>
+    <string name="psy_phone_hint">Phone</string>
+
+</resources>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/color_android_main"
+        app:contentInsetStart="0dp"
+        android:paddingEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_blue_oval_selectable"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="@string/services_psychologist"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp">
+
+                <ImageView
+                    android:src="@drawable/image_psychologists_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintDimensionRatio="1:1"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_margin="16dp"
+                android:text="@string/psy_service_description"
+                style="@style/Text.Big_17"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/llOfflineApply"
+                android:background="@drawable/bg_button_cornerred_2_enable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp">
+                <TextView
+                    android:background="?attr/selectableItemBackground"
+                    android:text="@string/psy_service_offline_apply"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:padding="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llOnlineApply"
+                android:background="@drawable/bg_button_cornerred_2_enable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp">
+                <TextView
+                    android:background="?attr/selectableItemBackground"
+                    android:text="@string/psy_service_online_apply"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:padding="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llUrgentHelp"
+                android:background="@drawable/bg_button_cornerred_2_enable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp">
+                <TextView
+                    android:background="?attr/selectableItemBackground"
+                    android:text="@string/psy_service_urgent_help"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:padding="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/psy_service_details"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="16dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:id="@+id/rlPsyMiptWebsite"
+                android:background="?attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivPsyMiptWebsite"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_psy_mipt_website" />
+
+                <TextView
+                    android:id="@+id/tvPsyMiptWebsite"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/ivPsyMiptWebsite"
+                    android:gravity="center_vertical"
+                    android:text="@string/psy_service_mipt_website"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivPsyMiptWebsite"
+                    android:background="@color/light_gray" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlPsyVk"
+                android:background="?attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivPsyVk"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_psy_vk" />
+
+                <TextView
+                    android:id="@+id/tvPsyVk"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/ivPsyVk"
+                    android:gravity="center_vertical"
+                    android:text="@string/psy_service_vk"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivPsyVk"
+                    android:background="@color/light_gray" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlPsyPhone"
+                android:background="?attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivPsyPhone"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_psy_phone" />
+
+                <TextView
+                    android:id="@+id/tvPsyPhone"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/ivPsyPhone"
+                    android:gravity="center_vertical"
+                    android:text="@string/psy_phone"
+                    android:textColor="@color/colorPrimary" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivPsyPhone"
+                    android:background="@color/light_gray" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlPsyPsychologistsInfo"
+                android:background="?attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivPsyPsychologistsInfo"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_psy_psychologists_info" />
+
+                <TextView
+                    android:id="@+id/tvPsyPsychologistsInfo"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/ivPsyPsychologistsInfo"
+                    android:gravity="center_vertical"
+                    android:text="@string/psy_service_psychologists_info"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivPsyPsychologistsInfo"
+                    android:background="@color/light_gray" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:nestedScrollingEnabled="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fill_mark">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:elevation="0dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|snap|enterAlways"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvHeaderTitle"
+                    style="@style/TextRobotoHeaderBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/toolbar_navigator"
+                    android:textColor="@color/text_color"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginHorizontal="4dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="14dp"
+                        android:layout_toStartOf="@id/ivCamera"
+                        android:background="@drawable/bg_rounded_view_gray_10"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:id="@+id/ivSearch"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_search" />
+
+                        <EditText
+                            android:id="@+id/etSearch"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_toStartOf="@id/ivSearchIcon"
+                            android:layout_toEndOf="@id/ivSearch"
+                            android:background="@null"
+                            android:fontFamily="@font/sfprodisplay_regular"
+                            android:paddingStart="8dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:hint="@string/navigator_search"/>
+
+                        <ImageView
+                            android:id="@+id/ivSearchIcon"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:visibility="gone"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_microphone" />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/ivCamera"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_camera" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        <FrameLayout
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="4dp"
+            app:layout_collapseMode="pin"
+            android:background="@drawable/bg_rounded_shape">
+
+            <com.ogaclejapan.smarttablayout.SmartTabLayout
+                android:id="@+id/tabLayoutCategories"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:clipToPadding="false"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                app:stl_clickable="true"
+                app:stl_customTabTextLayoutId="@layout/custom_tab_text"
+                app:stl_defaultTabTextSize="13sp"
+                app:stl_dividerColor="@android:color/transparent"
+                app:stl_dividerThickness="0dp"
+                app:stl_indicatorColor="@color/white"
+                app:stl_indicatorCornerRadius="20dp"
+                app:stl_indicatorGravity="center"
+                app:stl_indicatorInterpolation="linear"
+                app:stl_indicatorThickness="38dp"
+                app:stl_underlineColor="@android:color/transparent"
+                app:stl_underlineThickness="0dp" />
+        </FrameLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="true"
+        android:background="@color/fill_mark"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:nestedScrollingEnabled="true"
+        tools:listitem="@layout/item_search"
+        tools:itemCount="3"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

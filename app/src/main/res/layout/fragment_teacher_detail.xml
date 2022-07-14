@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:contentInsetStart="0dp"
+        android:background="@color/color_android_main"
+        android:paddingEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_blue_oval_selectable"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="@string/profile_title"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scrollContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:paddingBottom="44dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp">
+
+                <RelativeLayout
+                    android:id="@+id/header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp">
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/ivAvatar"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:scaleType="centerCrop"
+                        android:src="@color/service_yellow"
+                        app:riv_corner_radius="40dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/llAvatar"
+                        android:background="@drawable/bg_oval"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <TextView
+                            android:id="@+id/tvAvatar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            tools:text="AI" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_toRightOf="@id/ivAvatar"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvName"
+                            style="@style/Text.Standard_16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lines="1"
+                            android:textColor="@color/black"
+                            tools:text="Григорий Евгеньевич Иванов" />
+
+                        <TextView
+                            android:id="@+id/tvRole"
+                            style="@style/Text.Small_12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/teacher_prof"
+                            android:textColor="@color/secondary_text" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/llWriteMessage"
+                    android:background="@drawable/bg_button_cornerred_2_disable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header"
+                    android:layout_marginBottom="16dp"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+                    <TextView
+                        android:id="@+id/tvWriteMessage"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:text="@string/user_unavailable"
+                        android:textAllCaps="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/secondary_text"
+                        android:fontFamily="@font/sfprodisplay_medium"
+                        android:padding="17dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llUserNotAutorize"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/llWriteMessage"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:layout_marginBottom="24dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_mail_2"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"/>
+
+                    <Space
+                        android:layout_width="10dp"
+                        android:layout_height="0dp"/>
+
+                    <TextView
+                        android:text="@string/user_no_autorizate_email_send"
+                        android:textColor="@color/secondary_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llNoTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_below="@id/llUserNotAutorize"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:maxWidth="250dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_dino"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Человек-загадка"
+                        android:layout_marginTop="16dp"
+                        style="@style/Text.Big.Bold"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginHorizontal="16dp"
+                        android:text="Пока что мы ничего о нём не знаем"
+                        android:textColor="#999"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvPost"
+                style="@style/Text.Standard_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:lineHeight="19dp"
+                android:paddingHorizontal="16dp"
+                tools:text="@string/prof_post_example"
+                android:textAlignment="inherit"
+                android:textColor="@color/black" />
+
+            <TextView
+                style="@style/Text.Big.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:paddingHorizontal="16dp"
+                android:visibility="gone"
+                android:text="@string/profile_contact"
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:id="@+id/rlCall"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivCall"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_call" />
+
+                <TextView
+                    android:id="@+id/tvCall"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/ivCall"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/color_android_main"
+                    tools:text="+7 980 333 44 55" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivCall"
+                    android:background="@color/light_gray" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlMail"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivMail"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_mail" />
+
+                <TextView
+                    android:id="@+id/tvMail"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/ivMail"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/color_android_main"
+                    tools:text="ivanov.ge@phystech.edu" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivMail"
+                    android:background="@color/light_gray" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlProfile"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_account" />
+
+                <TextView
+                    android:id="@+id/tvProfile"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/ivProfile"
+                    android:gravity="center_vertical"
+                    android:text="@string/profile_vk_title"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivProfile"
+                    android:background="@color/light_gray" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvLinks"
+                style="@style/Text.Big.Bold"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:paddingHorizontal="16dp"
+                android:text="@string/profile_links"
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:id="@+id/rlMiptLink"
+                android:background="?attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivMiptLink"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_attachment" />
+
+                <TextView
+                    android:id="@+id/tvMiptLink"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/ivMiptLink"
+                    android:gravity="center_vertical"
+                    android:text="@string/profile_link_mipt"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivMiptLink"
+                    android:background="@color/light_gray" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlWikiLink"
+                android:background="?attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivWikiLink"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_attachment" />
+
+                <TextView
+                    android:id="@+id/tvWikiLink"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/ivWikiLink"
+                    android:gravity="center_vertical"
+                    android:text="@string/profile_link_wiki_phystech"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivWikiLink"
+                    android:background="@color/light_gray" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

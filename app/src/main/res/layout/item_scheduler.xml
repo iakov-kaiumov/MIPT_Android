@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Английский язык"
+            style="@style/Text.Big_17"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/layoutAuditory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@id/guideCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/tvAuditory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/guideCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="1"
+                android:ellipsize="end"
+                android:lines="1"
+                android:background="@drawable/bg_rounded_view_3"
+                android:padding="6dp"
+                android:textColor="@color/color_android_main"
+                tools:text="213 НК"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/ScheduleType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/layoutAuditory"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_rounded_view_3"
+            android:padding="6dp"
+            android:textColor="@color/color_android_main"
+            tools:text="Семинар"/>
+
+        <TextView
+            android:id="@+id/tvLector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text.Small_12"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/layoutAuditory"
+            app:layout_constraintHorizontal_bias="0"
+            tools:text="Дединский Илья Рудольфович"
+            android:textColor="@color/secondary_text"/>
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text.Small_12"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@id/tvLector"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Upper-Intermediate"
+            android:textColor="@color/secondary_text"/>
+
+        <TextView
+            android:id="@+id/tvSchedulerTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDescription"
+            android:layout_marginTop="14dp"
+            android:lineHeight="26dp"
+            android:background="@drawable/bg_rounded_view_3"
+            android:padding="6dp"
+            android:textColor="@color/color_android_main"
+            tools:text="ПН 12:20 - 13:55\nПН 12:20 - 13:55"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideCenter"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#CCCCCC"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

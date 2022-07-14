@@ -1,0 +1,1163 @@
+{
+  "status": "success",
+  "data": {
+    "filter": {},
+    "paginator": {
+      "637": {
+        "userId": "1",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "12.08.2021 16:00",
+        "timeEnd": "01.09.2021 23:00",
+        "timePublish": "12.08.2021 16:10",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Прием заявок на «УМНИК-МФТИ-2021»",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p class=\"article_decoration_first\">Продолжается прием заявок на ежегодный конкурс научно-технических проектов&nbsp;<a href=\"https://vk.com/away.php?to=https%3A%2F%2Ffasie.ru%2Fprograms%2Fprogramma-umnik%2F&amp;cc_key=\" target=\"_blank\" rel=\"nofollow noopener\">&laquo;УМНИК-МФТИ-2021&raquo;</a>. Победители получат грант в размере&nbsp;<strong>500 000 рублей</strong>&nbsp;на два года на реализацию НИР. Принять участие в конкурсе могут студенты, аспиранты и молодые ученые.</p>\r\n<p class=\" article_decoration_last\">Рассматриваются проекты&nbsp;<em>по 6 направлениям</em>:</p>\r\n<ul class=\"article_decoration_first article_decoration_last\">\r\n<li>информационные технологии;</li>\r\n<li>медицина будущего;</li>\r\n<li>современные материалы и технологии их создания;</li>\r\n<li>новые приборы и аппаратные комплексы;</li>\r\n<li>биотехнологии;</li>\r\n<li>ресурсосберегающая энергетика.</li>\r\n</ul>\r\n<p class=\"article_decoration_first\"><strong>Когда:</strong>&nbsp;1-й полуфинал &mdash; прием заявок&nbsp;<strong>1 июня &mdash; 31 августа</strong>, 2-й полуфинал &mdash; прием заявок&nbsp;<strong>1 сентября &mdash; 10 ноября</strong>.</p>\r\n<p><strong>Подать заявку</strong>:&nbsp;<a href=\"https://vk.com/away.php?to=https%3A%2F%2Fumnik.fasie.ru%2Fmipt&amp;cc_key=\" target=\"_blank\" rel=\"nofollow noopener\">форма</a>.</p>\r\n<p><strong>Подробнее о конкурсе:</strong>&nbsp;<a href=\"https://vk.com/away.php?to=https%3A%2F%2Ffasie.ru%2Fprograms%2Fprogramma-umnik%2F&amp;cc_key=\" target=\"_blank\" rel=\"nofollow noopener\">сайт</a>.</p>\r\n<p class=\" article_decoration_last\"><strong>Контакты:</strong>&nbsp;координатор программы Ирина Маслова, тел.: +7(903)170-44-85, e-mail: umnik@mipt.ru.</p>",
+        "phone": null,
+        "formattedContent": "<p class=\"article_decoration_first\">Продолжается прием заявок на ежегодный конкурс научно-технических проектов&nbsp;<a href=\"https://vk.com/away.php?to=https%3A%2F%2Ffasie.ru%2Fprograms%2Fprogramma-umnik%2F&amp;cc_key=\" target=\"_blank\" rel=\"nofollow noopener\">&laquo;УМНИК-МФТИ-2021&raquo;</a>. Победители получат грант в размере&nbsp;<strong>500 000 рублей</strong>&nbsp;на два года на реализацию НИР. Принять участие в конкурсе могут студенты, аспиранты и молодые ученые.</p>\r\n<p class=\" article_decoration_last\">Рассматриваются проекты&nbsp;<em>по 6 направлениям</em>:</p>\r\n<ul class=\"article_decoration_first article_decoration_last\">\r\n<li>информационные технологии;</li>\r\n<li>медицина будущего;</li>\r\n<li>современные материалы и технологии их создания;</li>\r\n<li>новые приборы и аппаратные комплексы;</li>\r\n<li>биотехнологии;</li>\r\n<li>ресурсосберегающая энергетика.</li>\r\n</ul>\r\n<p class=\"article_decoration_first\"><strong>Когда:</strong>&nbsp;1-й полуфинал &mdash; прием заявок&nbsp;<strong>1 июня &mdash; 31 августа</strong>, 2-й полуфинал &mdash; прием заявок&nbsp;<strong>1 сентября &mdash; 10 ноября</strong>.</p>\r\n<p><strong>Подать заявку</strong>:&nbsp;<a href=\"https://vk.com/away.php?to=https%3A%2F%2Fumnik.fasie.ru%2Fmipt&amp;cc_key=\" target=\"_blank\" rel=\"nofollow noopener\">форма</a>.</p>\r\n<p><strong>Подробнее о конкурсе:</strong>&nbsp;<a href=\"https://vk.com/away.php?to=https%3A%2F%2Ffasie.ru%2Fprograms%2Fprogramma-umnik%2F&amp;cc_key=\" target=\"_blank\" rel=\"nofollow noopener\">сайт</a>.</p>\r\n<p class=\" article_decoration_last\"><strong>Контакты:</strong>&nbsp;координатор программы Ирина Маслова, тел.: +7(903)170-44-85, e-mail: umnik@mipt.ru.</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "53248",
+          "signatures": [
+            {
+              "id": "12224",
+              "path": "01a09a69f8070fa442498ca1fcd1237a",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "K7j_95sMZ-U.jpeg",
+              "size": 320899,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53249",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "e-mail, umnik@mipt, технологии, аспиранты, студенты, конкурсе, форма, подробнее, сайт, контакты, тел, создания, 170-44-85",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "637",
+        "status": 1,
+        "created": {
+          "date": "2021-08-12 16:10:17.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-12 16:10:17.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "731": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "16.06.2021 11:00",
+        "timeEnd": null,
+        "timePublish": "17.08.2021 11:46",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "SIT Master’s Insights — вебинар для студентов МФТИ",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\r\n\t 16 июня в 11:00 Schaffhausen Institute of Technology (Швейцария) представит совместную с МФТИ магистерскую программу «MSc in Computer Science and Software Engineering».\r\n\r\n \r\n ",
+        "phone": null,
+        "formattedContent": "\r\n\t 16 июня в 11:00 Schaffhausen Institute of Technology (Швейцария) представит совместную с МФТИ магистерскую программу «MSc in Computer Science and Software Engineering».\r\n\r\n \r\n ",
+        "place": null,
+        "summaryImage": {
+          "id": "53465",
+          "signatures": [
+            {
+              "id": "12687",
+              "path": "d797d9d4b2e44c15083db86274d9a6a0",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 19634,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53466",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "швейцария",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "731",
+        "status": 1,
+        "created": {
+          "date": "2021-08-17 11:46:37.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 11:46:37.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "676": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "16.06.2021 00:00",
+        "timeEnd": null,
+        "timePublish": "13.08.2021 20:48",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "SIT Master's insights webinar for MIPT students",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\n<figure>\n</figure>\n<p>\r\n\t On June 16, at 11 a.m. (MSK), Schaffhausen Institute of Technology (Switzerland) will present the double master’s program between SIT and MIPT “MSc in Computer Science and Software Engineering.\"\r\n</p>\n<p>\r\n\t Join the online webinar “SIT Master’s insights for MIPT students” to:\r\n</p>\n<p>\n</p>\n<ul>\n<li>\n<p>\r\n\t\t Find out how to study at MIPT and SIT at the same time\r\n\t</p>\n</li>\n<li>\n<p>\r\n\t\t Meet with the faculty and learn more about the program\r\n\t</p>\n</li>\n<li>\n<p>\r\n\t\t Discover what current SIT-MIPT students think of their experience\r\n\t</p>\n</li>\n<li>\n<p>\r\n\t\t Learn about the admission process from the SIT Head of Student Acquisition\r\n\t</p>\n</li>\n</ul>\n<br/>\n<ul>\n</ul>\n<p>\r\n\t More details and registration here: <a href=\"http://go.sit.org/mipt-admission\" target=\"_blank\">go.sit.org/mipt-admission</a>\n</p>\n",
+        "phone": null,
+        "formattedContent": "\n<figure>\n</figure>\n<p>\r\n\t On June 16, at 11 a.m. (MSK), Schaffhausen Institute of Technology (Switzerland) will present the double master’s program between SIT and MIPT “MSc in Computer Science and Software Engineering.\"\r\n</p>\n<p>\r\n\t Join the online webinar “SIT Master’s insights for MIPT students” to:\r\n</p>\n<p>\n</p>\n<ul>\n<li>\n<p>\r\n\t\t Find out how to study at MIPT and SIT at the same time\r\n\t</p>\n</li>\n<li>\n<p>\r\n\t\t Meet with the faculty and learn more about the program\r\n\t</p>\n</li>\n<li>\n<p>\r\n\t\t Discover what current SIT-MIPT students think of their experience\r\n\t</p>\n</li>\n<li>\n<p>\r\n\t\t Learn about the admission process from the SIT Head of Student Acquisition\r\n\t</p>\n</li>\n</ul>\n<br/>\n<ul>\n</ul>\n<p>\r\n\t More details and registration here: <a href=\"http://go.sit.org/mipt-admission\" target=\"_blank\">go.sit.org/mipt-admission</a>\n</p>\n",
+        "place": null,
+        "summaryImage": {
+          "id": "53326",
+          "signatures": [
+            {
+              "id": "12411",
+              "path": "58eb95ed3e6c325095b27f21e20fee5d",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 21874,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53327",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "org/mipt-admission, sit, msk, switzerland",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "676",
+        "status": 1,
+        "created": {
+          "date": "2021-08-13 20:48:12.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-13 20:48:12.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "732": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "09.06.2021 15:00",
+        "timeEnd": null,
+        "timePublish": "17.08.2021 11:46",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "ЛФИ и SIT открывают курс «Machine Learning for Physicists»",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\r\n\t Онлайн-презентация курса пройдет 9 июня. \r\n\r\n \r\n ",
+        "phone": null,
+        "formattedContent": "\r\n\t Онлайн-презентация курса пройдет 9 июня. \r\n\r\n \r\n ",
+        "place": null,
+        "summaryImage": {
+          "id": "53467",
+          "signatures": [
+            {
+              "id": "12688",
+              "path": "8816770f4fb6ad6129e9cfadda92bea2",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 29329,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53468",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "732",
+        "status": 1,
+        "created": {
+          "date": "2021-08-17 11:46:43.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 11:46:43.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "677": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "09.06.2021 00:00",
+        "timeEnd": null,
+        "timePublish": "13.08.2021 20:48",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Course presentation \"Machine Learning for Physicists\"",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12404&dir=75eaf845e81627b71ef0a18d4547aab5&path=0edbc3408006c358de54f89a20bea15f&style=thumbnail\"/>\n</figure>\r\n                                    The Phystech School of Physics and Research and SIT (Schaffhausen Institute of Technology) are launching a course \"Machine Learning for Physicists.\"<br/>\n<br/>\r\n The course would suit students who would like to expand their professional and research prospects by advancing knowledge in the field of machine learning. The classes will take place over two semesters and will allow students to get acquainted with the main areas in modern machine learning — deep learning, convolutional neural networks, computer vision, time series, generative networks, autoencoders, optimization methods and much more.<br/>\n<br/>\r\n The online presentation of the course will take place on June 9 at 3 p.m. (MSK). The event will feature speakers:<br/>\n<br/>\n<ul>\n<li>Prof. Valery Kiselev, Director of Phystech-cluster of Academic and Scientific Career of Landau Phystech School of Physics and Research – Moscow Institute of Physics and Technology;<br/>\n</li>\n<li>Ilya Shimchik, Acronis SIT Autonomous Team Principal;<br/>\n</li>\n<li>Prof. Andrey Ustyuzhanin, AI/MI expert consultant at SIT, the director of the Laboratory of Methods for Big Data Analysis at the Higher School of Economics;<br/>\n</li>\n</ul>\n<br/>\r\n To attend the online presentation, please register via <a href=\"https://web.sit.org/machine-learning-for-physicists\">the website</a>.<br/>\n",
+        "phone": null,
+        "formattedContent": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12404&dir=75eaf845e81627b71ef0a18d4547aab5&path=0edbc3408006c358de54f89a20bea15f&style=thumbnail\"/>\n</figure>\r\n                                    The Phystech School of Physics and Research and SIT (Schaffhausen Institute of Technology) are launching a course \"Machine Learning for Physicists.\"<br/>\n<br/>\r\n The course would suit students who would like to expand their professional and research prospects by advancing knowledge in the field of machine learning. The classes will take place over two semesters and will allow students to get acquainted with the main areas in modern machine learning — deep learning, convolutional neural networks, computer vision, time series, generative networks, autoencoders, optimization methods and much more.<br/>\n<br/>\r\n The online presentation of the course will take place on June 9 at 3 p.m. (MSK). The event will feature speakers:<br/>\n<br/>\n<ul>\n<li>Prof. Valery Kiselev, Director of Phystech-cluster of Academic and Scientific Career of Landau Phystech School of Physics and Research – Moscow Institute of Physics and Technology;<br/>\n</li>\n<li>Ilya Shimchik, Acronis SIT Autonomous Team Principal;<br/>\n</li>\n<li>Prof. Andrey Ustyuzhanin, AI/MI expert consultant at SIT, the director of the Laboratory of Methods for Big Data Analysis at the Higher School of Economics;<br/>\n</li>\n</ul>\n<br/>\r\n To attend the online presentation, please register via <a href=\"https://web.sit.org/machine-learning-for-physicists\">the website</a>.<br/>\n",
+        "place": null,
+        "summaryImage": {
+          "id": "53328",
+          "signatures": [
+            {
+              "id": "12412",
+              "path": "6784246cb495879f2b1a50cb0201807c",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 90553,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53329",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "msk, autoencoders",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "677",
+        "status": 1,
+        "created": {
+          "date": "2021-08-13 20:48:13.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-13 20:48:13.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "733": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "05.06.2021 09:30",
+        "timeEnd": null,
+        "timePublish": "17.08.2021 11:46",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "5 июня пройдет Матч Века 40+",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "Мероприятие организовано при поддержке Физтех-Союза, Фонда целевого капитала МФТИ и футбольного клуба «Физтех».",
+        "phone": null,
+        "formattedContent": "Мероприятие организовано при поддержке Физтех-Союза, Фонда целевого капитала МФТИ и футбольного клуба «Физтех».",
+        "place": null,
+        "summaryImage": {
+          "id": "53469",
+          "signatures": [
+            {
+              "id": "12689",
+              "path": "1c918da1fbe78219e97d9e7bfcbe5e54",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 33088,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53470",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "733",
+        "status": 1,
+        "created": {
+          "date": "2021-08-17 11:46:47.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 11:46:47.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "678": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "31.05.2021 00:00",
+        "timeEnd": "04.06.2021 00:00",
+        "timePublish": "13.08.2021 20:48",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Moscow Conference on Combinatorics and Applications",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12405&dir=75eaf845e81627b71ef0a18d4547aab5&path=a8f9eacd04314f6620d3c9c2066c5dfe&style=thumbnail\"/>\n</figure>\n<p>\r\n\t The Moscow conference on combinatorics and applications (MoCCA) will be held from May 31 to June 4 and from June 28 to July 2. The event is organized by the Phystech School of Applied Mathematics and Computer Science and the Laboratory of Combinatorial and Geometric Structures at MIPT.\r\n</p>\n<p>\r\n\t MoCCA' 20 was planned back in the spring of 2020, but postponed due to the pandemic. This year, the conference will be held and will combine online and offline formats. The events of the conference are divided into two weeks: these are plenary talks and mini-symposia, a detailed schedule can be found on the <a href=\"http://mipt2020.combgeo.org/\">website</a>.\r\n</p>\n<p>\r\n\t The conference will bring together experts from such fields as extremal combinatorics, graph and hypergraph theory, additive combinatorics, complex networks, random graphs and models, approximation algorithms, and optimization. MoCCA will become a platform for discussing complex problems in the field — both from fundamental and applied perspectives.\r\n</p>\n<p>\r\n\t The organizers plan to hold an offline event on September 6-12. You can register for the next conference on the MoCCA <a href=\"http://mipt2020.combgeo.org/\">page</a>.\r\n</p>\n",
+        "phone": null,
+        "formattedContent": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12405&dir=75eaf845e81627b71ef0a18d4547aab5&path=a8f9eacd04314f6620d3c9c2066c5dfe&style=thumbnail\"/>\n</figure>\n<p>\r\n\t The Moscow conference on combinatorics and applications (MoCCA) will be held from May 31 to June 4 and from June 28 to July 2. The event is organized by the Phystech School of Applied Mathematics and Computer Science and the Laboratory of Combinatorial and Geometric Structures at MIPT.\r\n</p>\n<p>\r\n\t MoCCA' 20 was planned back in the spring of 2020, but postponed due to the pandemic. This year, the conference will be held and will combine online and offline formats. The events of the conference are divided into two weeks: these are plenary talks and mini-symposia, a detailed schedule can be found on the <a href=\"http://mipt2020.combgeo.org/\">website</a>.\r\n</p>\n<p>\r\n\t The conference will bring together experts from such fields as extremal combinatorics, graph and hypergraph theory, additive combinatorics, complex networks, random graphs and models, approximation algorithms, and optimization. MoCCA will become a platform for discussing complex problems in the field — both from fundamental and applied perspectives.\r\n</p>\n<p>\r\n\t The organizers plan to hold an offline event on September 6-12. You can register for the next conference on the MoCCA <a href=\"http://mipt2020.combgeo.org/\">page</a>.\r\n</p>\n",
+        "place": null,
+        "summaryImage": {
+          "id": "53330",
+          "signatures": [
+            {
+              "id": "12413",
+              "path": "202ad881f3d59dc25dee609a0375f9aa",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 94674,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53331",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "mocca",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "678",
+        "status": 1,
+        "created": {
+          "date": "2021-08-13 20:48:15.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-13 20:48:15.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "734": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "26.05.2021 17:00",
+        "timeEnd": null,
+        "timePublish": "17.08.2021 11:46",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Очередной общефизический научный семинар пройдет 26 мая",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\r\n\t Василий Николаевич Глазков, старший научный сотрудник Института физических проблем РАН, доцент МФТИ представит доклад «Квантовые магнетики с щелевым спектром элементарных возбуждений: неожиданное поведение простых систем».\r\n\r\n \r\n ",
+        "phone": null,
+        "formattedContent": "\r\n\t Василий Николаевич Глазков, старший научный сотрудник Института физических проблем РАН, доцент МФТИ представит доклад «Квантовые магнетики с щелевым спектром элементарных возбуждений: неожиданное поведение простых систем».\r\n\r\n \r\n ",
+        "place": null,
+        "summaryImage": {
+          "id": "53471",
+          "signatures": [
+            {
+              "id": "12690",
+              "path": "d17672c67d5f5cae30d755db153681ff",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 8929,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53472",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "734",
+        "status": 1,
+        "created": {
+          "date": "2021-08-17 11:46:51.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 11:46:51.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "735": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "24.05.2021 18:00",
+        "timeEnd": null,
+        "timePublish": "17.08.2021 11:46",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Презентация магистерских программ МФТИ — НК «Роснефть» пройдет 24 мая",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\r\n\t На мероприятии представители ПАО «НК «Роснефть» расскажут о деятельности и перспективах развития компании, о возможностях и требованиях к молодым ученым и специалистам в отрасли, а также задачах, которые решают и будут решать студенты МФТИ.\r\n\r\n \r\n ",
+        "phone": null,
+        "formattedContent": "\r\n\t На мероприятии представители ПАО «НК «Роснефть» расскажут о деятельности и перспективах развития компании, о возможностях и требованиях к молодым ученым и специалистам в отрасли, а также задачах, которые решают и будут решать студенты МФТИ.\r\n\r\n \r\n ",
+        "place": null,
+        "summaryImage": {
+          "id": "53473",
+          "signatures": [
+            {
+              "id": "12691",
+              "path": "00555814d994bf058ea6dd92a43f4180",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 75900,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53474",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "деятельности, возможностях, требованиях, специалистам, отрасли, задачах, решают",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "735",
+        "status": 1,
+        "created": {
+          "date": "2021-08-17 11:46:55.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 11:46:55.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "736": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "20.05.2021 10:00",
+        "timeEnd": "22.05.2021 18:00",
+        "timePublish": "17.08.2021 11:46",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Выездной семинар от МФТИ по алгебраической геометрии пройдет 20–22 мая",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\r\n\t Мероприятие организовано совместно с Санкт-Петербургским международным математическим институтом имени Леонарда Эйлера.\r\n\r\n \r\n ",
+        "phone": null,
+        "formattedContent": "\r\n\t Мероприятие организовано совместно с Санкт-Петербургским международным математическим институтом имени Леонарда Эйлера.\r\n\r\n \r\n ",
+        "place": null,
+        "summaryImage": {
+          "id": "53475",
+          "signatures": [
+            {
+              "id": "12692",
+              "path": "b1be8cf69e234afbda74cc40b47bb4fb",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 8929,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53476",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "736",
+        "status": 1,
+        "created": {
+          "date": "2021-08-17 11:46:58.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 11:46:58.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "737": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "13.05.2021 20:00",
+        "timeEnd": null,
+        "timePublish": "17.08.2021 11:47",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Онлайн-семинар про облачную среду ML-разработки Yandex DataSphere пройдет 13 мая",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\r\n\t На семинаре рассмотрят типичные проблемы, возникающие при разработке и введении в эксплуатацию ML-сервисов, принципы построения Yandex DataSphere, его архитектурные, технические решения и основные функциональные возможности.\r\n",
+        "phone": null,
+        "formattedContent": "\r\n\t На семинаре рассмотрят типичные проблемы, возникающие при разработке и введении в эксплуатацию ML-сервисов, принципы построения Yandex DataSphere, его архитектурные, технические решения и основные функциональные возможности.\r\n",
+        "place": null,
+        "summaryImage": {
+          "id": "53477",
+          "signatures": [
+            {
+              "id": "12693",
+              "path": "22182cf83f02f0f212f9f4e236d4bf01",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 27020,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53478",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "возникающие, разработке, введении, архитектурные",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "737",
+        "status": 1,
+        "created": {
+          "date": "2021-08-17 11:47:03.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 11:47:03.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "679": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "29.04.2021 00:00",
+        "timeEnd": null,
+        "timePublish": "13.08.2021 20:48",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Abel Prize Laureate Avi Wigderson will give a talk",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12406&dir=75eaf845e81627b71ef0a18d4547aab5&path=c2bf681564c6fd353bb021f6b1949b29&style=thumbnail\"/>\n</figure>\n<p>\r\n\t On Thursday, April 29, at 7 p.m. (GMT+3), the 2021 Abel Prize Laureate <b>Avi Wigderson</b> will present a talk on the topic \"Optimization, Complexity and Math (or, can we prove P ≠ NP using gradient descent)\". It will be held as a part of the Big Seminar organized by the MIPT Laboratory of Combinatorial and Geometric Structures. \r\n</p>\n<p>\n<b>Avi Wigderson</b> is a professor at the Institute for Advanced Study, Princeton, USA. The guest speaker is an outstanding specialist in discrete mathematics and computer science and the winner of a number of international awards. Last month <b>Avi Wigderson</b> was awarded with the Abel Prize for \"fundamental contributions to the theory of computer science and discrete mathematics and a leading role in shaping them as central areas of modern mathematics.\" \r\n</p>\n<p>\r\n\t On Thursday, <b>Avi Wigderson</b> will talk about the main results of his recent research. He will discuss the problem of equality of complexity classes P and NP, one of the seven millennium problems that lie at the intersection of mathematics and computer science. \r\n</p>\n<p>\n<b><a href=\"https://us02web.zoom.us/j/279059822\">Zoom link</a></b>\n</p>\n<p>\n<b>Meeting ID: </b>279-059-822 \r\n</p>\n<p class=\"\">\n<b>Password: </b>first 6 decimal places of Pi after the decimal point\r\n</p>\n<p class=\"\">\r\n\t You can also write to Alexander Polyanskii (<a href=\"mailto:alexander.polyanskii@yandex.ru\">alexander.polyanskii@yandex.ru</a>) or to Maksim Zhukovskii (<a href=\"mailto:zhukmax@gmail.com\">zhukmax@gmail.com</a>) if you want to be added to mailing list. \r\n</p>\n<p class=\"\">\r\n\t Learn more: <a href=\"https://combgeo.org/en/events/big-seminar/avi-wigderson/\">https://combgeo.org/en/events/big-seminar/avi-wigderson/</a> <br/>\n</p>\n",
+        "phone": null,
+        "formattedContent": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12406&dir=75eaf845e81627b71ef0a18d4547aab5&path=c2bf681564c6fd353bb021f6b1949b29&style=thumbnail\"/>\n</figure>\n<p>\r\n\t On Thursday, April 29, at 7 p.m. (GMT+3), the 2021 Abel Prize Laureate <b>Avi Wigderson</b> will present a talk on the topic \"Optimization, Complexity and Math (or, can we prove P ≠ NP using gradient descent)\". It will be held as a part of the Big Seminar organized by the MIPT Laboratory of Combinatorial and Geometric Structures. \r\n</p>\n<p>\n<b>Avi Wigderson</b> is a professor at the Institute for Advanced Study, Princeton, USA. The guest speaker is an outstanding specialist in discrete mathematics and computer science and the winner of a number of international awards. Last month <b>Avi Wigderson</b> was awarded with the Abel Prize for \"fundamental contributions to the theory of computer science and discrete mathematics and a leading role in shaping them as central areas of modern mathematics.\" \r\n</p>\n<p>\r\n\t On Thursday, <b>Avi Wigderson</b> will talk about the main results of his recent research. He will discuss the problem of equality of complexity classes P and NP, one of the seven millennium problems that lie at the intersection of mathematics and computer science. \r\n</p>\n<p>\n<b><a href=\"https://us02web.zoom.us/j/279059822\">Zoom link</a></b>\n</p>\n<p>\n<b>Meeting ID: </b>279-059-822 \r\n</p>\n<p class=\"\">\n<b>Password: </b>first 6 decimal places of Pi after the decimal point\r\n</p>\n<p class=\"\">\r\n\t You can also write to Alexander Polyanskii (<a href=\"mailto:alexander.polyanskii@yandex.ru\">alexander.polyanskii@yandex.ru</a>) or to Maksim Zhukovskii (<a href=\"mailto:zhukmax@gmail.com\">zhukmax@gmail.com</a>) if you want to be added to mailing list. \r\n</p>\n<p class=\"\">\r\n\t Learn more: <a href=\"https://combgeo.org/en/events/big-seminar/avi-wigderson/\">https://combgeo.org/en/events/big-seminar/avi-wigderson/</a> <br/>\n</p>\n",
+        "place": null,
+        "summaryImage": {
+          "id": "53332",
+          "signatures": [
+            {
+              "id": "12414",
+              "path": "2b1c7f24111500a69d3217e88d234e55",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 147738,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53333",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "org/en/events/big-seminar/avi-wigderson/, polyanskii@yandex, alexander, zhukmax@gmail, gmt+3, princeton, 279-059-822 password, optimization, com, https, //combgeo, usa",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "679",
+        "status": 1,
+        "created": {
+          "date": "2021-08-13 20:48:17.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-13 20:48:17.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "680": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "24.04.2021 00:00",
+        "timeEnd": null,
+        "timePublish": "13.08.2021 20:48",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Online Open Day - 2021",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12407&dir=75eaf845e81627b71ef0a18d4547aab5&path=a7cb11544cd6d739d1dfc5528c105b73&style=thumbnail\"/>\n</figure>\n<b>On April 24,</b> MIPT holds an Online Open Day for all English taught programs. The broadcast will be available on <a href=\"https://www.youtube.com/watch?v=qFNPVjSNQXA\">Youtube.</a><br/>\n<br/>\r\n The Open Day will start <b>at 12:00 p.m. (GMT+3)</b> and will give you all the details about studying at one of top STEM universities. During almost two hours of a livestream you will get to know all the details about education at MIPT for undergraduate, graduate, and doctoral students from overseas. <br/>\n<br/>\n<b>Register now:</b> <a href=\"https://bit.ly/3vbamQN\">https://bit.ly/3vbamQN</a> <br/>\n<b>Add to IOS and Outlook:</b> <a href=\"https://bit.ly/2P9ShTO\">https://bit.ly/2P9ShTO</a><br/>\n<b>Add to Google Calendar: </b><a href=\"https://bit.ly/3dA8Rpj\">https://bit.ly/3dA8Rpj</a> <br/>\n<br/>\r\n Why should you consider MIPT as your next step in building a career? What are the options for future employment? Why is MIPT well-known as a scientific and research hub? How are students getting hands-on experience from the first days? How does it feel to be a student in Russia? Join the livestream to get all the answers.<br/>\n<br/>\r\n The livestream will feature:<br/>\r\n - interviews with heads of programs<br/>\r\n - presentations of online and offline programs<br/>\r\n - first-hand experience of the current international students<br/>\r\n - a campus tour<br/>\r\n - a robot football team<br/>\r\n - Q&A<br/>\n<br/>\r\n You will also get to know all the up-to-date information about documents, translation, and regulations due to the pandemic. And prepare your questions to ask directly during the broadcasting!<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n",
+        "phone": null,
+        "formattedContent": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12407&dir=75eaf845e81627b71ef0a18d4547aab5&path=a7cb11544cd6d739d1dfc5528c105b73&style=thumbnail\"/>\n</figure>\n<b>On April 24,</b> MIPT holds an Online Open Day for all English taught programs. The broadcast will be available on <a href=\"https://www.youtube.com/watch?v=qFNPVjSNQXA\">Youtube.</a><br/>\n<br/>\r\n The Open Day will start <b>at 12:00 p.m. (GMT+3)</b> and will give you all the details about studying at one of top STEM universities. During almost two hours of a livestream you will get to know all the details about education at MIPT for undergraduate, graduate, and doctoral students from overseas. <br/>\n<br/>\n<b>Register now:</b> <a href=\"https://bit.ly/3vbamQN\">https://bit.ly/3vbamQN</a> <br/>\n<b>Add to IOS and Outlook:</b> <a href=\"https://bit.ly/2P9ShTO\">https://bit.ly/2P9ShTO</a><br/>\n<b>Add to Google Calendar: </b><a href=\"https://bit.ly/3dA8Rpj\">https://bit.ly/3dA8Rpj</a> <br/>\n<br/>\r\n Why should you consider MIPT as your next step in building a career? What are the options for future employment? Why is MIPT well-known as a scientific and research hub? How are students getting hands-on experience from the first days? How does it feel to be a student in Russia? Join the livestream to get all the answers.<br/>\n<br/>\r\n The livestream will feature:<br/>\r\n - interviews with heads of programs<br/>\r\n - presentations of online and offline programs<br/>\r\n - first-hand experience of the current international students<br/>\r\n - a campus tour<br/>\r\n - a robot football team<br/>\r\n - Q&A<br/>\n<br/>\r\n You will also get to know all the up-to-date information about documents, translation, and regulations due to the pandemic. And prepare your questions to ask directly during the broadcasting!<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n",
+        "place": null,
+        "summaryImage": {
+          "id": "53334",
+          "signatures": [
+            {
+              "id": "12415",
+              "path": "0feffd1e274797005a194442f7fc1338",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 87982,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53335",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "https, //bit, graduate, gmt+3, translation",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "680",
+        "status": 1,
+        "created": {
+          "date": "2021-08-13 20:48:18.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-13 20:48:18.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "681": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "26.11.2020 00:00",
+        "timeEnd": null,
+        "timePublish": "13.08.2021 20:48",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Daylong webinar on Molecular Mechanisms of Neurodegenerative Diseases",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12408&dir=75eaf845e81627b71ef0a18d4547aab5&path=9cffc936a6682474ced2aeac6762ccc8&style=thumbnail\"/>\n</figure>\n<p>\r\n\t On <b>Nov. 26</b>, from noon until 6 p.m., MIPT’s Research Center for Molecular Mechanisms of Aging and Age-Related Diseases will hold a series of online talks titled <a href=\"https://cmm-mipt.ru/2020-molecular-mechanisms-of-neurodegenerative-diseases.html\">Molecular Mechanisms of Neurodegenerative Diseases</a>, an international school for young researchers. The language of the event is English.\r\n</p>\n<p>\r\n\t The talks will focus on research into the structure of membrane proteins and the molecular mechanisms of their functioning that are associated with the pathogenesis of neurodegenerative diseases.<br/>\n</p>\n<p>\r\n\t Topics to be discussed:<br/>\n</p>\n<ul type=\"disc\">\n<li>Molecular insights into the mechanisms behind Alzheimer’s and Parkinson’s diseases.</li>\n<li>Intracellular biophysical processes involved in neurodegenerative diseases.</li>\n<li>Amyloid precursor protein and its role in the pathogenesis of neurodegenerative diseases.</li>\n<li>Development of promising drugs, particularly D-enantiomeric peptides that affect protein oligomerization.</li>\n<li>Structural studies of amyloidogenic and intrinsically disordered proteins.</li>\n</ul>\n<br/>\n<ul type=\"disc\">\n</ul>\n<p>\n<a href=\"https://events.webinar.ru/event/7043487/7174863\">Sign up for the event</a>. There is no fee, but the number of participants is limited.\r\n</p>\n",
+        "phone": null,
+        "formattedContent": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12408&dir=75eaf845e81627b71ef0a18d4547aab5&path=9cffc936a6682474ced2aeac6762ccc8&style=thumbnail\"/>\n</figure>\n<p>\r\n\t On <b>Nov. 26</b>, from noon until 6 p.m., MIPT’s Research Center for Molecular Mechanisms of Aging and Age-Related Diseases will hold a series of online talks titled <a href=\"https://cmm-mipt.ru/2020-molecular-mechanisms-of-neurodegenerative-diseases.html\">Molecular Mechanisms of Neurodegenerative Diseases</a>, an international school for young researchers. The language of the event is English.\r\n</p>\n<p>\r\n\t The talks will focus on research into the structure of membrane proteins and the molecular mechanisms of their functioning that are associated with the pathogenesis of neurodegenerative diseases.<br/>\n</p>\n<p>\r\n\t Topics to be discussed:<br/>\n</p>\n<ul type=\"disc\">\n<li>Molecular insights into the mechanisms behind Alzheimer’s and Parkinson’s diseases.</li>\n<li>Intracellular biophysical processes involved in neurodegenerative diseases.</li>\n<li>Amyloid precursor protein and its role in the pathogenesis of neurodegenerative diseases.</li>\n<li>Development of promising drugs, particularly D-enantiomeric peptides that affect protein oligomerization.</li>\n<li>Structural studies of amyloidogenic and intrinsically disordered proteins.</li>\n</ul>\n<br/>\n<ul type=\"disc\">\n</ul>\n<p>\n<a href=\"https://events.webinar.ru/event/7043487/7174863\">Sign up for the event</a>. There is no fee, but the number of participants is limited.\r\n</p>\n",
+        "place": null,
+        "summaryImage": {
+          "id": "53336",
+          "signatures": [
+            {
+              "id": "12416",
+              "path": "127d7a93e8a95357ef993ae9ebddb155",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 128077,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53337",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "on nov",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "681",
+        "status": 1,
+        "created": {
+          "date": "2021-08-13 20:48:19.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-13 20:48:19.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "682": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "25.11.2020 00:00",
+        "timeEnd": "26.11.2020 00:00",
+        "timePublish": "13.08.2021 20:48",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "International Conference on Engineering and Telecommunication (En&T-2020)",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12409&dir=75eaf845e81627b71ef0a18d4547aab5&path=2d96ed7973363b4bf5b2a252591dc7d3&style=thumbnail\"/>\n</figure>\n<p>\r\n\t The 7th International Conference on Engineering and Telecommunication will be held November 25-26 at the Moscow Institute of Physics and Technology. The main focus of the event is on the latest developments in engineering and information technology including the challenges posed by the Arctic region. En&amp;T-2020 will feature plenary session, a roundtable discussion titled “Satellite Infocommunication Systems: Trends and Prospects” and four thematic sections:\r\n</p>\n<p>\n</p>\n<ul>\n<li>Telecommunication technologies and networks</li>\n<li>Radio communication and radiolocation systems </li>\n<li>Computer systems and data processing</li>\n<li>Artificial intelligence systems in telecommunications </li>\n</ul>\n<p>\n</p>\n<p>\r\n\t The main goal of the conference is to enable an exchange of ideas and insights with domestic foreign partners from the telecommunication and IT branches of science and industry. The working language of the event is English.\r\n</p>\n<p>\n<b>En&amp;T-2020 deadlines</b><b>:</b>\n</p>\n<p>\n</p>\n<ul>\n<li><a href=\"http://en-t.info/submit/\">Applying for participation</a>: Oct. 10.</li>\n<li>Submitting articles for publication with IEEE: Oct. 10.</li>\n<li>Submitting conference report theses: Oct. 10.</li>\n<li>Confirming participation: Nov. 1.</li>\n<li>Paying the registration fee: October 30.</li>\n</ul>\n<p>\n</p>\n<p>\n<b>Registration fees</b><b>:</b>\n</p>\n<p>\n</p>\n<ul>\n<li>Standard fee for Russian (foreign) participants: 10,000 rubles (about $140).</li>\n<li>Students and PhD students: 6,000 rubles (about $80).</li>\n<li>IEEE members: 8,000 rubles (about $110).</li>\n<li>Attending the event as a listener is free.</li>\n</ul>\n<p>\n</p>\n<p>\r\n\t Please direct your questions to Aleksandra Pozdeeva or contact the organizers. You can also visit the conference website.\r\n</p>\n<p>\n</p>\n<p>\n<b>Conference sections</b>\n</p>\n<p>\n<i><b>Telecommunication technologies and networks</b></i>\n</p>\n<p>\n</p>\n<p>\n</p>\n<p>\r\n\t - Wireless data transmission systems and networks.<br/>\r\n\t - Processing of signals, images, video and audio.<br/>\r\n\t - Optical fiber networks and technologies.<br/>\r\n\t - Software-defined networks and virtualization of the network functions.<br/>\r\n\t - Engineering and management of computer networks.<br/>\r\n\t - Multimedia and telecom services, including e-learning applications.\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<p>\n<i><b>Radio communication and radiolocation systems</b><br/>\n</i><br/>\r\n\t - New technologies in the field of radio communications and radiolocation.<br/>\r\n\t - Broadband satellite and mobile communications.<br/>\r\n\t - Radio communications and broadband access in the Arctic.<br/>\r\n\t - Satellite Internet of Things.<br/>\r\n\t - Vehicle-based radio communication systems.<br/>\r\n\t - UHF devices and antennas.<br/>\r\n\t - Transceiving and channel-forming hardware and equipment.<br/>\r\n\t - Hardware and software support for radio systems.<br/>\r\n\t - Electrodynamics.<br/>\r\n\t - Future radiomaterials.\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<p>\n<i><b>Computer systems and data processing</b><br/>\n<br/>\n</i>- Simulation systems in engineering.<br/>\r\n\t - Architecture of supercomputers and specialized real-time computer systems.<br/>\r\n\t - Hardware accelerators, algorithmic calculation speed up.<br/>\r\n\t - Virtual computation media.<br/>\r\n\t - General system software.<br/>\r\n\t - Application software development tools and technologies.<br/>\r\n\t - Visual programming.<br/>\r\n\t - Information security systems.<br/>\r\n\t - Information security in the data transmission networks and network coding.\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<p>\n<i><b>Artificial intelligence (AI) systems in telecommunications</b><br/>\n</i><br/>\r\n\t - AI systems. <br/>\r\n\t - Applied systems with AI.<br/>\r\n\t - Pattern recognition systems.<br/>\r\n\t - Neural networks.<br/>\r\n\t - Hardware implementation of neural networks and neurocomputers.<br/>\r\n\t - Deep learning networks.<br/>\r\n\t - Data analysis systems.<br/>\r\n\t - Data Mining and Big Data systems.<br/>\r\n\t - Decision making and support systems.<br/>\r\n\t - Biologically inspired control systems.<br/>\r\n\t - Adaptive control systems.\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<p>\n<b>Organizing committee:</b>\n</p>\n<p>\n</p>\n<p>\n</p>\n<ul>\n<li>Prof. Sergey Garichev, organizing committee chairman</li>\n<li>Prof. Alexander Dvorkovich, program committee chairman</li>\n<li>Lyudmila Uzhinskaya, deputy chairman of the organizing committee</li>\n<li>Aleksandra Pozdeeva</li>\n<li>Alexander Ivchenko</li>\n<li>Pavel Kononyuk</li>\n<li>Yakov Lvovich</li>\n</ul>\n<ul>\n</ul>\n<p>\n</p>\n<p>\n<b>Contacts</b>\n</p>\n<p>\n</p>\n<ul>\n<li>Moscow Institute of Physics and Technology (MIPT), Nauchnyy Proyezd, 4<br/>\n</li>\n</ul>\n<p>\r\n\t Dolgoprudny, Russian Federation\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<ul>\n<li>Mrs. Lyudmila Uzhinskaya<br/>\n</li>\n</ul>\n<p>\r\n\t e-mail: <a href=\"mailto:uzhinskayal@mail.ru\" target=\"_blank\">uzhinskayal@mail.ru</a> tel: +7(925)547-7996\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<ul>\n<li>Ms. Alexandra Pozdeeva<br/>\n</li>\n</ul>\n<p>\r\n\t e-mail: <a href=\"mailto:aleksa-pozdeeva@yandex.ru\" target=\"_blank\">aleksa-pozdeeva@yandex.ru</a> tel: +7(985)416-4078<br/>\n<br/>\r\n\t For additional information, please visit http:/<a href=\"http://2020.en-t.info/\" target=\"_blank\">2020.en-t.info</a> or email to the conference organizers at <a href=\"mailto:ent@frtk.ru\" target=\"_blank\">ent@frtk.ru</a>\n</p>\n<p>\n</p>\n",
+        "phone": null,
+        "formattedContent": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12409&dir=75eaf845e81627b71ef0a18d4547aab5&path=2d96ed7973363b4bf5b2a252591dc7d3&style=thumbnail\"/>\n</figure>\n<p>\r\n\t The 7th International Conference on Engineering and Telecommunication will be held November 25-26 at the Moscow Institute of Physics and Technology. The main focus of the event is on the latest developments in engineering and information technology including the challenges posed by the Arctic region. En&amp;T-2020 will feature plenary session, a roundtable discussion titled “Satellite Infocommunication Systems: Trends and Prospects” and four thematic sections:\r\n</p>\n<p>\n</p>\n<ul>\n<li>Telecommunication technologies and networks</li>\n<li>Radio communication and radiolocation systems </li>\n<li>Computer systems and data processing</li>\n<li>Artificial intelligence systems in telecommunications </li>\n</ul>\n<p>\n</p>\n<p>\r\n\t The main goal of the conference is to enable an exchange of ideas and insights with domestic foreign partners from the telecommunication and IT branches of science and industry. The working language of the event is English.\r\n</p>\n<p>\n<b>En&amp;T-2020 deadlines</b><b>:</b>\n</p>\n<p>\n</p>\n<ul>\n<li><a href=\"http://en-t.info/submit/\">Applying for participation</a>: Oct. 10.</li>\n<li>Submitting articles for publication with IEEE: Oct. 10.</li>\n<li>Submitting conference report theses: Oct. 10.</li>\n<li>Confirming participation: Nov. 1.</li>\n<li>Paying the registration fee: October 30.</li>\n</ul>\n<p>\n</p>\n<p>\n<b>Registration fees</b><b>:</b>\n</p>\n<p>\n</p>\n<ul>\n<li>Standard fee for Russian (foreign) participants: 10,000 rubles (about $140).</li>\n<li>Students and PhD students: 6,000 rubles (about $80).</li>\n<li>IEEE members: 8,000 rubles (about $110).</li>\n<li>Attending the event as a listener is free.</li>\n</ul>\n<p>\n</p>\n<p>\r\n\t Please direct your questions to Aleksandra Pozdeeva or contact the organizers. You can also visit the conference website.\r\n</p>\n<p>\n</p>\n<p>\n<b>Conference sections</b>\n</p>\n<p>\n<i><b>Telecommunication technologies and networks</b></i>\n</p>\n<p>\n</p>\n<p>\n</p>\n<p>\r\n\t - Wireless data transmission systems and networks.<br/>\r\n\t - Processing of signals, images, video and audio.<br/>\r\n\t - Optical fiber networks and technologies.<br/>\r\n\t - Software-defined networks and virtualization of the network functions.<br/>\r\n\t - Engineering and management of computer networks.<br/>\r\n\t - Multimedia and telecom services, including e-learning applications.\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<p>\n<i><b>Radio communication and radiolocation systems</b><br/>\n</i><br/>\r\n\t - New technologies in the field of radio communications and radiolocation.<br/>\r\n\t - Broadband satellite and mobile communications.<br/>\r\n\t - Radio communications and broadband access in the Arctic.<br/>\r\n\t - Satellite Internet of Things.<br/>\r\n\t - Vehicle-based radio communication systems.<br/>\r\n\t - UHF devices and antennas.<br/>\r\n\t - Transceiving and channel-forming hardware and equipment.<br/>\r\n\t - Hardware and software support for radio systems.<br/>\r\n\t - Electrodynamics.<br/>\r\n\t - Future radiomaterials.\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<p>\n<i><b>Computer systems and data processing</b><br/>\n<br/>\n</i>- Simulation systems in engineering.<br/>\r\n\t - Architecture of supercomputers and specialized real-time computer systems.<br/>\r\n\t - Hardware accelerators, algorithmic calculation speed up.<br/>\r\n\t - Virtual computation media.<br/>\r\n\t - General system software.<br/>\r\n\t - Application software development tools and technologies.<br/>\r\n\t - Visual programming.<br/>\r\n\t - Information security systems.<br/>\r\n\t - Information security in the data transmission networks and network coding.\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<p>\n<i><b>Artificial intelligence (AI) systems in telecommunications</b><br/>\n</i><br/>\r\n\t - AI systems. <br/>\r\n\t - Applied systems with AI.<br/>\r\n\t - Pattern recognition systems.<br/>\r\n\t - Neural networks.<br/>\r\n\t - Hardware implementation of neural networks and neurocomputers.<br/>\r\n\t - Deep learning networks.<br/>\r\n\t - Data analysis systems.<br/>\r\n\t - Data Mining and Big Data systems.<br/>\r\n\t - Decision making and support systems.<br/>\r\n\t - Biologically inspired control systems.<br/>\r\n\t - Adaptive control systems.\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<p>\n<b>Organizing committee:</b>\n</p>\n<p>\n</p>\n<p>\n</p>\n<ul>\n<li>Prof. Sergey Garichev, organizing committee chairman</li>\n<li>Prof. Alexander Dvorkovich, program committee chairman</li>\n<li>Lyudmila Uzhinskaya, deputy chairman of the organizing committee</li>\n<li>Aleksandra Pozdeeva</li>\n<li>Alexander Ivchenko</li>\n<li>Pavel Kononyuk</li>\n<li>Yakov Lvovich</li>\n</ul>\n<ul>\n</ul>\n<p>\n</p>\n<p>\n<b>Contacts</b>\n</p>\n<p>\n</p>\n<ul>\n<li>Moscow Institute of Physics and Technology (MIPT), Nauchnyy Proyezd, 4<br/>\n</li>\n</ul>\n<p>\r\n\t Dolgoprudny, Russian Federation\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<ul>\n<li>Mrs. Lyudmila Uzhinskaya<br/>\n</li>\n</ul>\n<p>\r\n\t e-mail: <a href=\"mailto:uzhinskayal@mail.ru\" target=\"_blank\">uzhinskayal@mail.ru</a> tel: +7(925)547-7996\r\n</p>\n<p>\n</p>\n<p>\n</p>\n<ul>\n<li>Ms. Alexandra Pozdeeva<br/>\n</li>\n</ul>\n<p>\r\n\t e-mail: <a href=\"mailto:aleksa-pozdeeva@yandex.ru\" target=\"_blank\">aleksa-pozdeeva@yandex.ru</a> tel: +7(985)416-4078<br/>\n<br/>\r\n\t For additional information, please visit http:/<a href=\"http://2020.en-t.info/\" target=\"_blank\">2020.en-t.info</a> or email to the conference organizers at <a href=\"mailto:ent@frtk.ru\" target=\"_blank\">ent@frtk.ru</a>\n</p>\n<p>\n</p>\n",
+        "place": null,
+        "summaryImage": {
+          "id": "53338",
+          "signatures": [
+            {
+              "id": "12417",
+              "path": "8c17177da0a845bd67f29e016c05f969",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 61052,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53339",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "foreign, aleksa-pozdeeva@yandex, en-t, uzhinskayal@mail, ru tel, mipt, nov, oct, images, participants, 4dolgoprudny, /2020, 547-7996",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "682",
+        "status": 1,
+        "created": {
+          "date": "2021-08-13 20:48:21.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-13 20:48:21.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "683": {
+        "userId": "157",
+        "parent": null,
+        "type": "event",
+        "route": null,
+        "template": null,
+        "timeStart": "02.11.2020 00:00",
+        "timeEnd": null,
+        "timePublish": "13.08.2021 20:48",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "International Arctic Station Snowflake. Online Meeting",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12410&dir=75eaf845e81627b71ef0a18d4547aab5&path=c379b5418eec0a5f2fc97beeaa4a4888&style=thumbnail\"/>\n</figure>\r\n                                    Following up the <a href=\"https://www.belfercenter.org/event/arctic-resilience-forum#!overview\" target=\"_blank\">Arctic Resilience Forum</a><a href=\"https://www.belfercenter.org/event/arctic-resilience-forum#!overview\" target=\"_blank\"></a> and due to increasing interests to the IAS “Snowflake”, an open online meeting with AHEAD leaders and partners will be held on November 2, 2020.<br/>\n<br/>\r\n During the conference <b>Yury Vasiliev</b>, Executive Director of the Institute of Arctic Technologies, Moscow Institute of Physics and Technology and head of the AHEAD project and <b>Oskar Njaa</b> – General Manager for International Affairs <a href=\"https://bellona.org/\" target=\"_blank\">the Bellona Foundation</a><a href=\"https://bellona.org/\" target=\"_blank\"></a> will open detailed information about the project, construction plans, current results and some changes. As well as this, they will answer all questions related to the AHEAD project – International Arctic Station “Snowflake”.<br/>\n<br/>\n<a href=\"https://us02web.zoom.us/webinar/register/WN_EcPPJlRvQpKFnL6dBGgSCg\" target=\"_blank\">Registration is required</a><a href=\"https://us02web.zoom.us/webinar/register/WN_EcPPJlRvQpKFnL6dBGgSCg\" target=\"_blank\">.</a><br/>\r\n Language of the meeting - English.<br/>\n<br/>\r\n Institute of Arctic Technologies and leaders of the Snowflake project invite international scientists and engineers to join the open collaboration in the following technological areas:<br/>\n<br/>\n<ul>\n<li>Energy, heat and water supply, waste disposal;</li>\n<li>Telecommunications, smart home and smart village systems;</li>\n<li>Medicine and technology of “Living systems”;</li>\n<li>Autonomous robotics;</li>\n<li>New materials and construction technologies;</li>\n<li>Autonomous platforms for climate and environmental research;</li>\n<li>Hardware and software emergency prevention and response systems;</li>\n<li>Expert Decision Support Systems in extreme conditions based on AI technologies;</li>\n<li>Aero and hydroponics, food security solutions in the Arctic, аnd other breakthrough environmentally friendly technologies.</li>\n</ul>\n<br/>\r\n The open online meeting<a href=\"https://\" target=\"_blank\"></a> on November 2, 2020 with potential and current partners will help to add some changes during the design and modeling stages, as well as to develop required infrastructure for implementation of new ideas and solutions.<br/>\n<br/>\r\n Please send all your questions for the conference, suggestions and ideas for the Snowflake station to the <a href=\"mailto:arctic@phystech.edu\">arctic@phystech.edu</a>.<br/>\n",
+        "phone": null,
+        "formattedContent": "\n<figure>\n<img src=\"https://appadmin.mipt.ru/get-file.php?id=12410&dir=75eaf845e81627b71ef0a18d4547aab5&path=c379b5418eec0a5f2fc97beeaa4a4888&style=thumbnail\"/>\n</figure>\r\n                                    Following up the <a href=\"https://www.belfercenter.org/event/arctic-resilience-forum#!overview\" target=\"_blank\">Arctic Resilience Forum</a><a href=\"https://www.belfercenter.org/event/arctic-resilience-forum#!overview\" target=\"_blank\"></a> and due to increasing interests to the IAS “Snowflake”, an open online meeting with AHEAD leaders and partners will be held on November 2, 2020.<br/>\n<br/>\r\n During the conference <b>Yury Vasiliev</b>, Executive Director of the Institute of Arctic Technologies, Moscow Institute of Physics and Technology and head of the AHEAD project and <b>Oskar Njaa</b> – General Manager for International Affairs <a href=\"https://bellona.org/\" target=\"_blank\">the Bellona Foundation</a><a href=\"https://bellona.org/\" target=\"_blank\"></a> will open detailed information about the project, construction plans, current results and some changes. As well as this, they will answer all questions related to the AHEAD project – International Arctic Station “Snowflake”.<br/>\n<br/>\n<a href=\"https://us02web.zoom.us/webinar/register/WN_EcPPJlRvQpKFnL6dBGgSCg\" target=\"_blank\">Registration is required</a><a href=\"https://us02web.zoom.us/webinar/register/WN_EcPPJlRvQpKFnL6dBGgSCg\" target=\"_blank\">.</a><br/>\r\n Language of the meeting - English.<br/>\n<br/>\r\n Institute of Arctic Technologies and leaders of the Snowflake project invite international scientists and engineers to join the open collaboration in the following technological areas:<br/>\n<br/>\n<ul>\n<li>Energy, heat and water supply, waste disposal;</li>\n<li>Telecommunications, smart home and smart village systems;</li>\n<li>Medicine and technology of “Living systems”;</li>\n<li>Autonomous robotics;</li>\n<li>New materials and construction technologies;</li>\n<li>Autonomous platforms for climate and environmental research;</li>\n<li>Hardware and software emergency prevention and response systems;</li>\n<li>Expert Decision Support Systems in extreme conditions based on AI technologies;</li>\n<li>Aero and hydroponics, food security solutions in the Arctic, аnd other breakthrough environmentally friendly technologies.</li>\n</ul>\n<br/>\r\n The open online meeting<a href=\"https://\" target=\"_blank\"></a> on November 2, 2020 with potential and current partners will help to add some changes during the design and modeling stages, as well as to develop required infrastructure for implementation of new ideas and solutions.<br/>\n<br/>\r\n Please send all your questions for the conference, suggestions and ideas for the Snowflake station to the <a href=\"mailto:arctic@phystech.edu\">arctic@phystech.edu</a>.<br/>\n",
+        "place": null,
+        "summaryImage": {
+          "id": "53340",
+          "signatures": [
+            {
+              "id": "12418",
+              "path": "9568333859c0d4d689d33d6850e9c57d",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "image.jpeg",
+              "size": 101379,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53341",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "edu",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "683",
+        "status": 1,
+        "created": {
+          "date": "2021-08-13 20:48:23.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-13 20:48:23.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      }
+    },
+    "count": 16,
+    "itemsPerPage": 1000,
+    "page": 1
+  }
+}

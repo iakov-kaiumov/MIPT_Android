@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mask="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/color_android_main"
+        app:contentInsetStart="0dp"
+        android:paddingEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_blue_oval_selectable"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="@string/psy_apply_title"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
+
+
+            <TextView
+                android:text="@string/psy_apply_event_type"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="46dp"
+                android:textColor="@color/main_color"
+                android:textSize="12sp"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="16dp">
+
+                <ImageView
+                    android:id="@+id/ivAppointmentPsychologist"
+                    android:background="@drawable/bg_button_cornerred_border_2px"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_height="22dp"
+                    android:layout_width="22dp"/>
+
+                <TextView
+                    android:id="@+id/tvAppointmentPsychologistTitle"
+                    android:text="@string/psy_apply_event_title"
+                    android:layout_marginStart="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/ivAppointmentPsychologist"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+                <TextView
+                    android:id="@+id/tvAppointmentPsychologistDate"
+                    tools:text="Суббота, 26 января"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    app:layout_constraintTop_toBottomOf="@id/tvAppointmentPsychologistTitle"
+                    app:layout_constraintStart_toStartOf="@id/tvAppointmentPsychologistTitle"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:visibility="gone"
+                    tools:visibility="visible"/>
+
+                <TextView
+                    android:id="@+id/tvAppointmentPsychologistTime"
+                    tools:text="10:00 -- 10:45"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    app:layout_constraintTop_toBottomOf="@id/tvAppointmentPsychologistDate"
+                    app:layout_constraintStart_toStartOf="@id/tvAppointmentPsychologistTitle"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:visibility="gone"
+                    tools:visibility="visible"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--            android:background="?attr/selectableItemBackground"-->
+            <RelativeLayout
+                android:id="@+id/rlPsyMiptAddress"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivPsyMiptAddress"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_location" />
+
+                <TextView
+                    android:id="@+id/tvPsyMiptAddress"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="16dp"
+                    android:layout_toRightOf="@id/ivPsyMiptAddress"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:textColor="@color/black"
+                    tools:text="Общежитие 11, подъезд 3, комн. 73" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivPsyMiptAddress"
+                    android:background="@color/light_gray" />
+
+<!--                <ImageView-->
+<!--                    android:layout_width="24dp"-->
+<!--                    android:layout_height="24dp"-->
+<!--                    android:layout_alignParentEnd="true"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_marginEnd="12dp"-->
+<!--                    android:src="@drawable/ic_arrow_right" />-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlPsyFIO"
+                android:background="?attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:id="@+id/ivPsyFIO"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/ic_user" />
+
+                <TextView
+                    android:id="@+id/tvPsyFIO"
+                    style="@style/Text.Standard_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/arrowPsyFIO"
+                    android:layout_toRightOf="@id/ivPsyFIO"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    tools:text="Гордеева Ильма Евгеньевна" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/ivPsyFIO"
+                    android:background="@color/light_gray" />
+
+                <ImageView
+                    android:id="@+id/arrowPsyFIO"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="@string/psy_apply_description"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                android:textColor="@color/whiteSmoke_2"
+                android:textSize="15sp"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@drawable/bg_et_4px"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/ivPhone"
+                    android:src="@drawable/ic_psy_phone"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <TextView
+                    android:id="@+id/tvPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/psy_apply_phone"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:includeFontPadding="false"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/ivPhone"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+                <br.com.sapereaude.maskedEditText.MaskedEditText
+                    android:id="@+id/etPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="16sp"
+                    android:hint="9999999999"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="end"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintStart_toStartOf="@id/tvPhone"
+                    app:layout_constraintEnd_toEndOf="@id/tvPhone"
+                    app:layout_constraintTop_toBottomOf="@id/tvPhone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    android:typeface="monospace"
+                    mask:allowed_chars="1234567890"
+                    mask:mask="+7 (###) ### ## ##"
+                    app:keep_hint="true"/>
+
+                <View
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/llApply"
+                android:background="@drawable/bg_button_cornerred_2_disable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp">
+                <TextView
+                    android:id="@+id/tvApply"
+                    android:background="?attr/selectableItemBackground"
+                    android:text="@string/psy_apply_button"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondary_text"
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:padding="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

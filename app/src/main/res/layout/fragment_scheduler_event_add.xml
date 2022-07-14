@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        app:contentInsetStart="0dp"
+        android:layout_height="56dp"
+        android:background="@color/color_android_main"
+        android:paddingEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_blue_oval_selectable"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="@string/create_screen_title"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/ivSave"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_blue_oval_selectable"
+                android:padding="8dp"
+                android:src="@drawable/ic_save_2" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="24dp">
+
+            <TextView
+                android:id="@+id/tvSchedulerName"
+                style="@style/Text.Big.Bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16dp"
+                android:text="@string/create_screen_common_information"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="37dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/wrapName"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:hint="@string/create_screen_name"
+                        android:textColorHint="@drawable/state_color"
+                        app:boxBackgroundColor="@color/white"
+                        app:errorEnabled="true"
+                        app:hintTextColor="@color/color_android_main">
+
+                        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            android:id="@+id/tvName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:minHeight="66dp"
+                            android:paddingTop="16dp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/wrapAuditory"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:hint="@string/create_screen_auditory"
+                        android:textColorHint="@drawable/state_color"
+                        app:boxBackgroundColor="@color/white"
+                        app:errorEnabled="true"
+                        app:hintTextColor="@color/color_android_main">
+
+                        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            android:id="@+id/tvAuditory"
+                            android:layout_width="match_parent"
+                            android:layout_height="66dp"
+                            android:background="@color/white"
+                            android:inputType="none"
+                            android:paddingTop="16dp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <View
+                        android:id="@+id/boxAuditory"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toBottomOf="@id/wrapAuditory"
+                        app:layout_constraintTop_toTopOf="@id/wrapAuditory" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/wrapLector"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:hint="@string/create_screen_teacher"
+                        android:textColorHint="@drawable/state_color"
+                        app:boxBackgroundColor="@color/white"
+                        app:errorEnabled="true"
+                        app:hintTextColor="@color/color_android_main">
+
+                        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            android:id="@+id/tvLector"
+                            android:layout_width="match_parent"
+                            android:layout_height="66dp"
+                            android:background="@color/white"
+                            android:inputType="none"
+                            android:paddingTop="16dp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <View
+                        android:id="@+id/boxTeacher"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toBottomOf="@id/wrapLector"
+                        app:layout_constraintTop_toTopOf="@id/wrapLector" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:id="@+id/llDeadlineFields"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/wrapSchedule"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:hint="@string/create_screen_schedule"
+                            android:textColorHint="@drawable/state_color"
+                            app:boxBackgroundColor="@color/white"
+                            app:errorEnabled="true"
+                            app:hintTextColor="@color/color_android_main">
+
+                            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                                android:id="@+id/tvSchedule"
+                                android:layout_width="match_parent"
+                                android:layout_height="66dp"
+                                android:background="@color/white"
+                                android:inputType="none"
+                                android:paddingTop="16dp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <View
+                            android:id="@+id/boxSchedule"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            app:layout_constraintBottom_toBottomOf="@id/wrapSchedule"
+                            app:layout_constraintTop_toTopOf="@id/wrapSchedule" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llPersonalNotes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                        <TextView
+                            style="@style/Text.Standard_15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fragment_detail_personal_marks"
+                            android:textColor="@color/secondary_text" />
+
+                        <EditText
+                            android:id="@+id/etPersonalNotes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:gravity="start"
+                            android:inputType="textMultiLine"
+                            android:minLines="3"
+                            android:paddingEnd="15dp"
+                            android:paddingBottom="10dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/light_gray" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvSchedulerDateTime"
+                style="@style/Text.Big.Bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16dp"
+                android:text="@string/create_screen_date_time"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="37dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/wrapDate"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:hint="@string/create_screen_date"
+                        android:textColorHint="@drawable/state_color"
+                        app:boxBackgroundColor="@color/white"
+                        app:errorEnabled="true"
+                        app:hintTextColor="@color/color_android_main">
+
+                        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            android:id="@+id/tvDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="66dp"
+                            android:background="@color/white"
+                            android:inputType="none"
+                            android:paddingTop="16dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <View
+                        android:id="@+id/boxDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutTimeSlice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/wrapTimeBegin"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:hint="@string/create_screen_start"
+                            android:textColorHint="@drawable/state_color"
+                            app:boxBackgroundColor="@color/white"
+                            app:errorEnabled="true"
+                            app:hintTextColor="@color/color_android_main">
+
+                            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                                android:id="@+id/tvTimeBegin"
+                                android:layout_width="match_parent"
+                                android:layout_height="66dp"
+                                android:background="@color/white"
+                                android:inputType="none"
+                                android:paddingTop="16dp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <View
+                            android:id="@+id/boxTimeBegin"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/wrapTimeEnd"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:hint="@string/create_screen_end"
+                            android:textColorHint="@drawable/state_color"
+                            app:boxBackgroundColor="@color/white"
+                            app:errorEnabled="true"
+                            app:hintTextColor="@color/color_android_main">
+
+                            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                                android:id="@+id/tvTimeEnd"
+                                android:layout_width="match_parent"
+                                android:layout_height="66dp"
+                                android:background="@color/white"
+                                android:inputType="none"
+                                android:paddingTop="16dp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <View
+                            android:id="@+id/boxTimeEnd"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/Text.Standard_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/create_screen_all_day"
+                        android:textColor="@color/black" />
+
+                    <com.google.android.material.switchmaterial.SwitchMaterial
+                        android:id="@+id/switchAllDay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        app:thumbTint="@color/thumb_color"
+                        app:trackTint="@color/track_color"
+                        tools:checked="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvSchedulerOther"
+                style="@style/Text.Big.Bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16dp"
+                android:text="@string/create_screen_addition"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="37dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/wrapType"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/create_screen_schedule_type"
+                    android:textColorHint="@drawable/state_color"
+                    app:boxBackgroundColor="@color/white"
+                    app:errorEnabled="true"
+                    app:hintTextColor="@color/color_android_main">
+
+                    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                        android:id="@+id/tvType"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="@color/white"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnAddLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:backgroundTint="@color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:outlineAmbientShadowColor="@color/white"
+                    android:outlineSpotShadowColor="@color/white"
+                    android:text="@string/create_screen_add_link"
+                    android:textColor="@color/color_android_main"
+                    app:rippleColor="@color/color_android_main" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="2"
+                    tools:listitem="@layout/item_link_text_field" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

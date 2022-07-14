@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_subtitle1">Schedule</string>
+    <string name="onboarding_text1">Convenient schedule viewer helps to plan your time more efficiently 🤓</string>
+    <string name="onboarding_subtitle2">News</string>
+    <string name="onboarding_text2">You will always be up to date with the latest news and events at MIPT 📻</string>
+    <string name="onboarding_subtitle3">Chat</string>
+    <string name="onboarding_text3">Now you can ask a question for round-the-clock support 🍀</string>
+    <string name="onboarding_subtitle4">Navigator</string>
+    <string name="onboarding_text4">Added a directory of contacts and search throughout the navigator section 📞</string>
+    <string name="onboarding_subtitle5">Services</string>
+    <string name="onboarding_text5">Collected all invoices for payment in one place 💸</string>
+</resources>
+

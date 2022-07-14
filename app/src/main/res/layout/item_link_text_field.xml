@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+        android:id="@+id/wrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:textColorHint="@drawable/state_color"
+        tools:hint="Аудитория"
+        app:boxBackgroundColor="@color/white"
+        app:hintTextColor="@color/color_android_main">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etValue"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            style="@style/Text.Standard_15"
+            tools:text="132"
+            android:textColor="@color/color_android_main"
+            android:background="@color/white"
+            android:paddingTop="16dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

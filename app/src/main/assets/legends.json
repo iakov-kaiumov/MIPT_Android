@@ -1,0 +1,856 @@
+{
+  "status": "success",
+  "data": {
+    "filter": [],
+    "paginator": {
+      "788": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "24.08.2021 16:01",
+        "timeEnd": null,
+        "timePublish": "24.08.2021 16:01",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Double portrait or the rooster story",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p style=\"text-align: left;\">&hellip;Saint Petsrsburgh. The very beginning of the 20s of the last century. Starvation, devastation, the consequences of the civil war. A dreary, hopeless life. However, young people were not discouraged. Kapitsa and Semenov not only had time to work, but also to lead an active social life. A friend brought them to visit the famous artist Boris Kustodiev. After several meetings, bold and cheerful friends turned to Boris Mikhailovich with the following request: &ldquo;Paint our portrait, please! You only paint celebrities, but we willl become like them someday, too. Here we are, dear Boris Mikhailovich, the future Nobel laureates!&rdquo; Kustodiev was severely ill with spinal caries. He could hardly move around, but he neither left his work nor stopped communication. He was happy with the childlike spontaneity of the two friends, and the bright light that was coming from them. Of course, he agreed: &ldquo;And they were standing there with thick eyebrows, red-cheeked (they did not even care about hunger), they were so self-confident and cheerful that I had to agree. They brought an X-ray tube, with which they worked at their institute, and I started painting...&rdquo;.</p>\r\n<p style=\"text-align: left;\">When the portrait was ready, friends paid generously to Kustodiev. Now such a fee - a sack of oats and a rooster - would seem odd, but at that starving time everything was different. &ldquo;And where did you get such wealth?&rdquo; - the artist asked. &ldquo;We created a turbine for one man, so we got a salary from him,&rdquo; the &ldquo;models&rdquo; replied.</p>\r\n<p style=\"text-align: left;\">It is impossible to find out, where exactly the portrait of Kapitsa and Semyonov is now. It is believed that it is kept in St. Petersburg, in the Russian Museum. Another version goes: &ldquo;At the moment, this portrait as a precious relic is kept by the descendants of Pyotr Kapitsa. Peter Leonidovich presented its copy to Semenov N.N. in the 60s of the last century with an inscription on the back: &ldquo;The portrait is well preserved, and we have aged a lot. But at our hearts we are both as young and silly as we look in the portrait&rdquo;. Now, to add to all that, Kapitsa and Semyonov made such a strong impression on Kustodiev that their images are also found on other canvases of the master. But that's a completely different story.</p>",
+        "phone": null,
+        "formattedContent": "<p style=\"text-align: left;\">&hellip;Saint Petsrsburgh. The very beginning of the 20s of the last century. Starvation, devastation, the consequences of the civil war. A dreary, hopeless life. However, young people were not discouraged. Kapitsa and Semenov not only had time to work, but also to lead an active social life. A friend brought them to visit the famous artist Boris Kustodiev. After several meetings, bold and cheerful friends turned to Boris Mikhailovich with the following request: &ldquo;Paint our portrait, please! You only paint celebrities, but we willl become like them someday, too. Here we are, dear Boris Mikhailovich, the future Nobel laureates!&rdquo; Kustodiev was severely ill with spinal caries. He could hardly move around, but he neither left his work nor stopped communication. He was happy with the childlike spontaneity of the two friends, and the bright light that was coming from them. Of course, he agreed: &ldquo;And they were standing there with thick eyebrows, red-cheeked (they did not even care about hunger), they were so self-confident and cheerful that I had to agree. They brought an X-ray tube, with which they worked at their institute, and I started painting...&rdquo;.</p>\r\n<p style=\"text-align: left;\">When the portrait was ready, friends paid generously to Kustodiev. Now such a fee - a sack of oats and a rooster - would seem odd, but at that starving time everything was different. &ldquo;And where did you get such wealth?&rdquo; - the artist asked. &ldquo;We created a turbine for one man, so we got a salary from him,&rdquo; the &ldquo;models&rdquo; replied.</p>\r\n<p style=\"text-align: left;\">It is impossible to find out, where exactly the portrait of Kapitsa and Semyonov is now. It is believed that it is kept in St. Petersburg, in the Russian Museum. Another version goes: &ldquo;At the moment, this portrait as a precious relic is kept by the descendants of Pyotr Kapitsa. Peter Leonidovich presented its copy to Semenov N.N. in the 60s of the last century with an inscription on the back: &ldquo;The portrait is well preserved, and we have aged a lot. But at our hearts we are both as young and silly as we look in the portrait&rdquo;. Now, to add to all that, Kapitsa and Semyonov made such a strong impression on Kustodiev that their images are also found on other canvases of the master. But that's a completely different story.</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "53630",
+          "signatures": [
+            {
+              "id": "12964",
+              "path": "4ed4c5ddde88f3b09e6e4a8f382cac33",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "double.jpeg",
+              "size": 1657805,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53631",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 2,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "now, red-cheeked, petersburg, however, please, too, devastation, starvation",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [
+          {
+            "id": "52",
+            "name": "Main Building"
+          }
+        ],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "788",
+        "status": 1,
+        "created": {
+          "date": "2021-08-24 16:01:05.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-24 16:01:05.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "787": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "24.08.2021 15:59",
+        "timeEnd": null,
+        "timePublish": "24.08.2021 15:59",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Kapitsa in the cloakroom",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p style=\"text-align: left;\">Having arrived to take the state exam in Physics from the students, academician Pyotr L. Kapitsa could not take off his coat for a long time. Out of old habit, he wanted to hang his coat on the &ldquo;absolute zero&rdquo;, hook number 273, but there were already a dozen fur coats, raincoats, jackets and coats hanging there. The manner of hanging outerwear on hooks with &ldquo;significant&rdquo; numbers has become fashionable at Phystech, following his own example&hellip; What do I do?</p>\r\n<p style=\"text-align: left;\">- Pyotr Leonidovich, - a passing freshman turned to him, - Hang your coat on the hook number 524.</p>\r\n<p style=\"text-align: left;\">Kapitsa P. L. smiled and followed the advice of a smart student. Of course, he remembered that 524 is an &ldquo;absolute zero&rdquo; in Fahrenheit.</p>",
+        "phone": null,
+        "formattedContent": "<p style=\"text-align: left;\">Having arrived to take the state exam in Physics from the students, academician Pyotr L. Kapitsa could not take off his coat for a long time. Out of old habit, he wanted to hang his coat on the &ldquo;absolute zero&rdquo;, hook number 273, but there were already a dozen fur coats, raincoats, jackets and coats hanging there. The manner of hanging outerwear on hooks with &ldquo;significant&rdquo; numbers has become fashionable at Phystech, following his own example&hellip; What do I do?</p>\r\n<p style=\"text-align: left;\">- Pyotr Leonidovich, - a passing freshman turned to him, - Hang your coat on the hook number 524.</p>\r\n<p style=\"text-align: left;\">Kapitsa P. L. smiled and followed the advice of a smart student. Of course, he remembered that 524 is an &ldquo;absolute zero&rdquo; in Fahrenheit.</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "53628",
+          "signatures": [
+            {
+              "id": "12944",
+              "path": "eac860f4af8286f2dc4e7d5bb7873254",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "kapit.jpeg",
+              "size": 1602152,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53629",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "raincoats",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "787",
+        "status": 1,
+        "created": {
+          "date": "2021-08-24 15:59:55.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-24 15:59:55.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "786": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "24.08.2021 15:58",
+        "timeEnd": null,
+        "timePublish": "24.08.2021 15:58",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "April Fools' Railroad Pranks",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p style=\"text-align: left;\">The railway and electric trains are a fixture in life of each phystech, because most students get to Moscow and back using railway transportation. That's why a lot of famous April Fools' jokes at Phystech were associated with them.</p>\r\n<p style=\"text-align: left;\">Previously, some trains of the Savelovsky direction were named after famous people: &ldquo;Nikolai Gastello&rdquo; (after a hero pilot of WWII), &ldquo;the Podolsk cadets&rdquo; (after young heroes of the first monthe of WWII), etc. Once, on the night of April 1st, a group of Phystech students appeared at the Lobnya depot with paints with a purpose to give nameless trains names. As a result, on the morning of April 1st, there were trains called &ldquo;Rector Belotserkovsky&rdquo;, &ldquo;Deputy Dean Shumansky&rdquo; and &ldquo;Goga Borachinsky&rdquo;, named after famous Phystech characters. The inscriptions were difficult to distinguish from the real ones in quality. Some of these trains ran for more than a month, before they were painted over.</p>\r\n<p style=\"text-align: left;\">For several years in a row, on April 1st, Phystech students repainted the rails between Novodachnaya and Dolgoprudnaya in black color. Such rails are almost invisible for the train drivers. Therefore, many trains, arriving at Novodachnaya, could not go further, because, according to the driver, there were no rails. Such jokes always caused big delays in the schedule, so the management of Russian Railways even appealed to the admnistration of MIPT with a request to stop such pranks.</p>\r\n<p style=\"text-align: left;\">By the way, another prank connected to the paint is still repeated on a regular basis. It implies painting puddles on campus in green.&nbsp;</p>",
+        "phone": null,
+        "formattedContent": "<p style=\"text-align: left;\">The railway and electric trains are a fixture in life of each phystech, because most students get to Moscow and back using railway transportation. That's why a lot of famous April Fools' jokes at Phystech were associated with them.</p>\r\n<p style=\"text-align: left;\">Previously, some trains of the Savelovsky direction were named after famous people: &ldquo;Nikolai Gastello&rdquo; (after a hero pilot of WWII), &ldquo;the Podolsk cadets&rdquo; (after young heroes of the first monthe of WWII), etc. Once, on the night of April 1st, a group of Phystech students appeared at the Lobnya depot with paints with a purpose to give nameless trains names. As a result, on the morning of April 1st, there were trains called &ldquo;Rector Belotserkovsky&rdquo;, &ldquo;Deputy Dean Shumansky&rdquo; and &ldquo;Goga Borachinsky&rdquo;, named after famous Phystech characters. The inscriptions were difficult to distinguish from the real ones in quality. Some of these trains ran for more than a month, before they were painted over.</p>\r\n<p style=\"text-align: left;\">For several years in a row, on April 1st, Phystech students repainted the rails between Novodachnaya and Dolgoprudnaya in black color. Such rails are almost invisible for the train drivers. Therefore, many trains, arriving at Novodachnaya, could not go further, because, according to the driver, there were no rails. Such jokes always caused big delays in the schedule, so the management of Russian Railways even appealed to the admnistration of MIPT with a request to stop such pranks.</p>\r\n<p style=\"text-align: left;\">By the way, another prank connected to the paint is still repeated on a regular basis. It implies painting puddles on campus in green.&nbsp;</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "53626",
+          "signatures": [
+            {
+              "id": "12943",
+              "path": "837332b0324bc28c7628b45be3e1448b",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "april.jpeg",
+              "size": 1774416,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53627",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "because, therefore, once, etc, previously",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [
+          {
+            "id": "53",
+            "name": "New Building"
+          }
+        ],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "786",
+        "status": 1,
+        "created": {
+          "date": "2021-08-24 15:58:37.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-24 15:58:37.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "785": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "24.08.2021 15:57",
+        "timeEnd": null,
+        "timePublish": "24.08.2021 15:57",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "“Kosi i Zabivay”",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p style=\"text-align: left;\">The drawing of the &ldquo;Hammer and sickle&rdquo; and the note &ldquo;Kosi i zabivay&rdquo; first apperated on the wall of the Dormitory №8 on April 1st, 1997. It should be explained, that hammer and sickle used to be the main state symbol of the USSR, representing unity between the working class and the peasantry. &ldquo;Kosi I Zabivay&rdquo; in Russian means &ldquo;Reap and hammer&rdquo;, however, it does have a slang sense meaning &ldquo;Dodge obligatory activities and don not worry&rdquo;. The author of the idea was a member of the speleoclub &ldquo;Barrier&rdquo; Y. Evdokimov, it was painted by&nbsp;Evdokimov, A. Kositsyna, N. Korobeinikova and I. Shvartsberg. The drawing was marked and colored in two nights.</p>\r\n<p style=\"text-align: left;\">In the process of work, I.Schwarzberg dropped his bucket of paint, which led to two minor troubles: a huge blot formed on the porch under the drawing and there was not enough paint to complete the inscription. The drawing had been like this for a year. Next time on April 1st, Yu. and N. Evdokimovs outlined the inscription and the sickle with white paint. In 2006, a group of friends from the friendly section updated the drawing and inscription. In 2009, the inscription was painted over by the order of the Dean's office shortly before Vladimir Putin's visit to the university, and on April 1st in 2013, the inscription appeared again.</p>\r\n<p style=\"text-align: left;\">In the end of 2015 the dormitory was covered with tiles so the historical inscription was completely hidden from the eyes of passers-by. On February 27th, 2016, the inscription appeared again in its place, but this time it was a laser projection. It turned out that the Speleoclub &ldquo;Barrier&rdquo; decided to briefly revive the drawing in honor of its 30th anniversary.</p>",
+        "phone": null,
+        "formattedContent": "<p style=\"text-align: left;\">The drawing of the &ldquo;Hammer and sickle&rdquo; and the note &ldquo;Kosi i zabivay&rdquo; first apperated on the wall of the Dormitory №8 on April 1st, 1997. It should be explained, that hammer and sickle used to be the main state symbol of the USSR, representing unity between the working class and the peasantry. &ldquo;Kosi I Zabivay&rdquo; in Russian means &ldquo;Reap and hammer&rdquo;, however, it does have a slang sense meaning &ldquo;Dodge obligatory activities and don not worry&rdquo;. The author of the idea was a member of the speleoclub &ldquo;Barrier&rdquo; Y. Evdokimov, it was painted by&nbsp;Evdokimov, A. Kositsyna, N. Korobeinikova and I. Shvartsberg. The drawing was marked and colored in two nights.</p>\r\n<p style=\"text-align: left;\">In the process of work, I.Schwarzberg dropped his bucket of paint, which led to two minor troubles: a huge blot formed on the porch under the drawing and there was not enough paint to complete the inscription. The drawing had been like this for a year. Next time on April 1st, Yu. and N. Evdokimovs outlined the inscription and the sickle with white paint. In 2006, a group of friends from the friendly section updated the drawing and inscription. In 2009, the inscription was painted over by the order of the Dean's office shortly before Vladimir Putin's visit to the university, and on April 1st in 2013, the inscription appeared again.</p>\r\n<p style=\"text-align: left;\">In the end of 2015 the dormitory was covered with tiles so the historical inscription was completely hidden from the eyes of passers-by. On February 27th, 2016, the inscription appeared again in its place, but this time it was a laser projection. It turned out that the Speleoclub &ldquo;Barrier&rdquo; decided to briefly revive the drawing in honor of its 30th anniversary.</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "53624",
+          "signatures": [
+            {
+              "id": "12942",
+              "path": "cff2ade6549eb9904acf2dbba40e0655",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "1000_1000_POSTS_2-01 (2).jpeg",
+              "size": 1430832,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "53625",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "evdokimov, shvartsberg, kositsyna, however",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [
+          {
+            "id": "52",
+            "name": "Main Building"
+          },
+          {
+            "id": "54",
+            "name": "Applied Mathematics Building"
+          }
+        ],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "785",
+        "status": 1,
+        "created": {
+          "date": "2021-08-24 15:57:25.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-24 15:57:25.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "245": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "02.02.2021 13:44",
+        "timeEnd": null,
+        "timePublish": "08.02.2021 12:38",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Estación de metro «Fístéc»",
+        "subtitle": null,
+        "language": {
+          "id": "3",
+          "name": "Spanish"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p>El 1 de abril de 1996, apareci&oacute; una nueva l&iacute;nea gris terminal en los esquemas de los vagones del metro de Mosc&uacute;: la estaci&oacute;n Fiztech se abri&oacute; detr&aacute;s de Altufyevo. Pero por alguna raz&oacute;n los trenes no iban all&iacute;. Pronto el caso se resolvi&oacute;: la nueva estaci&oacute;n result&oacute; ser una broma de April Fool's de los estudiantes del MIPT, que durante mucho tiempo hab&iacute;an so&ntilde;ado con llegar a la universidad en metro.</p>\r\n<p>En ese momento, el esquema de los vagones rara vez se cambiaba por completo; cuando se abr&iacute;an nuevas estaciones, simplemente se pegaban al esquema. Phystechs hizo lo mismo. Temprano en la ma&ntilde;ana, multitudes de estudiantes se subieron a diferentes vagones del metro y pegaron calcoman&iacute;as preparadas previamente con la nueva estaci&oacute;n. Los carteles hicieron un gran trabajo, por lo que los pasajeros del metro no se dieron cuenta de inmediato de que algo andaba mal y la broma fue un &eacute;xito.</p>\r\n<p>Durante varios a&ntilde;os m&aacute;s, la estaci&oacute;n \"Phystech\" apareci&oacute; peri&oacute;dicamente en cuadernos, calendarios y otras fuentes. Al parecer, alguien volvi&oacute; a dibujar el esquema del April Fool sin comprobar su precisi&oacute;n.</p>\r\n<p><span class=\"VIiyi\" lang=\"es\"><span class=\"JLqJ4b\" data-language-for-alternatives=\"es\" data-language-to-translate-into=\"auto\" data-phrase-index=\"0\">En 2022, el viejo sue&ntilde;o de Phystech se har&aacute; realidad, y el famoso chiste se har&aacute; realidad: se abrir&aacute; la estaci&oacute;n de metro Fiztech. Es cierto que se convertir&aacute; en la &uacute;ltima rama verde claro, no gris. Y no estar&aacute; ubicado en el campus, sino cerca del Phystech Park en el pueblo de Severny.</span></span></p>",
+        "phone": null,
+        "formattedContent": "<p>El 1 de abril de 1996, apareci&oacute; una nueva l&iacute;nea gris terminal en los esquemas de los vagones del metro de Mosc&uacute;: la estaci&oacute;n Fiztech se abri&oacute; detr&aacute;s de Altufyevo. Pero por alguna raz&oacute;n los trenes no iban all&iacute;. Pronto el caso se resolvi&oacute;: la nueva estaci&oacute;n result&oacute; ser una broma de April Fool's de los estudiantes del MIPT, que durante mucho tiempo hab&iacute;an so&ntilde;ado con llegar a la universidad en metro.</p>\r\n<p>En ese momento, el esquema de los vagones rara vez se cambiaba por completo; cuando se abr&iacute;an nuevas estaciones, simplemente se pegaban al esquema. Phystechs hizo lo mismo. Temprano en la ma&ntilde;ana, multitudes de estudiantes se subieron a diferentes vagones del metro y pegaron calcoman&iacute;as preparadas previamente con la nueva estaci&oacute;n. Los carteles hicieron un gran trabajo, por lo que los pasajeros del metro no se dieron cuenta de inmediato de que algo andaba mal y la broma fue un &eacute;xito.</p>\r\n<p>Durante varios a&ntilde;os m&aacute;s, la estaci&oacute;n \"Phystech\" apareci&oacute; peri&oacute;dicamente en cuadernos, calendarios y otras fuentes. Al parecer, alguien volvi&oacute; a dibujar el esquema del April Fool sin comprobar su precisi&oacute;n.</p>\r\n<p><span class=\"VIiyi\" lang=\"es\"><span class=\"JLqJ4b\" data-language-for-alternatives=\"es\" data-language-to-translate-into=\"auto\" data-phrase-index=\"0\">En 2022, el viejo sue&ntilde;o de Phystech se har&aacute; realidad, y el famoso chiste se har&aacute; realidad: se abrir&aacute; la estaci&oacute;n de metro Fiztech. Es cierto que se convertir&aacute; en la &uacute;ltima rama verde claro, no gris. Y no estar&aacute; ubicado en el campus, sino cerca del Phystech Park en el pueblo de Severny.</span></span></p>",
+        "place": null,
+        "summaryImage": {
+          "id": "52396",
+          "signatures": [
+            {
+              "id": "11248",
+              "path": "4c07569217bb422ff2ab1c4d5f58125e",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "1000_1000_POSTS_2-02.jpg",
+              "size": 1430575,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "52397",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 4,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "phystech",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "245",
+        "status": 1,
+        "created": {
+          "date": "2021-02-02 13:44:21.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-02-02 13:44:21.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "244": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "02.02.2021 13:40",
+        "timeEnd": null,
+        "timePublish": "08.02.2021 12:38",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Metro station «Phystech»",
+        "subtitle": null,
+        "language": {
+          "id": "2",
+          "name": "English"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p style=\"text-align: left;\">A new terminal of the grey metro line appeared on the metro maps in cars on April 1st, 1996. It was &ldquo;Phystech&rdquo; metro station after the &ldquo;Altufyevo&rdquo; metro station. But for some reason there were no trains going there. The case was solved soon. The new metro station turned out to be an April Fool's joke of MIPT students who had long dreamed of getting to the university by metro.</p>\r\n<p style=\"text-align: left;\">At that time, the entire metro scheme in the cars was rarely changed; when new stations were opened, their designations were simply glued to the scheme. So did the Phystech students. Early in the morning, crowds of students got into different subway cars and glued pre-prepared stickers with the new station. The metro passengers did not notice that anything was wrong and the joke succeeded.</p>\r\n<p style=\"text-align: left;\">For several years, the Phystech station occasionally appeared on notebooks, calendars and in other sources. Apparently, someone redrawn the April Fool's scheme without checking its authenticity.</p>\r\n<p style=\"text-align: left;\">In 2022, a long-standing dream of Phystech students will come true, and a well-known joke will become a reality. The Phystech metro station will open. However, it will be located at light green line, and not gray, not on the campus itself, but near the Phystech Park in the village of Severny.</p>",
+        "phone": null,
+        "formattedContent": "<p style=\"text-align: left;\">A new terminal of the grey metro line appeared on the metro maps in cars on April 1st, 1996. It was &ldquo;Phystech&rdquo; metro station after the &ldquo;Altufyevo&rdquo; metro station. But for some reason there were no trains going there. The case was solved soon. The new metro station turned out to be an April Fool's joke of MIPT students who had long dreamed of getting to the university by metro.</p>\r\n<p style=\"text-align: left;\">At that time, the entire metro scheme in the cars was rarely changed; when new stations were opened, their designations were simply glued to the scheme. So did the Phystech students. Early in the morning, crowds of students got into different subway cars and glued pre-prepared stickers with the new station. The metro passengers did not notice that anything was wrong and the joke succeeded.</p>\r\n<p style=\"text-align: left;\">For several years, the Phystech station occasionally appeared on notebooks, calendars and in other sources. Apparently, someone redrawn the April Fool's scheme without checking its authenticity.</p>\r\n<p style=\"text-align: left;\">In 2022, a long-standing dream of Phystech students will come true, and a well-known joke will become a reality. The Phystech metro station will open. However, it will be located at light green line, and not gray, not on the campus itself, but near the Phystech Park in the village of Severny.</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "52394",
+          "signatures": [
+            {
+              "id": "11247",
+              "path": "d8c66f07a4a65faff852be82862b31ad",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "1000_1000_POSTS_2-02.jpg",
+              "size": 1430575,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "52395",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 2,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "true, phystech, apparently",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [
+          {
+            "id": "54",
+            "name": "Applied Mathematics Building"
+          }
+        ],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "244",
+        "status": 1,
+        "created": {
+          "date": "2021-02-02 13:40:14.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-24 15:55:59.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "243": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "14.12.2020 12:29",
+        "timeEnd": null,
+        "timePublish": "14.12.2020 12:29",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Двойной портрет или история про петуха",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p>&hellip;Петербург. Начало 20-х прошлого века. Голод, разруха, последствия гражданской войны. Тоскливая, беспросветная жизнь. Однако молодежь не унывает. Капица и Семенов не только успевают работать, но и ведут активную светскую жизнь. Товарищ приводит их в гости к знаменитому художнику Борису Кустодиеву. После нескольких встреч дерзкие и веселые приятели обращаются к Борису Михайловичу с такой просьбой: &laquo;А напишите и наш портрет! А то все только знаменитости, да знаменитости! А мы ведь тоже ими когда-нибудь станем. Перед вами, уважаемый Борис Михайлович, будущие нобелевские лауреаты!&raquo;. Кустодиев тяжело болен, туберкулез позвоночника. Он почти не может передвигаться. Но ни работу, ни общение не оставляет. Он рад и детской непосредственности друзей, и исходящему от них свету. Конечно, он согласен: &laquo;И такие они бровастые, краснощекие (им и голод нипочем), такие самоуверенные и веселые были, что пришлось согласиться. Притащили они рентгеновскую трубку, с которой работали в своем институте, и дело пошло&hellip;&raquo;.</p>\r\n<p>&nbsp;</p>\r\n<p>Когда портрет был окончен, друзья щедро расплатились с Кустодиевым. Сейчас такой гонорар &mdash; мешок овса и петух &mdash; покажется нам странным, но в те голодные времена все было по-другому. &laquo;И где же вы раздобыли такое богатство?&raquo; &mdash; поинтересовался художник. &laquo;Да одному хозяину турбинку смастерили, вот и получили от него зарплату&raquo;, &mdash; ответили &laquo;модели&raquo;.</p>\r\n<p>&nbsp;</p>\r\n<p>А вот где портрет Капицы и Семенова находится точно, выяснить никак не удается. Есть мнение, что хранится он в Петербурге, в Русском музее. Другая версия гласит: &laquo;На данный момент этот портрет как драгоценная реликвия хранится у потомков П. Л. Капицы, его копию в 60-х годах прошлого века Петр Леонидович подарил Н. Н. Семенову с надписью на обороте: &ldquo;Портрет хорошо сохранился, а мы здорово постарели. Но в душе мы оба такие же молодые и глупые, как выглядим на портрете&rdquo;&raquo;. Осталось добавить, что Капица и Семенов произвели на Кустодиева столь сильное впечатление, что их изображения встречаются и на других полотнах мастера. Но это уже совсем другая история.</p>",
+        "phone": null,
+        "formattedContent": "<p>&hellip;Петербург. Начало 20-х прошлого века. Голод, разруха, последствия гражданской войны. Тоскливая, беспросветная жизнь. Однако молодежь не унывает. Капица и Семенов не только успевают работать, но и ведут активную светскую жизнь. Товарищ приводит их в гости к знаменитому художнику Борису Кустодиеву. После нескольких встреч дерзкие и веселые приятели обращаются к Борису Михайловичу с такой просьбой: &laquo;А напишите и наш портрет! А то все только знаменитости, да знаменитости! А мы ведь тоже ими когда-нибудь станем. Перед вами, уважаемый Борис Михайлович, будущие нобелевские лауреаты!&raquo;. Кустодиев тяжело болен, туберкулез позвоночника. Он почти не может передвигаться. Но ни работу, ни общение не оставляет. Он рад и детской непосредственности друзей, и исходящему от них свету. Конечно, он согласен: &laquo;И такие они бровастые, краснощекие (им и голод нипочем), такие самоуверенные и веселые были, что пришлось согласиться. Притащили они рентгеновскую трубку, с которой работали в своем институте, и дело пошло&hellip;&raquo;.</p>\r\n<p>&nbsp;</p>\r\n<p>Когда портрет был окончен, друзья щедро расплатились с Кустодиевым. Сейчас такой гонорар &mdash; мешок овса и петух &mdash; покажется нам странным, но в те голодные времена все было по-другому. &laquo;И где же вы раздобыли такое богатство?&raquo; &mdash; поинтересовался художник. &laquo;Да одному хозяину турбинку смастерили, вот и получили от него зарплату&raquo;, &mdash; ответили &laquo;модели&raquo;.</p>\r\n<p>&nbsp;</p>\r\n<p>А вот где портрет Капицы и Семенова находится точно, выяснить никак не удается. Есть мнение, что хранится он в Петербурге, в Русском музее. Другая версия гласит: &laquo;На данный момент этот портрет как драгоценная реликвия хранится у потомков П. Л. Капицы, его копию в 60-х годах прошлого века Петр Леонидович подарил Н. Н. Семенову с надписью на обороте: &ldquo;Портрет хорошо сохранился, а мы здорово постарели. Но в душе мы оба такие же молодые и глупые, как выглядим на портрете&rdquo;&raquo;. Осталось добавить, что Капица и Семенов произвели на Кустодиева столь сильное впечатление, что их изображения встречаются и на других полотнах мастера. Но это уже совсем другая история.</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "52345",
+          "signatures": [
+            {
+              "id": "11231",
+              "path": "88e0551d90e989a6b9c5f5aa010c8f7e",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "1000_1000_POSTS_2-04.jpg",
+              "size": 1657805,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "52346",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "весёлые, хранится, капицы, голод, портрет, портрете, зарплату, получили, глупые, удаётся, мнение, выглядим, петербурге, молодые, душе, копию, сохранился, семенову, надписью, …петербург",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [
+          {
+            "id": "13",
+            "name": "Главный корпус"
+          }
+        ],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "243",
+        "status": 1,
+        "created": {
+          "date": "2020-12-14 12:29:41.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 23:17:35.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "242": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "14.12.2020 12:29",
+        "timeEnd": null,
+        "timePublish": "14.12.2020 12:29",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Капица в гардеробе",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p>Приехав на госэкзамен по физике, академик Петр Леонидович Капица долго не мог раздеться. По старой привычке он хотел повесить пальто на &laquo;абсолютный нуль&raquo; &mdash; 273-й номер, но там уже висел добрый десяток шуб, плащей, курток и пальто. Манера вешать верхнюю одежду на &laquo;замечательные&raquo; номера с легкой руки академика стала модной и на Физтехе&hellip; Что же делать?</p>\r\n<p>&mdash; Петр Леонидович, &mdash; обратился к нему проходивший мимо первокурсник, &mdash; а вы повесьте свое пальто на 524-й номер.</p>\r\n<p>П. Л. Капица улыбнулся и последовал совету находчивого студента. Он, конечно, вспомнил, что 524 &mdash; это абсолютный нуль по Фаренгейту.</p>",
+        "phone": null,
+        "formattedContent": "<p>Приехав на госэкзамен по физике, академик Петр Леонидович Капица долго не мог раздеться. По старой привычке он хотел повесить пальто на &laquo;абсолютный нуль&raquo; &mdash; 273-й номер, но там уже висел добрый десяток шуб, плащей, курток и пальто. Манера вешать верхнюю одежду на &laquo;замечательные&raquo; номера с легкой руки академика стала модной и на Физтехе&hellip; Что же делать?</p>\r\n<p>&mdash; Петр Леонидович, &mdash; обратился к нему проходивший мимо первокурсник, &mdash; а вы повесьте свое пальто на 524-й номер.</p>\r\n<p>П. Л. Капица улыбнулся и последовал совету находчивого студента. Он, конечно, вспомнил, что 524 &mdash; это абсолютный нуль по Фаренгейту.</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "52343",
+          "signatures": [
+            {
+              "id": "11230",
+              "path": "20f1ddb59f526df21b807a8e8e068199",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "1000_1000_POSTS_2-05.jpg",
+              "size": 1602152,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "52344",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 6,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "пальто, капица, первокурсник, вспомнил, повесьте, приехав, проходивший, обратился, физтехе…, госэкзамен, курток, плащей, раздеться, физике, фаренгейту",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [
+          {
+            "id": "3",
+            "name": "Общежитие 3"
+          }
+        ],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "242",
+        "status": 1,
+        "created": {
+          "date": "2020-12-14 12:29:01.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 23:17:10.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "241": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "14.12.2020 12:27",
+        "timeEnd": null,
+        "timePublish": "14.12.2020 12:27",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Первоапрельские шутки с железной дорогой",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p>Железная дорога и электрички &mdash; неотъемлемая часть жизни каждого физтеха, ведь большинство студентов добирается до Москвы и обратно именно с их помощью. Наверное, поэтому множество известных первоапрельских шуток на Физтехе были связаны именно с ними.</p>\r\n<p>Раньше некоторые электрички Савеловского направления были именными: &laquo;Николай Гастелло&raquo;, &laquo;имени Подольских курсантов&raquo; и т. п. Как-то в ночь на 1 апреля в депо Лобня появилась группа физтехов с красками &mdash; давать безымянным электричкам названия. В результате утром 1 апреля ходили электрички &laquo;Ректор Белоцерковский&raquo;, &laquo;Замдекан Шуманский&raquo; и &laquo;Гога Борачинский&raquo;, причем надписи было трудно отличить от настоящих по качеству. Некоторые из этих электричек ходили больше месяца неперекрашенными.</p>\r\n<p>Несколько лет подряд на 1 апреля физтехи перекрашивали рельсы между Новодачной и Долгопрудной в черный цвет. Такие рельсы почти незаметны машинистам электричек. Поэтому многие поезда, приезжая на Новодачную, не могли поехать дальше, ведь, по мнению машиниста, рельсов не было! Эти шутки всегда вызывали большие задержки в расписании, поэтому руководство РЖД даже обращалось к руководству МФТИ с просьбой остановить такие развлечения студентов.</p>\r\n<p>С краской, кстати, связана еще одна шутка, которую иногда повторяют до сих пор, &mdash; раскрашивать лужи в кампусе в зеленый цвет. А еще иногда студенты &laquo;переименовывают&raquo; станцию &laquo;Новодачную&raquo; в &laquo;Водочную&raquo;.</p>",
+        "phone": null,
+        "formattedContent": "<p>Железная дорога и электрички &mdash; неотъемлемая часть жизни каждого физтеха, ведь большинство студентов добирается до Москвы и обратно именно с их помощью. Наверное, поэтому множество известных первоапрельских шуток на Физтехе были связаны именно с ними.</p>\r\n<p>Раньше некоторые электрички Савеловского направления были именными: &laquo;Николай Гастелло&raquo;, &laquo;имени Подольских курсантов&raquo; и т. п. Как-то в ночь на 1 апреля в депо Лобня появилась группа физтехов с красками &mdash; давать безымянным электричкам названия. В результате утром 1 апреля ходили электрички &laquo;Ректор Белоцерковский&raquo;, &laquo;Замдекан Шуманский&raquo; и &laquo;Гога Борачинский&raquo;, причем надписи было трудно отличить от настоящих по качеству. Некоторые из этих электричек ходили больше месяца неперекрашенными.</p>\r\n<p>Несколько лет подряд на 1 апреля физтехи перекрашивали рельсы между Новодачной и Долгопрудной в черный цвет. Такие рельсы почти незаметны машинистам электричек. Поэтому многие поезда, приезжая на Новодачную, не могли поехать дальше, ведь, по мнению машиниста, рельсов не было! Эти шутки всегда вызывали большие задержки в расписании, поэтому руководство РЖД даже обращалось к руководству МФТИ с просьбой остановить такие развлечения студентов.</p>\r\n<p>С краской, кстати, связана еще одна шутка, которую иногда повторяют до сих пор, &mdash; раскрашивать лужи в кампусе в зеленый цвет. А еще иногда студенты &laquo;переименовывают&raquo; станцию &laquo;Новодачную&raquo; в &laquo;Водочную&raquo;.</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "52341",
+          "signatures": [
+            {
+              "id": "11229",
+              "path": "bcd32e792f10cae13dba7baa0381ac9b",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "1000_1000_POSTS_2-03.jpg",
+              "size": 1774416,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "52342",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 0,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "рельсы, некоторые, обращалось, кампусе, кстати, повторяют, которую, краской, связана, железная, новодачной, расписании, красками, москвы, обратно, помощью, физтехе, связаны, именными, настоящих",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [
+          {
+            "id": "14",
+            "name": "Новый корпус"
+          }
+        ],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "241",
+        "status": 1,
+        "created": {
+          "date": "2020-12-14 12:27:44.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 23:16:57.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "240": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "14.12.2020 12:27",
+        "timeEnd": null,
+        "timePublish": "14.12.2020 12:27",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Станция метро «Физтех»",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p>1 апреля 1996 года на схемах в вагонах московского метро появилась новая конечная серой ветки &mdash; за &laquo;Алтуфьево&raquo; открыли станцию &laquo;Физтех&raquo;. Но поезда туда почему-то не ходили. Скоро дело было раскрыто &mdash; новая станция оказалась первоапрельской шуткой студентов МФТИ, давно мечтавших добираться до университета на метро.</p>\r\n<p>В тот период схему в вагонах целиком меняли редко, при открытии новых станций их обозначения просто доклеивали на схему. Так же сделали и физтехи. Рано утром толпы студентов садились в разные вагоны метро и клеили заранее подготовленные стикеры с новой станцией. Расклейщики потрудились на славу, поэтому пассажиры метро заметили неладное не сразу и шутка удалась.</p>\r\n<p>Еще несколько лет станция &laquo;Физтех&raquo; периодически возникала на блокнотах, календарях и в других источниках. Видимо, кто-то перерисовал первоапрельскую схему, не проверив ее достоверность.</p>\r\n<p>В 2022 году давняя мечта физтехов исполнится, а известная шутка станет реальностью &mdash; откроется станция метро &laquo;Физтех&raquo;. Правда, она станет конечной салатовой ветки, а не серой. И расположится не в кампусе, а около Физтех-парка в поселке Северном.</p>",
+        "phone": null,
+        "formattedContent": "<p>1 апреля 1996 года на схемах в вагонах московского метро появилась новая конечная серой ветки &mdash; за &laquo;Алтуфьево&raquo; открыли станцию &laquo;Физтех&raquo;. Но поезда туда почему-то не ходили. Скоро дело было раскрыто &mdash; новая станция оказалась первоапрельской шуткой студентов МФТИ, давно мечтавших добираться до университета на метро.</p>\r\n<p>В тот период схему в вагонах целиком меняли редко, при открытии новых станций их обозначения просто доклеивали на схему. Так же сделали и физтехи. Рано утром толпы студентов садились в разные вагоны метро и клеили заранее подготовленные стикеры с новой станцией. Расклейщики потрудились на славу, поэтому пассажиры метро заметили неладное не сразу и шутка удалась.</p>\r\n<p>Еще несколько лет станция &laquo;Физтех&raquo; периодически возникала на блокнотах, календарях и в других источниках. Видимо, кто-то перерисовал первоапрельскую схему, не проверив ее достоверность.</p>\r\n<p>В 2022 году давняя мечта физтехов исполнится, а известная шутка станет реальностью &mdash; откроется станция метро &laquo;Физтех&raquo;. Правда, она станет конечной салатовой ветки, а не серой. И расположится не в кампусе, а около Физтех-парка в поселке Северном.</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "52339",
+          "signatures": [
+            {
+              "id": "11228",
+              "path": "fa43a3433cc0817f6441b4f2cad135ef",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "1000_1000_POSTS_2-02.jpg",
+              "size": 1430575,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "52340",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 4,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "физтех-парка, метро, серой, схему, достоверность, поезда, кампусе, расположится, ходили, скоро, университета, схемах, проверив, физтехи, видимо, источниках, календарях, блокнотах, доклеивали, сделали",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [
+          {
+            "id": "15",
+            "name": "Корпус прикладной математики"
+          }
+        ],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "240",
+        "status": 1,
+        "created": {
+          "date": "2020-12-14 12:27:14.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 23:16:35.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      },
+      "239": {
+        "userId": "1",
+        "parent": null,
+        "type": "history",
+        "route": null,
+        "template": null,
+        "timeStart": "14.12.2020 12:26",
+        "timeEnd": null,
+        "timePublish": "02.02.2021 13:35",
+        "free": null,
+        "forChildren": false,
+        "eventCategory": null,
+        "title": "Коси и забивай",
+        "subtitle": null,
+        "language": {
+          "id": "1",
+          "name": "Русский"
+        },
+        "blockText": "",
+        "summary": "",
+        "content": "<p style=\"text-align: left;\">Рисунок &laquo;Серп и молот&raquo; и надпись &laquo;Коси и забивай&raquo; впервые появились на стене восьмого общежития 1 апреля 1997 года. Автором идеи был член спелеоклуба &laquo;Барьер&raquo; Ю. Евдокимов, рисовали Ю. Евдокимов, А. Косицына, Н. Коробейникова и И. Шварцберг. Рисунок был размечен и раскрашен за две ночи.</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: left;\">В процессе работ агент Шварцберг уронил свое ведерко с краской, что привело к двум мелким неприятностям: на крыльце под рисунком образовалась огромная клякса и не хватило краски, чтобы дорисовать надпись. В таком виде рисунок простоял год. На следующее 1 апреля Ю. и Н. Евдокимовы обвели надпись и серп белой краской. В 2006 году группа товарищей дружеской секции обновила рисунок и надпись. В 2009 году надпись была закрашена по приказу деканата незадолго до визита в институт Владимира Путина, а 1 апреля 2013 года надпись проступила снова.</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: left;\">В конце 2015 года общежитие было облицовано плиткой, и историческая надпись оказалась окончательно скрытой от глаз прохожих. 27 февраля 2016 года надпись снова появилась на своем месте, но уже в виде лазерной проекции. Оказалось, что Спелеоклуб &laquo;Барьер&raquo; решил ненадолго возродить рисунок в честь своего 30-летия.</p>",
+        "phone": null,
+        "formattedContent": "<p style=\"text-align: left;\">Рисунок &laquo;Серп и молот&raquo; и надпись &laquo;Коси и забивай&raquo; впервые появились на стене восьмого общежития 1 апреля 1997 года. Автором идеи был член спелеоклуба &laquo;Барьер&raquo; Ю. Евдокимов, рисовали Ю. Евдокимов, А. Косицына, Н. Коробейникова и И. Шварцберг. Рисунок был размечен и раскрашен за две ночи.</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: left;\">В процессе работ агент Шварцберг уронил свое ведерко с краской, что привело к двум мелким неприятностям: на крыльце под рисунком образовалась огромная клякса и не хватило краски, чтобы дорисовать надпись. В таком виде рисунок простоял год. На следующее 1 апреля Ю. и Н. Евдокимовы обвели надпись и серп белой краской. В 2006 году группа товарищей дружеской секции обновила рисунок и надпись. В 2009 году надпись была закрашена по приказу деканата незадолго до визита в институт Владимира Путина, а 1 апреля 2013 года надпись проступила снова.</p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: left;\">В конце 2015 года общежитие было облицовано плиткой, и историческая надпись оказалась окончательно скрытой от глаз прохожих. 27 февраля 2016 года надпись снова появилась на своем месте, но уже в виде лазерной проекции. Оказалось, что Спелеоклуб &laquo;Барьер&raquo; решил ненадолго возродить рисунок в честь своего 30-летия.</p>",
+        "place": null,
+        "summaryImage": {
+          "id": "52337",
+          "signatures": [
+            {
+              "id": "11227",
+              "path": "d86300e8befe3a5bb59591d0fa143d3b",
+              "dir": "75eaf845e81627b71ef0a18d4547aab5",
+              "name": "1000_1000_POSTS_2-01 (2).jpg",
+              "size": 1430832,
+              "type": "image/jpeg"
+            }
+          ]
+        },
+        "contentImage": {
+          "id": "52338",
+          "signatures": []
+        },
+        "commentStatus": "closed",
+        "views": 10,
+        "featured": false,
+        "fullPicture": false,
+        "coverView": false,
+        "useTermsFilter": false,
+        "useTypographFilter": false,
+        "keywords": "рисунок, шварцберг, надпись, краской, ведерко, евдокимов, прохожих, общежитие, появилась, оказалось, честь, визита, незадолго, закрашена, косицына, коробейникова, молот”, размечен, раскрашен, крыльце",
+        "labels": [],
+        "crafts": [],
+        "navigatePlaces": [
+          {
+            "id": "13",
+            "name": "Главный корпус"
+          },
+          {
+            "id": "15",
+            "name": "Корпус прикладной математики"
+          }
+        ],
+        "companies": [],
+        "favoriteUsers": [],
+        "chairs": [],
+        "isFavorite": false,
+        "twoPerRow": false,
+        "recentComments": [],
+        "recentCommentsCount": 0,
+        "id": "239",
+        "status": 1,
+        "created": {
+          "date": "2020-12-14 12:26:20.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        },
+        "updated": {
+          "date": "2021-08-17 23:16:08.000000",
+          "timezone_type": 3,
+          "timezone": "Europe/Moscow"
+        }
+      }
+    },
+    "count": 11,
+    "itemsPerPage": 12,
+    "page": 1
+  }
+}

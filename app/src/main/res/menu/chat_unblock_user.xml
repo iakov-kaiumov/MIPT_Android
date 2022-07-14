@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:icon="@drawable/ic_more_vert"
+        android:orderInCategory="100"
+        android:title="Option Menu"
+        app:showAsAction="always">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@+id/menu_item_unblock_user"
+                android:icon="@drawable/ic_menu_block_user"
+                android:title="@string/unblock_user"/>
+            <item android:id="@+id/menu_item_delete_dialog"
+                android:icon="@drawable/ic_menu_delete_chat"
+                android:title="@string/delete_dialog"/>
+        </menu>
+    </item>
+</menu>

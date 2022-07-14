@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorSurface"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Text.Big.Bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="30dp"
+        android:text="@string/unlock"
+        android:textAlignment="textStart"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Text.Standard_16"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="30dp"
+        tools:text="Вы уверены, что хотите разблокировать пользователя Алексей Алексеев?"
+        android:textAlignment="textStart"/>
+
+    <Button
+        android:id="@+id/btnUnlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/logo_color"
+        android:textAlignment="textEnd"
+        android:text="@string/unlock"/>
+
+    <Button
+        android:id="@+id/btnCansel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_red_light"
+        android:textAlignment="textEnd"
+        android:text="@string/edit_cancel"/>
+
+
+</LinearLayout>

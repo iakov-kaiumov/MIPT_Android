@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_android_main">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            app:contentInsetStart="0dp"
+            android:layout_height="wrap_content"
+            android:paddingEnd="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="6dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/bg_blue_oval_selectable"
+                    android:src="@drawable/ic_baseline_arrow_back_24"
+                    app:tint="@color/white" />
+
+                <LinearLayout
+                    android:id="@+id/llAvatar"
+                    android:gravity="center"
+                    android:background="@drawable/bg_oval"
+                    tools:backgroundTint="@color/teal_200"
+                    app:layout_constraintDimensionRatio="1:1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <TextView
+                        android:id="@+id/tvAvatar"
+                        tools:text="МА"
+                        android:textAllCaps="true"
+                        android:fontFamily="@font/sfprodisplay_bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        android:maxLength="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:text="Общая физика"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvStatus"
+                        android:alpha="0.8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:text="15 участников"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textColor="@color/white"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progress"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:indeterminateTint="@color/white"/>
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_chat_message_me"
+        app:layout_constraintTop_toBottomOf="@id/app_bar"
+        app:layout_constraintBottom_toTopOf="@id/view_line"/>
+
+    <View
+        android:id="@+id/view_line"
+        android:alpha="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/layout_write"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fill_mark"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/bg_rounded_view_white_32"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp"
+            android:paddingVertical="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:fadeScrollbars="false"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:hint="@string/support_chat_hint"
+                android:maxLines="4"
+                android:minHeight="38dp"
+                android:minLines="1"
+                android:scrollbars="none"
+                android:textSize="16sp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/ivSend"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:padding="8dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:src="@drawable/ic_send_2"
+                android:background="@drawable/bg_oval_selectable"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

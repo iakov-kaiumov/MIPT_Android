@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+
+    <string name="pref_main_group_key" translatable="false">group_main_number</string>
+
+    <string name="pref_groups_key" translatable="false">groups_number</string>
+
+    <!-- Tips -->
+    <string name="pref_tip_key" translatable="false">pref_tip</string>
+
+    <!-- Settings Activity -->
+    <string name="pref_theme_key" translatable="false">pref_theme</string>
+    <string name="pref_stars_key" translatable="false">pref_stars</string>
+
+    <string name="pref_reset_key" translatable="false">pref_reset</string>
+
+    <string name="pref_show_spaces" translatable="false">pref_spaces</string>
+
+    <string name="pref_notification_enabled_key" translatable="false">pref_notification_enabled</string>
+    <string name="pref_notification_before_key" translatable="false">pref_notification_before</string>
+    <string name="pref_notification_ringtone_key" translatable="false">pref_notification_ringtone</string>
+    <string name="pref_notification_vibrate_key" translatable="false">pref_notification_vibrate</string>
+    <string name="pref_notification_system_key" translatable="false">pref_notification_system</string>
+    <string name="pref_notification_group_key" translatable="false">notification_group_number</string>
+
+    <string name="pref_notification_size_key" translatable="false">pref_notification_size</string>
+
+    <string name="pref_share_key" translatable="false">pref_share_key</string>
+
+</resources>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_android_main">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            app:contentInsetStart="0dp"
+            android:layout_height="wrap_content"
+            android:paddingEnd="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="6dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/bg_blue_oval_selectable"
+                    android:src="@drawable/ic_baseline_arrow_back_24"
+                    app:tint="@color/white" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginStart="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_support"
+                        app:riv_corner_radius="20dp"
+                        android:scaleType="centerCrop"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/toolbar_support"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:alpha="0.8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/online"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textColor="@color/white"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progress"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:indeterminateTint="@color/white"/>
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_guest"
+            android:layout_width="match_parent"
+            app:contentInsetStart="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <LinearLayout
+                android:layout_height="56dp"
+                android:layout_width="match_parent"
+                android:background="@color/fill_mark"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfprodisplay_bold"
+                    android:paddingTop="4dp"
+                    android:text="@string/toolbar_support"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    android:text="@string/toolbar_support_secondary"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottomPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/mainScroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerChat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical"
+                        android:overScrollMode="never"
+                        tools:listitem="@layout/item_chat_multiply_message_bot"
+                        tools:itemCount="2"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintBottom_toTopOf="@id/llButtons"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:id="@+id/llButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:orientation="horizontal"
+                        android:weightSum="1"
+                        android:paddingVertical="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recyclerTopics"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:overScrollMode="never"
+                            tools:listitem="@layout/item_topic"
+                            tools:itemCount="1"
+                            android:requiresFadingEdge="none" />
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.core.widget.NestedScrollView>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_line"
+            android:alpha="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_gray"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/layout_write"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_write"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fill_mark"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="15dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@drawable/bg_rounded_view_white_32"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="8dp"
+                android:paddingVertical="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:fadeScrollbars="false"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    android:hint="@string/support_chat_hint"
+                    android:maxLines="4"
+                    android:minHeight="38dp"
+                    android:minLines="1"
+                    android:scrollbars="none"
+                    android:textSize="16sp"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:id="@+id/ivSend"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:padding="8dp"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:src="@drawable/ic_send_2"
+                    android:background="@drawable/bg_oval_selectable"/>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

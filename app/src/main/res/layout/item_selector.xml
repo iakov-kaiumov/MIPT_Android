@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Text.Standard_14.Bold"
+    android:textColor="#99000000"
+    android:paddingVertical="12dp"
+    android:paddingHorizontal="16dp"
+    tools:text="@string/link_live_title"/>

@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "data": {
+    "filter": {
+      "eventCategory": "inner"
+    },
+    "paginator": {},
+    "count": 0,
+    "itemsPerPage": 1000,
+    "page": 1
+  }
+}

@@ -1,0 +1,734 @@
+<resources>
+
+    <string name="toolbar_schedulers">Расписание</string>
+    <string name="toolbar_news">Новости</string>
+    <string name="toolbar_navigator">Навигатор</string>
+
+    <string name="app_name">Физтех</string>
+    <string name="empty" />
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="message_some_error_try_late">Произошла ошибка. Попробуйте позже.</string>
+
+    <string name="menu_study">Учеба</string>
+    <string name="menu_news">Новости</string>
+    <string name="menu_chat">Чат</string>
+    <string name="menu_navigator">Навигатор</string>
+    <string name="menu_services">Сервисы</string>
+
+
+    <string name="what_news.title">Что нового?</string>
+    <string name="what_news.item1">Value 1</string>
+    <string name="what_news.item2">Value 2</string>
+    <string name="what_news.item3">Value 3</string>
+    <string name="what_news.item4">Value 4</string>
+    <string name="what_news.item5">Long value Long value Long value Long value Long value Long value Long value Long value Long value Long value Long value Long value Long value</string>
+    <string name="accept_title">Класс</string>
+
+
+    <string name="authorization.title">Для продолжения работы необходимо пройти авторизацию через личный кабинет</string>
+    <string name="authorization.student.title">Я студент</string>
+    <string name="authorization.student.subtitle">Необходима почта в домене @phystech.edu</string>
+    <string name="authorization.employee.title">Я сотрудник</string>
+    <string name="authorization.employee.subtitle">Необходим корпоративный аккаунт (логин в виде ivanov.ii и пароль)</string>
+    <string name="authorization.guest.title">Я гость</string>
+    <string name="authorization.guest.dialog.title">Я гость</string>
+    <string name="authorization.guest.dialog.description">Это ограничит доступный функционал</string>
+
+    <!-- MainActivity -->
+    <string name="add_group">Add</string>
+    <string name="delete_group">Delete group</string>
+    <string name="spaces_switcher">Spaces</string>
+    <string-array name="week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="week_short">
+        <item>ПН</item>
+        <item>ВТ</item>
+        <item>СР</item>
+        <item>ЧТ</item>
+        <item>ПТ</item>
+        <item>СБ</item>
+        <item>ВС</item>
+    </string-array>
+
+    <string name="Monday_short">ПН</string>
+    <string name="Tuesday_short">ВТ</string>
+    <string name="Wednesday_short">СР</string>
+    <string name="Thursday_short">ЧТ</string>
+    <string name="Friday_short">ПТ</string>
+    <string name="Saturday_short">СБ</string>
+    <string name="Sunday_short">ВС</string>
+
+    <string name="Monday">Понедельник</string>
+    <string name="Tuesday">Вторник</string>
+    <string name="Wednesday">Среда</string>
+    <string name="Thursday">Четверг</string>
+    <string name="Friday">Пятница</string>
+    <string name="Saturday">Суббота</string>
+    <string name="Sunday">Воскресенье</string>
+
+    <string-array name="month">
+        <item name="January">Январь</item>
+        <item name="February">Февраль</item>
+        <item name="March">Март</item>
+        <item name="April">Апрель</item>
+        <item name="May">Май</item>
+        <item name="June">Июнь</item>
+        <item name="July">Июль</item>
+        <item name="August">Август</item>
+        <item name="September">Сентябрь</item>
+        <item name="October">Октябрь</item>
+        <item name="November">Ноябрь</item>
+        <item name="December">Декабрь</item>
+    </string-array>
+
+    <string-array name="weeks">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+
+    <string-array name="weeks_en">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+
+    <string name="today">сегодня</string>
+    <string name="yesterday">вчера</string>
+
+    <!-- Tips -->
+    <string name="tip_add_group_title">Favourite groups</string>
+    <string name="tip_add_group_summary">Now you can switch between favourite groups easily</string>
+    <string name="tip_edit_title">Tap to edit</string>
+    <string name="tip_edit_summary">You can edit any subject, just click on it!</string>
+    <string name="tip_add_subject_title">Add new subject</string>
+    <string name="tip_add_subject_summary">Tap to add new subject</string>
+    <string name="tip_settings_title">Settings</string>
+    <string name="tip_settings_summary">Open to set up theme and notifications</string>
+    <!-- Start Activity -->
+    <string name="edit_text_hint">Enter your group number</string>
+    <string name="button_start">Start</string>
+    <string name="search_hint">Search for a group</string>
+
+    <string name="create_dialog_title">Create new group</string>
+    <string name="create_dialog_positive">Create</string>
+    <string name="create_dialog_negative">Cancel</string>
+    <string name="create_dialog_hint">Enter group name</string>
+    <string name="create_dialog_error">Group name must be not empty</string>
+    <!-- EditActivity -->
+    <string name="title_new">New lesson</string>
+    <string name="title_edit">Edit lesson</string>
+    <string name="name_hint">Lesson</string>
+    <string name="place_hint">Place</string>
+    <string name="prof_hint">Professor</string>
+    <string name="start_time_hint">Start time</string>
+    <string name="end_time_hint">End time</string>
+    <string name="notes_hint">Notes</string>
+    <string name="type_hint">Lesson type</string>
+    <string name="day_hint">Day of the week</string>
+    <string name="default_start_time">9:00</string>
+    <string name="default_end_time">10:25</string>
+    <string name="error_empty_string">Text must be not empty</string>
+    <string name="error_time">Incorrect time</string>
+    <string name="error_hint">Cannot be saved</string>
+    <string name="empty_string" />
+    <string-array name="lesson_types_text">
+        <item>Seminar</item>
+        <item>Lecture</item>
+        <item>Laboratory</item>
+        <item>Rest</item>
+        <item>Botay</item>
+    </string-array>
+    <!-- Confirm dialog -->
+    <string name="dialog_title">Confirmation</string>
+    <string name="delete_message">Вы уверены, что хотите удалить?</string>
+    <string name="reset_message">"Are you sure that you want to reset? "</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <!-- TimePicker -->
+    <!-- Widget -->
+    <string name="next_button">Next</string>
+    <string name="prev_button">Previous</string>
+    <string name="image">Image</string>
+
+
+    <!-- Settings Activity -->
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Appearance Preferences -->
+
+    <string name="pref_header_appearance">Appearance</string>
+
+    <string name="pref_theme_title">Choose theme</string>
+
+    <string-array name="pref_theme_list_titles">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Default</item>
+    </string-array>
+
+    <string-array name="pref_theme_list_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+
+    <string name="pref_stars_title">Night sky</string>
+    <string name="pref_stars_summary">Animated night sky is available in the Dark theme</string>
+
+    <string name="pref_spaces_title">Spaces</string>
+    <string name="pref_spaces_summary">Show spaces between lessons</string>
+
+    <!-- Schedule Preferences -->
+    <string name="pref_header_data_sync">Schedule</string>
+
+    <string name="pref_reset_title">Reset schedule</string>
+    <string name="pref_reset_summary">Delete all changes you\'ve made</string>
+
+    <!-- Notification Preferences -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_lesson_notification_title">Lesson notifications</string>
+    <string name="pref_lesson_notification_summary">"App will notify you before each lesson "</string>
+
+    <string name="pref_notification_before_title">Notify about the lesson in</string>
+    <string-array name="pref_notification_before_list_titles">
+        <item>1 minute</item>
+        <item>2 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+    <string-array name="pref_notification_before_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="pref_group_title">Group for notifications</string>
+
+    <string name="pref_title_ringtone">Sound</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="pref_system_notification_title">System settings</string>
+
+    <!-- Communication Preferences -->
+
+    <string name="pref_header_communication">Communication</string>
+    <string name="pref_share_app_title">Share this app</string>
+    <string name="pref_share_message">Try MIPT schedule app</string>
+    <string name="pref_write_developer_title">Write to developer</string>
+    <string name="pref_write_developer_url">https://vk.com/yasha_kayumov</string>
+
+    <string name="pref_rate_app_title">Rate this app</string>
+    <string name="pref_rate_app_url">https://play.google.com/store/apps/details?id=dev.phystech.mipt</string>
+
+    <!-- Notifications -->
+
+    <string name="notification_title">%s (%s)</string>
+    <plurals name="notification_text_time">
+        <item quantity="one">В %d minutes </item>
+        <item quantity="other">В %d minutes </item>
+    </plurals>
+    <string name="notification_text_time">В %s</string>
+
+    <string name="notification_text_place">\u0020in %s</string>
+    <string name="notification_time_is_up">The lesson has already begun</string>
+
+    <!-- Schedule item -->
+    <string name="break_extra_short">Break is just %d minutes :(</string>
+    <string name="break_short">%d minute break - a cup of tea?</string>
+    <string name="break_medium">%d minutes are enough to eat</string>
+    <string name="break_long">%d-minute break. Finally, some good sleep!</string>
+
+    <string name="break_title">Перерыв %d минут.</string>
+
+    <string name="break_extra_short_comment">Успеешь добежать до кабинета</string>
+    <string name="break_short_comment">Наконец-то можно выпить кофе</string>
+    <string name="break_medium_comment">Можно покушать</string>
+    <string name="break_long_comment">Можно поспать!</string>
+
+    <string name="schedule_item_sem">Семинар</string>
+    <string name="schedule_item_lec">Лекция</string>
+    <string name="schedule_item_lab">Лаб.практикум</string>
+
+    <string name="event_item_exam">Экзамен</string>
+    <string name="event_item_conf">Конференция</string>
+    <string name="event_item_quiz">Тест</string>
+    <string name="event_item_assign">Задание</string>
+    <string name="event_item_other">Другое</string>
+
+    <string-array name="lesson_types">
+        <item>SEM</item>
+        <item>LEC</item>
+        <item>LAB</item>
+        <item>RST</item>
+        <item>BOT</item>
+    </string-array>
+
+    <string name="pref_main_group_key">group_main_number</string>
+
+    <string name="pref_groups_key">groups_number</string>
+
+    <!-- Tips -->
+    <string name="pref_tip_key">pref_tip</string>
+
+    <!-- Settings Activity -->
+    <string name="pref_theme_key">pref_theme</string>
+    <string name="pref_stars_key">pref_stars</string>
+
+    <string name="pref_reset_key">pref_reset</string>
+
+    <string name="pref_show_spaces">pref_spaces</string>
+    <string name="pref_show_events">pref_events</string>
+
+    <string name="pref_notification_enabled_key">pref_notification_enabled</string>
+    <string name="pref_notification_before_key">pref_notification_before</string>
+    <string name="pref_notification_ringtone_key">pref_notification_ringtone</string>
+    <string name="pref_notification_selected_item_key">pref_notification_selected_item_key</string>
+    <string name="pref_notification_vibrate_key">pref_notification_vibrate</string>
+    <string name="pref_notification_system_key">pref_notification_system</string>
+    <string name="pref_notification_group_key">notification_group_number</string>
+
+    <string name="pref_notification_size_key">pref_notification_size</string>
+
+    <string name="pref_share_key">pref_share_key</string>
+    <string name="news_details_text">С 23 по 29 ноября пройдет ежегодная 63-я Всероссийская научная конференция МФТИ. Участвовать в конференции могут студенты, аспиранты, преподаватели и ученые, как из России, так и из ближнего и дальнего зарубежья. Подача заявок открыта до 25 октября, и по результатам их рецензирования 1 ноября будут оглашены списки выступающих.<br/><br/>В рамках конференции проходит конкурс научных работ: призеры получают дополнительные баллы за индивидуальные достижения при подаче документов в магистратуру или аспирантуру МФТИ, а победители могут поступать на эти ступени образования без вступительных испытаний.<br/><br/>Конференция охватывает следующие тематики:<br/><br/>радиотехника и компьютерные технологии;<br/>фундаментальная и прикладная физика;<br/>аэрокосмические технологии;<br/>электроника, фотоника и молекулярная физика;<br/>прикладная математика и информатика;<br/>биологическая и медицинская физика;<br/>нано-, био-, информационные, когнитивные и социогуманитарные науки и технологии;<br/>гуманитарные науки и педагогика;<br/>технологическое предпринимательство.<br/><br/>Все работы, прошедшие через рецензирование, будут опубликованы в Сборнике трудов конференции, а лучшие доклады войдут в сборник «Труды МФТИ», включенный в перечень ВАК и индексируемый РИНЦ.  В рамках конференции запланирована Выставка лабораторий МФТИ, где можно будет узнать о возможностях совмещения учебы и научной работы, стажировках и перспективных направлениях.</string>
+    <string name="toolbar_support">Поддержка</string>
+    <string name="toolbar_support_secondary">Всегда рядом</string>
+    <string name="toolbar_support_no_internet">Ожидание сети…</string>
+    <string name="navigator_search">Поиск</string>
+    <string name="support_chat_hint">Написать сообщение</string>
+    <string name="guest_name">Гость</string>
+    <string name="qr_code_title">Сканировать QR код</string>
+    <string name="schedulers_will_be_created">Расписание скоро появится</string>
+
+    <string-array name="schedulers_times_titles">
+        <item>1 минуту</item>
+        <item>2 минуты</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+    </string-array>
+
+    <string-array name="schedulers_times_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="schedulers_files_no_loaded">Данные не обновлены</string>
+    <string name="fragment_detail_edit">Редактировать</string>
+    <string name="fragment_detail_title">Подробнее</string>
+    <string name="fragment_detail_auditory">Аудитория/ссылка</string>
+    <string name="fragment_detail_teacher">Преподаватель</string>
+    <string name="fragment_detail_type">Тип занятия</string>
+    <string name="fragment_detail_personal_marks">Личные заметки</string>
+
+    <string name="fragment_details_alert_title">Возможность индивидуального изменения расписания появится в ближайшем релизе. Если вы нашли ошибку - напишите нам</string>
+
+    <string name="fragment_details_alert_write">Написать</string>
+    <string name="fragment_details_alert_road_map">Наша RoadMap</string>
+    <string name="fragment_details_alert_wait">Подожду</string>
+    <string name="title_call">Позвонить</string>
+    <string name="title_copy">Скопировать</string>
+    <string name="title_write_email">Написать e-mail</string>
+    <string name="cancel">Отмена</string>
+    <string name="feedback_title">Обратная связь</string>
+    <string name="feedback_share">Рассказать друзьям</string>
+    <string name="feedback_rate">Оценить приложение</string>
+    <string name="feedback_write_support">Написать в поддержку</string>
+    <string name="feedback_bottom_text">Остались вопросы или замечания? Оставьте их в форме ниже</string>
+    <string name="feedback_message_sent">Сообщение отправлено</string>
+    <string name="feedback_question_hint">Начните писать сообщение</string>
+    <string name="feedback_send">Отправить</string>
+    <string name="feedback_thanks_message">Спасибо за оставленный отзыв!</string>
+    <string name="notification_settings_title">Настройки</string>
+    <string name="notification_settings_subtitle">Уведомлять о занятии за</string>
+    <string name="place_detail_pass_text">Для посещения требуется пропуск</string>
+    <string name="place_detail_legends_title">Ходят слухи...</string>
+    <string name="legend_detail_places_title">По стопам истории</string>
+    <string name="schedule_item_detail_course">Предмет</string>
+    <string name="schedule_item_detail_marks">Заметки старосты</string>
+    <string name="schedulers_files_subtitle">Вы можете просмотреть/скачать следующие расписания</string>
+    <string name="services_bills">Счета</string>
+    <string name="services_subtitle">Через этот сервис вы можете оплатить счета за проживание и обучение, а также посмотреть ранее оплаченные счета.</string>
+    <string name="services_feedback_title">Обратная связь</string>
+    <string name="services_feedback_subtitle">Вы можете оставить обратную связь команде разработчиков для улучшения приложения, а также поделиться им с друзьями</string>
+    <string name="services_dev_title">Сервисы в разработке</string>
+    <string name="services_dev_subtitle">Мы работаем над тем, чтобы добавить еще больше сервисов в наше приложение</string>
+    <string name="login">Войти</string>
+    <string name="login_warning">Для полного доступа необходимо войти в личный кабинет</string>
+    <string name="settings">Настройки</string>
+    <string name="settings_feedback">Обратная связь</string>
+    <string name="settings_break_title">Перерывы</string>
+    <string name="settings_break_subtitle">Показывать перерывы между парами</string>
+    <string name="settings_notifications_title">Расписание</string>
+    <string name="settings_notifications_subtitle">Уведомления о предстоящем занятии</string>
+    <string name="settings_notifications_subtitle_desc">Уведомлять о предстоящих занятиях</string>
+    <string name="settings_notifications_time_before">Уведомлять о занятии за</string>
+    <string name="settings_notifications_time_before_value_default">5 минут</string>
+    <string name="settings_notifications_chats_title">Уведомления на почту</string>
+    <string name="settings_notifications_chats_text">Получать уведомления по email</string>
+    <string name="reset_changes">Сбросить изменения</string>
+    <string name="reset_changes_detail">Это действие приведет к удалению всех<br/> внесенных настроек</string>
+    <string name="logout_title">Выйти из приложения</string>
+    <string name="catalog_email">E-mail</string>
+    <string name="catalog_ext_phone">Гор. тел.</string>
+    <string name="catalog_inter_phone">Внутр. тел.</string>
+    <string name="back">Назад</string>
+    <string name="places">Места</string>
+
+
+    <string name="tab_bar_places">Места</string>
+    <string name="tab_bar_legends">Легенды</string>
+    <string name="tab_bar_ref_book">Справочник</string>
+    <string name="chairs">Кафедры</string>
+
+
+    <!--  [New string]  -->
+    <string name="tabbar_news">Новости</string>
+    <string name="tabbar_events">События</string>
+    <string name="tabbar_inner">Кафедры</string>
+
+    <string name="navigator_places">Места</string>
+    <string name="navigator_legends">Легенды</string>
+    <string name="navigator_references">Справочник</string>
+
+    <string name="support_t1">Что ты умеешь?</string>
+    <string name="support_t2">Стипендия</string>
+    <string name="support_t3">Стажировки</string>
+    <string name="support_t4">Профком</string>
+    <string name="support_t5">Расписание</string>
+
+    <string name="even">четная</string>
+    <string name="odd">нечетная</string>
+    <string name="events_title">События</string>
+    <string name="scheduler">Расписание</string>
+    <string name="add_lesson">Добавить занятие</string>
+    <string name="back_changes">Сбросить изменения</string>
+    <string name="notify_error">Сообщить об ошибке</string>
+    <string name="add_deadline">Добавить дедлайн</string>
+    <string name="add_event">Добавить событие</string>
+    <string name="show_breaks">Показывать перерывы</string>
+    <string name="show_events">Показывать события</string>
+
+    <string name="link_records_title">Записи занятий</string>
+    <string name="link_live_title">Трансляция</string>
+    <string name="link_meterials_title">Материалы занятий</string>
+    <string name="change_title">Изменение</string>
+    <string name="change_description">Вы хотите внести изменение в занятие:</string>
+    <string name="edit_for_self">Для себя</string>
+    <string name="edit_for_group">для всех участников</string>
+    <string name="edit_scheduler_change">сменить занятие</string>
+
+    <string name="edit_change">Изменить</string>
+    <string name="edit_create">Создать</string>
+
+    <string name="edit_cancel">ОТМЕНИТЬ</string>
+    <string name="edit_save">СОХРАНИТЬ</string>
+    <string name="edit_confirm_self_title">Изменить для себя</string>
+    <string name="edit_confirm_group_title">Изменить для всех</string>
+
+    <string name="edit_confirm_self_description">Вы потеряете синхронизацию занятия с рервером</string>
+    <string name="edit_confirm_group_description">Занятие будет отправлено на проверку и обновится у всех участников в течение 24 часов.</string>
+    <string name="text_field_name">Название</string>
+    <string name="text_field_search">Поиск</string>
+    <string name="show_less">Показать меньше фильтров</string>
+    <string name="show_more">Показать больше фльтров</string>
+    <string name="nothing_found">Ничего не найдено</string>
+    <string name="create_scheduler">Создать занятие</string>
+    <string name="context_delete">Удалить</string>
+    <string name="context_edit">Редактировать</string>
+    <string name="teacher_prof">Преподаватель</string>
+    <string name="prof_post_example">Профессор, доктор физико-математических наук (2005).\n\nВ 1994 году защитил кандидатскую работу на тему \'Квадратичная сходимость алгоритмов решения дифференциальных игр\', а в 2005...\nПоказать полностью...\'</string>
+    <string name="schedulter_event_exam">Экзамен</string>
+    <string name="schedulter_event_conference">Конференция</string>
+    <string name="schedulter_event_quiz">Тест</string>
+    <string name="schedulter_event_assign">Сдача задания</string>
+    <string name="schedulter_event_other">Другое</string>
+    <string name="toolbar_events">События</string>
+    <string name="teachers">Преподаватели</string>
+    <string name="auditory_title">Аудитория</string>
+    <string name="settings_others">Другое</string>
+    <string name="settings_schedulers">Занятия и события</string>
+    <string name="add">Добавить</string>
+    <string name="add_scheduler">Добавить занятие</string>
+    <string name="add_auditory">Добавить аудиторию</string>
+    <string name="changes_reseted">Изменения сброшены</string>
+    <string name="empty_day_description_friends">Можно встретиться с друзьями</string>
+    <string name="empty_day_description_sunday">Наконец-то можно поспать!</string>
+    <string name="section_detail_example">Алтимат фрисби — командная неконтактная спортивная игра с летающим диском. Как в футболе или баскетболе, две команды играют друг против друга. В этом спорте сочетаются как атлетические способности, так и навыки в обращении с летающей тарелкой. Алтимат уникален отсутствием судей — игроки сами Показать полностью...</string>
+    <string name="success">Успешно</string>
+    <string name="fill_field">Заполните поле</string>
+    <string name="changed_for_user">Изменено пользователем %1$s</string>
+    <string name="load_from_lms">Синхронизирован с lms</string>
+    <string name="floor_value">%1$s этаж</string>
+    <string name="event_not_found">Событие не найдено</string>
+    <string name="scheduler_not_found">Занятие не найдено</string>
+    <string name="teacher_not_found">Преподаватель не найден</string>
+    <string name="auditory_not_found">Аудитория не найдена</string>
+    <string name="new_deadline_description">Вы хотите создать событие</string>
+    <string name="hane_not_permission">Произошла ошибка. Возможно у Вас нет прав на это действие</string>
+    <string name="simular_fragment_title">Мы нашли похожие занятия в каталоге. Выберите подходищий вариант или нажмите <b>сохранить своё.</b></string>
+
+    <string name="onboarding_description_1">На новом экране событий удобно следить за расписанием экзаменов и консультаций</string>
+    <string name="onboarding_title_1">Два режима отображения</string>
+
+    <string name="onboarding_description_2">В расписании вместе с обычными занятиями</string>
+    <string name="onboarding_title_2">События и дедлайны</string>
+
+    <string name="onboarding_description_3">Расписание можно изменить для себя или для всей группы</string>
+    <string name="onboarding_title_3">Полная свобода редактирования</string>
+
+    <string name="onboarding_description_4">Отправь ссылку на занятие друзьям</string>
+    <string name="onboarding_title_4">Поделиться занятием легко</string>
+
+    <string name="onboarding_description_5">Разрешите уведомления, чтобы не забыть о предстоящих занятиях</string>
+    <string name="onboarding_title_5">Удобные уведомления</string>
+
+    <string name="onboarding_chats_description_1">Удобный способ общения с однокурсниками и преподавателями.</string>
+    <string name="onboarding_chats_title_1">Встречайте Чаты</string>
+
+    <string name="onboarding_chats_description_2">Преподавателю можно написать только одно сообщение. Если он ответит, то можно продолжить общение.</string>
+    <string name="onboarding_chats_title_2">Правила</string>
+
+    <string name="onboarding_chats_description_3">Уведомления на email можно отключить в разделе настройки или в личном кабинете LMS.</string>
+    <string name="onboarding_chats_title_3">Уведомления</string>
+
+    <string-array name="scheduler_repeat">
+        <item>Каждую неделю</item>
+        <item>Нечетные недели</item>
+        <item>Четные недели</item>
+    </string-array>
+
+    <string name="break_prefix">Перерыв</string>
+    <string name="curr_week">текущая, </string>
+    <string name="schedule_app_bar_title">Занятие</string>
+    <string name="translation_title">Трансляция</string>
+    <string name="lesson_messages_title">Чат занятия</string>
+    <string name="lessons_messages_title">Чаты занятий</string>
+    <string name="deadlines_title">Дедлайны</string>
+    <string name="lms_course_page">Страница курса в lms</string>
+    <string name="participants_title">Участники</string>
+    <string name="schedule_share">поделиться занятием</string>
+    <string name="skip">Пропустить</string>
+    <string name="next">Дальше</string>
+    <string name="schedule_notify_title">Уведомлять о занятии за</string>
+    <string name="min_1">1 минуту</string>
+    <string name="min_2">2 минуты</string>
+    <string name="min_5">5 минут</string>
+    <string name="min_10">10 минут</string>
+    <string name="no_schedule">Нет занятий</string>
+    <string name="new_auditory">Новая аудитория</string>
+    <string name="new_auditory_name">Название</string>
+    <string name="new_auditory_building">Корпус</string>
+    <string name="new_auditory_type">Тип аудитории</string>
+    <string name="new_auditory_floor">Этаж</string>
+    <string name="streams_bar_title">Потоки</string>
+    <string name="streams_official_header_title">ОФИЦИАЛЬНЫЕ ИСТОЧНИКИ</string>
+    <string name="streams_chair_header_title">КАФЕДРЫ</string>
+    <string name="streams_other_header_title">СТУДЕНЧЕСКИЕ ОБЪЕДИНЕНИЯ</string>
+    <string name="deadlines_empty_now">Дедлайнов пока нет</string>
+    <string name="events_bar_title">Событие</string>
+    <string name="events_translations">Трансляция</string>
+    <string name="events_records">Записи занятий</string>
+    <string name="events_materials">Материалы</string>
+    <string name="event_share">поделиться событием</string>
+    <string name="change_page_title">Изменение</string>
+    <string name="change_page_common_information">Основная информация</string>
+    <string name="change_page_lesson">Предмет</string>
+    <string name="change_page_auditory">Аудитория</string>
+    <string name="change_page_teacher">Преподаватель</string>
+    <string name="change_page_date_time">Дата и время</string>
+    <string name="change_page_week_day">День недели</string>
+    <string name="change_page_start">Начало</string>
+    <string name="change_page_end">Конец</string>
+    <string name="change_page_repeat">Повтор</string>
+    <string name="change_page_addition">Дополнительно</string>
+    <string name="change_page_schedule_type">Тип занятия</string>
+    <string name="change_page_add_link">Добавить ссылку</string>
+    <string name="change_page_reset_changes">Сбросить изменения</string>
+    <string name="delete">Удалить</string>
+    <string name="save_own">Сохранить своё</string>
+    <string name="create_screen_title">Создать</string>
+    <string name="create_screen_common_information">Основная информация</string>
+    <string name="create_screen_name">Название</string>
+    <string name="create_screen_auditory">Аудитория</string>
+    <string name="create_screen_teacher">Преподаватель</string>
+    <string name="create_screen_schedule">Занятие</string>
+    <string name="create_screen_date_time">Дата и время</string>
+    <string name="create_screen_date">Дата</string>
+    <string name="create_screen_start">Начало</string>
+    <string name="create_screen_end">Конец</string>
+    <string name="create_screen_all_day">Весь день</string>
+    <string name="create_screen_addition">Дополнительно</string>
+    <string name="create_screen_schedule_type">Тип занятия</string>
+    <string name="create_screen_add_link">Добавить ссылку</string>
+    <string name="schedule_list_title">Каталог занятий</string>
+    <string name="services_bills_description">Посмотреть и оплатить счета за прожвание и обучение</string>
+    <string name="services_analytics">Успеваемость</string>
+    <string name="services_analytics_description">Посмотреть свои оценки и рейтинг</string>
+    <string name="services_questions">Опросы</string>
+    <string name="services_questions_description">Пройти опросы о качестве обучения</string>
+    <string name="services_feedback">Обратная связь</string>
+    <string name="services_feedback_description">Оставить озвыв для улучшения приложения</string>
+    <string name="services_documents">Справки</string>
+    <string name="services_documents_description">Заказать справку об обучении</string>
+    <string name="services_sections">Спортивные секции</string>
+    <string name="services_sections_descriptions">Получить информацию о спортивных секциях МФТИ</string>
+    <string name="services_psychologist">Психологическая помощь</string>
+    <string name="services_psychologist_descriptions">Записаться к психологу</string>
+    <string name="services_develop">В разработке</string>
+    <string name="services_develop_description">Посмотреть, какие сервисы скоро появятся в приложении</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_chats">Чаты</string>
+    <string name="settings_chat_description">Уведомлять о новых сообщениях</string>
+    <string name="section_add_to_schedule">Добавить в расписание</string>
+    <string name="section_schedule_title">Расписание</string>
+    <string name="section_contacts">Контакты</string>
+    <string name="section_web_site">Веб-сайт</string>
+    <string name="sections_title">Секции</string>
+    <string name="profile_title">Профиль</string>
+    <string name="profile_contact">Контакты</string>
+    <string name="profile_vk_title">Профиль в ВК</string>
+    <string name="profile_links">Ссылки</string>
+    <string name="profile_link_mipt">Страница на mipt.ru</string>
+    <string name="profile_link_wiki_phystech">Страница на ВикиФизтех</string>
+    <string name="schedules_app_bar_title">Занятия</string>
+    <string name="filter_week_day">День недели</string>
+    <string name="filter_start">Начало</string>
+    <string name="filter_auditory">Аудитория</string>
+    <string name="filter_teacher">Преподаватель</string>
+    <string name="filter_schedule_type">Тип занятия</string>
+    <string name="log_in_using_another_account">Log in using another account</string>
+    <string name="users">Пользователи</string>
+    <string name="base_day_alert_title">Базовый день</string>
+    <string name="base_day_alert_subtitle">Вы можете удалить это занятие из расписания, самостоятельно создать занятия вашей кафедры и поделиться ими с друзьями.</string>
+    <string name="ok">OK</string>
+    <string name="deleted_descr">Учиться на Физтехе не просто. \nНо не стоит отчаиваться - всегда можно начать все сначала, достаточно перейти по <a href="https://pk.mipt.ru/perevodvoss/">ссылке.</a></string>
+    <string name="change_page_category">Категория</string>
+    <string name="diff_time">Указать другое время</string>
+
+    <string name="new_auditory_description">Аудитория появится в списке всех аудиторий и будет видна всем пользователям приложения. Название аудитории постарайтесь писать кратко, например: "114 ГК", "Актовый зал ЛК” или "112 ИСА РАН". Корпус и тип аудитории указывать не обязательно.</string>
+    <string name="some_teacher_not_found">Преподаватель <b>%s</b> не найден</string>
+    <string name="add_to_schedules">Добавить в расписание</string>
+    <string name="add_to_schedules_completed">Добавить в расписание</string>
+
+    <string name="people">Люди</string>
+    <string name="black_list">Черный список</string>
+    <string name="lock">Заблокировать</string>
+    <string name="unlock">Разблокировать</string>
+    <string name="user_lock_text">Вы уверены, что хотите заблокировать пользователя %1$s?</string>
+    <string name="user_unlock_text">Вы уверены, что хотите разблокировать пользователя %1$s?</string>
+    <string name="no_write_block">Вы не можете отправить сообщение этому пользователю.</string>
+
+    <string name="online">В сети</string>
+    <string name="offline">Не в сети</string>
+    <string name="not_logged_to_app">Не авторизован в приложении</string>
+    <string name="was_time">был(а) %1$s</string>
+
+    <string name="delete_dialog">Удалить диалог</string>
+    <string name="block_user">Заблокировать пользователя</string>
+    <string name="unblock_user">Разблокировать пользователя</string>
+    <string name="connection">Соединение…</string>
+
+    <string name="participants_1">%1$s участников</string>
+    <string name="participants_2">%1$s участник</string>
+    <string name="participants_3">%1$s участника</string>
+
+    <string name="lesson_card">Карточка занятия</string>
+    <string name="participants">Участники</string>
+
+    <string name="user_no_autorizate_email_send">Пользователь не авторизован в приложении. Сообщение будет отправлено на email.</string>
+    <string name="write_message">Написать сообщение</string>
+    <string name="user_unavailable">Пользователь недоступен</string>
+
+    <string name="chat_send_message_no_work">В данный момент пользователь недоступен. Повторите попытку позже</string>
+
+    <string-array name="roles">
+        <item>Админ</item>
+        <item>Модератор</item>
+        <item>Тестировщик</item>
+        <item>Студент</item>
+        <item>В академическом отпуске</item>
+        <item>Выпускник</item>
+        <item>Преподаватель</item>
+        <item>Сотрудник</item>
+        <item>Бакалавр</item>
+        <item>Магистр</item>
+        <item>Аспирант</item>
+        <item>Психолог</item>
+        <item>Отчислен</item>
+    </string-array>
+
+    <plurals name="minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
+        <item quantity="two">%d минуты</item>
+        <item quantity="zero"></item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
+        <item quantity="two">%d часа</item>
+        <item quantity="zero"></item>
+    </plurals>
+
+    <string name="psy_service_description"><font color="#3887E6">Психологи МФТИ</font> помогут найти способы справиться со стрессом, апатией, разобраться в отношениях с близким человеком и найти выход из сложной ситуации.</string>
+    <string name="psy_service_offline_apply">Записаться на очную консультацию</string>
+    <string name="psy_service_online_apply">Записаться на онлайн консультацию</string>
+    <string name="psy_service_urgent_help">Получить срочную помощь</string>
+    <string name="psy_service_details">Подробнее</string>
+    <string name="psy_service_mipt_website">Запись на сайте МФТИ</string>
+    <string name="psy_service_vk">Группа ВКонтакте</string>
+    <string name="psy_service_psychologists_info">Информация о психологах</string>
+    <string name="psy_date_picker_title">Запись</string>
+    <string name="psy_date_picker_psychologist">Специалист</string>
+    <string name="psy_date_picker_psychologist_any">Любой</string>
+    <string name="psy_date_picker_time_header">Выберите время и специалиста</string>
+    <string name="psy_location_title">Локация</string>
+    <string name="psy_location_dolg">Долгопрудный</string>
+    <string name="psy_location_zhuck">Жуковский</string>
+    <string name="psy_picker_title">Выбор специалиста</string>
+    <string name="psy_picker_timeslot">Время: </string>
+    <string name="psy_catalog_title">Психологи</string>
+    <string name="psy_apply_title">Подтверждение записи</string>
+    <string name="psy_apply_event_type">Событие</string>
+    <string name="psy_apply_event_title">Запись к психологу</string>
+    <string name="psy_apply_description">Письмо с подтверждением записи будет отправлено вам на почту.\nПросим вас ответственно отнестись к бронированию времени и в случае отмены предупредить об этом как можно раньше по телефону или электронной почте.</string>
+    <string name="psy_apply_phone">Номер телефона для связи:</string>
+    <string name="psy_apply_button">Подтвердить запись</string>
+    <string name="psy_apple_success">Вы успешно записались</string>
+    <string name="psy_apply_error">Произошла ошибка</string>
+    <string name="psy_phone">+7 980 333 44 55</string>
+    <string name="psy_urgent_help">Срочная помощь</string>
+    <string name="psy_phone_hint">Телефон</string>
+
+</resources>

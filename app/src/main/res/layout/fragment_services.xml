@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fill_mark"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="24dp"
+        android:paddingEnd="14dp"
+        android:paddingVertical="14dp">
+
+        <RelativeLayout
+            android:id="@+id/profile_image_wrap"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerVertical="true"
+                android:src="@color/color_android_main"
+                app:civ_border_width="0dp" />
+
+            <TextView
+                android:id="@+id/tvAvatarName"
+                style="@style/Text.Big.Very.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                tools:text="AE" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/ivSettings"
+            android:layout_toEndOf="@id/profile_image_wrap"
+            android:orientation="vertical"
+            android:paddingStart="8dp">
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/sfprodisplay_medium"
+                android:paddingHorizontal="14dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:text="Федорова Дарья Сергеевна" />
+
+            <TextView
+                android:id="@+id/tvNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:paddingHorizontal="14dp"
+                android:paddingTop="4dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="14sp"
+                tools:text="ФУПМ, Б05-872" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/ivSettings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_oval_selectable"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_settings2" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="24dp">
+
+            <LinearLayout
+                android:id="@+id/llBills"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:visibility="gone"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="43dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/bg_service"
+                    android:backgroundTint="@color/service_yellow">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_service_rouble"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Big_17"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/black"
+                        android:text="@string/services_bills"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Small_12"
+                        android:textColor="@color/secondary_text"
+                        android:text="@string/services_bills_description">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivArrow1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:rotation="180"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:tint="@color/logo_color" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llAnalitycs"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="4dp"
+                android:visibility="gone"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="43dp"
+                    android:layout_height="57dp"
+                    android:backgroundTint="@color/service_red"
+                    android:background="@drawable/bg_service">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_service_analitycs"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Big_17"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/black"
+                        android:text="@string/services_analytics"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Small_12"
+                        android:textColor="@color/secondary_text"
+                        android:text="@string/services_analytics_description">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivArrow2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:rotation="180"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:tint="@color/logo_color" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:paddingHorizontal="24dp"
+                android:visibility="gone"
+                android:paddingVertical="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="43dp"
+                    android:layout_height="57dp"
+                    android:backgroundTint="@color/service_pink"
+                    android:background="@drawable/bg_service">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_service_star"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Big_17"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/black"
+                        android:text="@string/services_questions"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Small_12"
+                        android:textColor="@color/secondary_text"
+                        android:text="@string/services_questions_description">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivArrow3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:rotation="180"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:tint="@color/logo_color" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="43dp"
+                    android:layout_height="57dp"
+                    android:backgroundTint="@color/iris"
+                    android:background="@drawable/bg_service">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_service_chat"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Big_17"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/black"
+                        android:text="@string/services_feedback"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Small_12"
+                        android:textColor="@color/secondary_text"
+                        android:text="@string/services_feedback_description">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivArrow4"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:rotation="180"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:tint="@color/logo_color" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llDocuments"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:visibility="gone"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="43dp"
+                    android:layout_height="57dp"
+                    android:backgroundTint="@color/service_blue"
+                    android:background="@drawable/bg_service">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_service_doc"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Big_17"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/black"
+                        android:text="@string/services_documents"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Small_12"
+                        android:textColor="@color/secondary_text"
+                        android:text="@string/services_documents_description">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivArrow5"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:rotation="180"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:tint="@color/logo_color" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSections"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="43dp"
+                    android:layout_height="57dp"
+                    android:backgroundTint="@color/service_orange"
+                    android:background="@drawable/bg_service">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_service_sections"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Big_17"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/black"
+                        android:text="@string/services_sections"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Small_12"
+                        android:textColor="@color/secondary_text"
+                        android:text="@string/services_sections_descriptions">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivArrow6"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:rotation="180"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:tint="@color/logo_color" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llPsychologist"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="43dp"
+                    android:layout_height="57dp"
+                    android:backgroundTint="@color/service_blue"
+                    android:background="@drawable/bg_service">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_service_psychologist"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Big_17"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/black"
+                        android:text="@string/services_psychologist"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Small_12"
+                        android:textColor="@color/secondary_text"
+                        android:text="@string/services_psychologist_descriptions">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivArrow7"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:rotation="180"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:tint="@color/logo_color" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llDevelop"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="43dp"
+                    android:layout_height="57dp"
+                    android:backgroundTint="@color/secondary_text"
+                    android:background="@drawable/bg_service">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_service_develop"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Big_17"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/black"
+                        android:text="@string/services_develop"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text.Small_12"
+                        android:textColor="@color/secondary_text"
+                        android:text="@string/services_develop_description">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivArrow8"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:rotation="180"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:tint="@color/logo_color" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

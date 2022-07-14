@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "542818243822",
+    "project_id": "miptapp-a45a7",
+    "storage_bucket": "miptapp-a45a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542818243822:android:31917bd0e677e77603cfff",
+        "android_client_info": {
+          "package_name": "dev.phystech.mipt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542818243822-io1ot7560jfpu6dmb55is7bcinobhbp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClfmo_B9FjQauiCIcQtE4ntQ5bPu4Ll9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542818243822-io1ot7560jfpu6dmb55is7bcinobhbp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542818243822-eeaf8cefq9q572t251hktlrqhuturcnu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "center.phystech.mipt"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
