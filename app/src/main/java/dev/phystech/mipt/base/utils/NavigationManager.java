@@ -42,7 +42,7 @@ public class NavigationManager {
         fragment.setArguments(bundle);
         
         transaction = getTransaction(activity);
-        transaction.setCustomAnimations(R.animator.fade_in, R.animator.fade_out);
+//        transaction.setCustomAnimations(R.animator.fade_in, R.animator.fade_out);
 
         if (isAdd) {
             transaction.replace(containerId, fragment, fragment.getClass().getSimpleName());

@@ -213,22 +213,22 @@ class MainActivity : BaseActivity(), FragmentNavigation.Presenter, BackgroundDel
             ChatUtils.userId = userId
         }
 
-//        ChatRepository.shared.getConversationsDB()
-//        TagRepository.shared.loadAll()
-//        NewsRepository.shared.loadData()
-//        NewsRepository2.shared.loadData()
-//        ChairRepository.shared.loadData()
-//        EventRepository.shared.loadData()
-//        PlacesRepository.shared.loadData()
-//        HistoryRepository.shared.loadData()
-//        ContactsRepository.shared.loadData()
-////        ContactsRepository.shared.loadDeletedData()
-//        ChairTopicRepository.shared.loadData()
-//        TeachersRepository.shared.loadData()
-//        TimeSlotsRepository.shared.load()
-//        SchedulePlaceRepository.shared.loadData()
-//        ScheduleEventRepository.shared.loadData()
-//        SportSectionsRepository.shared.loadData()
+        ChatRepository.shared.getConversationsDB()
+        TagRepository.shared.loadAll()
+        NewsRepository.shared.loadData()
+        NewsRepository2.shared.loadData()
+        ChairRepository.shared.loadData()
+        EventRepository.shared.loadData()
+        PlacesRepository.shared.loadData()
+        HistoryRepository.shared.loadData()
+        ContactsRepository.shared.loadData()
+//        ContactsRepository.shared.loadDeletedData()
+        ChairTopicRepository.shared.loadData()
+        TeachersRepository.shared.loadData()
+        TimeSlotsRepository.shared.load()
+        SchedulePlaceRepository.shared.loadData()
+        ScheduleEventRepository.shared.loadData()
+        SportSectionsRepository.shared.loadData()
 
         pushFragment(firstFragment, false)
 
@@ -372,19 +372,19 @@ class MainActivity : BaseActivity(), FragmentNavigation.Presenter, BackgroundDel
     private fun onMenuItemSelected(menuItem: MenuItem): Boolean {
         when (menuItem.itemId) {
             R.id.menu_item_study -> {
-                pushFragment(firstFragment, true)
+                pushFragment(firstFragment, false)
             }
             R.id.menu_item_news -> {
-                pushFragment(newsFragment, true)
+                pushFragment(newsFragment, false)
             }
             R.id.menu_item_chat -> {
-                pushFragment(chatFragment, true)
+                pushFragment(chatFragment, false)
             }
             R.id.menu_item_navigator -> {
-                pushFragment(navigatorFragment, true)
+                pushFragment(navigatorFragment, false)
             }
             R.id.menu_item_services -> {
-                pushFragment(servicesFragment, true)
+                pushFragment(servicesFragment, false)
             }
         }
 

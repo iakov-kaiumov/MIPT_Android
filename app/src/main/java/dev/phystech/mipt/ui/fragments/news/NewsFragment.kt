@@ -2,6 +2,7 @@ package dev.phystech.mipt.ui.fragments.news
 
 import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -38,6 +39,7 @@ class NewsFragment : BaseFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        Log.d("NewsFragment", "onCreateView")
         return inflater.inflate(R.layout.fragment_news, container, false)
     }
 
@@ -59,6 +61,7 @@ class NewsFragment : BaseFragment() {
     }
 
     override fun onStart() {
+        Log.d("NewsFragment", "onStart")
         super.onStart()
         setViewPager()
     }
