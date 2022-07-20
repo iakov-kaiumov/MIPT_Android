@@ -39,7 +39,6 @@ class NewsFragment : BaseFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        Log.d("NewsFragment", "onCreateView")
         return inflater.inflate(R.layout.fragment_news, container, false)
     }
 
@@ -61,7 +60,6 @@ class NewsFragment : BaseFragment() {
     }
 
     override fun onStart() {
-        Log.d("NewsFragment", "onStart")
         super.onStart()
         setViewPager()
     }

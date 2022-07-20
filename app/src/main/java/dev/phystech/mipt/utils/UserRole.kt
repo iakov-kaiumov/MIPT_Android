@@ -7,7 +7,8 @@ enum class UserRole(val value: Int) {
     Admin(3),
     Alumnus(4),
     Academ(5),
-    Expelled(6);
+    Expelled(6),
+    Test(7);
 
     fun getName(): String {
         return when (this) {
@@ -26,6 +27,7 @@ enum class UserRole(val value: Int) {
                 1 -> UserRole.Student
                 2 -> UserRole.Employee
                 3 -> UserRole.Employee
+                7 -> UserRole.Test
                 else -> null
             }
         }

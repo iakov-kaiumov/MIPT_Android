@@ -1,5 +1,6 @@
 package dev.phystech.mipt.network
 
+import android.util.Log
 import com.google.gson.GsonBuilder
 import com.grapesnberries.curllogger.CurlLoggerInterceptor
 import hu.akarnokd.rxjava3.retrofit.RxJava3CallAdapterFactory
@@ -249,6 +250,9 @@ class ApiClient private constructor() {
         @GET("api/users/login/{id}")
         fun login(@Path("id") id: Int): Observable<UserLoginResponseModel>
 
+        @GET("api/setting/view/android-version")
+        fun androidVersion(): Observable<VersionResponseModel>
+
         @GET("api/users")
         fun getUsers(
             @Query("filter[fullname]") fullname: String? = null,
@@ -374,6 +378,7 @@ class ApiClient private constructor() {
 
     companion object {
 
+        const val HARD_CODE_TOKEN: String = "MjYtMi0zLTRjOGUwYTE5YTA4N2NjNTUyYTE5MmJjMTJiNDMwNTIxNWYzODkwMDgzNzU3NmQwNTkwZTI0MzdlY2NlYTA4ZmU="
         const val CLIENT_SECRET = "H4TVZdsf4CJmfgveDfs2"
 
         var shared: Api
@@ -395,7 +400,9 @@ class ApiClient private constructor() {
                     UserRepository.shared.getToken()?.let { token ->
                         requestBuilder.header("Authorization", "Bearer $token")
                     }
-
+                    if (it.request().url.toString().contains("android-version")) {
+                        requestBuilder.header("Authorization", "Bearer $HARD_CODE_TOKEN")
+                    }
                     it.proceed(requestBuilder.build())
                 }.build()
 

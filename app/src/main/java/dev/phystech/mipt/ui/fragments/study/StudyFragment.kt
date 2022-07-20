@@ -119,6 +119,9 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
 
     override fun onStart() {
         super.onStart()
+
+        // TODO: Убрать отсюда все тяжелые задачи
+
         Log.i("LIFECIRCLE", "onStart")
         SchedulersRepository.shared.loadData()
         SchedulersRepository.shared.loadingInProgress

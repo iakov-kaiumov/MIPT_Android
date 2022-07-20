@@ -222,7 +222,7 @@ class MainActivity : BaseActivity(), FragmentNavigation.Presenter, BackgroundDel
         PlacesRepository.shared.loadData()
         HistoryRepository.shared.loadData()
         ContactsRepository.shared.loadData()
-//        ContactsRepository.shared.loadDeletedData()
+        ContactsRepository.shared.loadDeletedData()
         ChairTopicRepository.shared.loadData()
         TeachersRepository.shared.loadData()
         TimeSlotsRepository.shared.load()

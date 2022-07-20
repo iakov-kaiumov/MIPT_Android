@@ -1,5 +1,6 @@
 package dev.phystech.mipt.ui.activities.authorization
 
+import android.content.Context
 import android.os.Bundle
 import androidx.annotation.StringRes
 import dev.phystech.mipt.base.mvp.BasePresenter
@@ -17,5 +18,6 @@ interface AuthorizationContract {
         abstract fun loginConfirmed()
         abstract fun authSuccess(withRole: UserRole? = null)
         abstract fun authError()
+        abstract fun checkDebugSignIn(context: Context, callback: ((Boolean) -> Unit))
     }
 }

@@ -1,8 +1,11 @@
 package dev.phystech.mipt.ui.activities.authorization
 
 import android.content.Intent
+import android.opengl.Visibility
 import android.os.Bundle
+import android.util.Log
 import android.view.View
+import android.widget.Button
 import android.widget.RelativeLayout
 import androidx.appcompat.app.AlertDialog
 import dev.phystech.mipt.R
@@ -18,6 +21,7 @@ class AuthorizationActivity: BaseActivity(), AuthorizationContract.View {
     lateinit var rlLoginStudent: RelativeLayout
     lateinit var rlLoginEmployee: RelativeLayout
     lateinit var rlLoginGuest: RelativeLayout
+    lateinit var rlLoginTest: Button
 
 
     //  LIFE CIRCLE
@@ -31,6 +35,10 @@ class AuthorizationActivity: BaseActivity(), AuthorizationContract.View {
     override fun onStart() {
         super.onStart()
         presenter.attach(this)
+
+        presenter.checkDebugSignIn(this) {
+            rlLoginTest.visibility = if (it) View.VISIBLE else View.GONE
+        }
     }
 
     override fun onStop() {
@@ -83,11 +91,13 @@ class AuthorizationActivity: BaseActivity(), AuthorizationContract.View {
         rlLoginStudent = findViewById(R.id.rlLoginStudent)
         rlLoginEmployee = findViewById(R.id.rlLoginEmployee)
         rlLoginGuest = findViewById(R.id.rlLoginGuest)
+        rlLoginTest = findViewById(R.id.rlLoginTest)
 
         //  set listeners
         rlLoginStudent.setOnClickListener(this::loginStudentPressed)
         rlLoginEmployee.setOnClickListener(this::loginEmployeePressed)
         rlLoginGuest.setOnClickListener(this::loginGuestPressed)
+        rlLoginTest.setOnClickListener(this::loginTestPressed)
     }
 
 
@@ -104,8 +114,11 @@ class AuthorizationActivity: BaseActivity(), AuthorizationContract.View {
         presenter.login(UserRole.Guest)
     }
 
+    private fun loginTestPressed(view: View) {
+        presenter.login(UserRole.Test)
+    }
+
     companion object {
         private const val REQUEST_CODE = 102
     }
-
 }
