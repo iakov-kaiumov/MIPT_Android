@@ -6,9 +6,9 @@
             android:visible="true"
             android:dither="true"
             android:useLevel="false">
-            <gradient
-                android:startColor="@color/color_android_main"
-                android:endColor="@color/color_android_main"/>
+            <solid
+                android:color="@color/white"
+                />
         </shape>
     </item>
 </selector>

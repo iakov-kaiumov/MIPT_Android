@@ -8,7 +8,7 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.os.Build
 import android.os.Bundle
-import android.preference.PreferenceManager
+import androidx.preference.PreferenceManager
 import android.util.Log
 import android.view.*
 import android.widget.*
@@ -62,7 +62,7 @@ import kotlin.math.pow
  * @see MainActivity.showSchedulersOptions
  *
  * Для навигации этот фрагмент использует метод [MainActivity.add].
- * Благодаря этому, при открытии фрагмента пверх, текущий не останавливает выполнение и
+ * Благодаря этому, при открытии фрагмента поверх, текущий не останавливает выполнение и
  * приложение не вылетает при возвращении к данному фрагменту. {@see readme.md}
  */
 class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
@@ -105,6 +105,8 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
         val filter = IntentFilter("notification")
         LocalBroadcastManager.getInstance(requireContext()).registerReceiver(receiver, filter)
 
+        SchedulersRepository.shared.loadData()
+
         Log.i("LIFECIRCLE", "onCreate")
     }
 
@@ -123,15 +125,19 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
         // TODO: Убрать отсюда все тяжелые задачи
 
         Log.i("LIFECIRCLE", "onStart")
-        SchedulersRepository.shared.loadData()
+
+         SchedulersRepository.shared.loadData()
+        // Show loading progress
+        /*
         SchedulersRepository.shared.loadingInProgress
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe ({
-//                if (it) showProgress() else hideProgress()
+                if (it) showProgress() else hideProgress()
             }, {
                 print(it)
             })
+         */
 
         SchedulersRepository.shared.schedulers
             .subscribeOn(Schedulers.io())
@@ -200,7 +206,6 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
         configureTabLayout()
 
         Log.i("LIFECIRCLE", "onResume")
-
     }
 
     override fun onPause() {
@@ -268,7 +273,6 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
 
         tvDateRange.setOnClickListener(this::textViewDateRangeClick)
         ivDateDateArrow.setOnClickListener(this::textViewDateRangeClick)
-        ConstraintLayout.LayoutParams.WRAP_CONTENT
 
         rlNoSchedulers.visibility = false.visibility()
         calendarView.setOnDateChangeListener(this::dateSelected)
@@ -282,6 +286,8 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
 
     var isCreated = false
     private fun createTimeTable() {
+        // TODO: Оптимизировать вызовы createTimeTable
+        val startTime = System.nanoTime()
         Log.i("LIFECIRCLE", "createTimeTable start")
 
         val appContext = activity?.applicationContext ?: return
@@ -318,7 +324,7 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
         } else {
             schedulersEvents.clear()
         }
-
+        Log.i("createTimeTableTime1", ((System.nanoTime() - startTime) / 1000000.0).toString())
 
         if (schedulers.isNotEmpty()) {
             isCreated = true
@@ -332,7 +338,7 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
                 startWeekDay,
                 endWeekDay
             ).apply { delegate = this@StudyFragment }
-
+            Log.i("createTimeTableTime2", ((System.nanoTime() - startTime) / 1000000.0).toString())
 
             pager.adapter = adapter
 
@@ -343,20 +349,18 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
 //            rubberTabLayout.setupWithViewPager(pager)
             pager.currentItem = page
             rlNoSchedulers.visibility = false.visibility()
-
-
-
-
         } else {
             showNoSchedulers()
         }
-
+        Log.i("createTimeTableTime3", ((System.nanoTime() - startTime) / 1000000.0).toString())
         Log.i("LIFECIRCLE", "createTimeTable finish")
     }
 
 
     //  OTHERS
     private fun configureTabLayout() {
+        // TODO: Закоментил этот кусок кода. Работает и так и так. Проверить нужен ли он вообще
+        /*
         var width = 0
         tabs.setupWithViewPager(pager, true)
         tabs.post {
@@ -366,7 +370,7 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
             params.width = width
             indicator.layoutParams = params
         }
-
+        */
         pager.addOnPageChangeListener(pageChangeListener)
     }
 
@@ -428,8 +432,6 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
             params.height = (finishHeight - heightDelta).toInt()
 
             indicator.layoutParams = params
-
-
 
             Log.i("TAB_LAYOUT_SCROLL", "position: $position;\t positionOffset: $positionOffset;\t positionOffsetPixels: $positionOffsetPixels;\t width: $widthDelta\t heightDelta: $heightDelta \theight: ${finishHeight - heightDelta}")
         }
@@ -509,10 +511,6 @@ class StudyFragment : BaseFragment(), ClassesAdapter.Delegate {
         }
         tvDateRange.text = "$day1 $month1 - $day2 $month2 ($curr$oddValue)"
         updateEvents()
-    }
-
-    private fun createDateRange() {
-
     }
 
     private fun sandwitchSelected(view: View) {

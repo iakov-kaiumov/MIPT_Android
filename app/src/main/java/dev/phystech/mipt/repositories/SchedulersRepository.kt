@@ -55,7 +55,7 @@ class SchedulersRepository private constructor() {
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({
                 if (!it.status.isSuccess) {
-                    messages.onNext("Произошла ошибка загрузки рассписания")
+                    messages.onNext("Произошла ошибка загрузки расписания")
                     return@subscribe
                 }
 
@@ -68,7 +68,7 @@ class SchedulersRepository private constructor() {
                     this.schedulers.onNext(schedulers)
                 }
         }, {
-            messages.onNext("Произошла ошибка запроса рассписания")
+            messages.onNext("Произошла ошибка запроса расписания")
         }, {
             loadingInProgress.onNext(false)
         })

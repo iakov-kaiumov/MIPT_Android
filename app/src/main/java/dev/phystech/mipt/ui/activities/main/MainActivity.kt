@@ -4,7 +4,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.os.CountDownTimer
-import android.preference.PreferenceManager
+import androidx.preference.PreferenceManager
 import android.util.Log
 import android.view.MenuItem
 import android.view.View
@@ -87,9 +87,9 @@ import dev.phystech.mipt.ui.fragments.support.chats_groups.ChatsGroupsFragment
 import dev.phystech.mipt.utils.ChatUtils.WEB_SOCKET_URL
 import org.java_websocket.client.WebSocketClient
 import org.java_websocket.handshake.ServerHandshake
-import java.lang.Exception
 import java.net.URI
 import javax.net.ssl.SSLSocketFactory
+
 
 class MainActivity : BaseActivity(), FragmentNavigation.Presenter, BackgroundDelegate,
     EventsBottomSheetController.Delegate, SchedulersBottomSheetController.Delegate, BottomSheetController {
@@ -162,7 +162,11 @@ class MainActivity : BaseActivity(), FragmentNavigation.Presenter, BackgroundDel
                 .addOnFailureListener { e: Exception? -> }
                 .addOnCanceledListener {}
                 .addOnCompleteListener { task: Task<String> ->
-                    UserRepository.shared.sendDeviceToken(task.result)
+                    try {
+                        UserRepository.shared.sendDeviceToken(task.result)
+                    } catch (e: Exception) {
+
+                    }
                 }
         }
 
@@ -222,7 +226,7 @@ class MainActivity : BaseActivity(), FragmentNavigation.Presenter, BackgroundDel
         PlacesRepository.shared.loadData()
         HistoryRepository.shared.loadData()
         ContactsRepository.shared.loadData()
-        ContactsRepository.shared.loadDeletedData()
+        // ContactsRepository.shared.loadDeletedData()
         ChairTopicRepository.shared.loadData()
         TeachersRepository.shared.loadData()
         TimeSlotsRepository.shared.load()

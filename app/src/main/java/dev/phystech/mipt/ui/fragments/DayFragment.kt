@@ -3,7 +3,7 @@ package dev.phystech.mipt.ui.fragments
 import android.app.Activity
 import android.content.Intent
 import android.os.*
-import android.preference.PreferenceManager
+import androidx.preference.PreferenceManager
 import android.text.Html
 import android.util.Log
 import android.view.*
@@ -68,11 +68,7 @@ class DayFragment : BaseFragment(), ClassesAdapter.Delegate, ContextMenuRegistra
         val lessons = timetable
         if (lessons.none { it.day == day || it.day + 7 == day}) {
             empty = true
-            return when (day) {
-                7 -> inflater.inflate(R.layout.empty_day, container, false)
-//                else -> inflater.inflate(R.layout.fragment_day, container, false)
-                else -> inflater.inflate(R.layout.empty_day, container, false)
-            }
+            return inflater.inflate(R.layout.empty_day, container, false)
         }
 
         val view = inflater.inflate(R.layout.fragment_day, container, false)
@@ -81,11 +77,11 @@ class DayFragment : BaseFragment(), ClassesAdapter.Delegate, ContextMenuRegistra
         return view
     }
 
-    @Suppress("UNCHECKED_CAST")
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val day = arguments?.getInt(ARG_DAY)
         if (day == null || empty) {
-            if (day ?: 7 < 7) {
+            if ((day ?: 7) < 7) {
                 view.findViewById<View>(R.id.image).visibility = false.visibility()
                 view.findViewById<TextView>(R.id.tvDescription)
                     .setText(R.string.empty_day_description_friends)
@@ -96,6 +92,8 @@ class DayFragment : BaseFragment(), ClassesAdapter.Delegate, ContextMenuRegistra
             return
         }
 
+        // TODO: 1. Убрать сортировку, перенести в модель/контроллер
+        // TODO: 2. Сделать нормальную сортировку (без trim, split и т.д.)
         val tt = timetable as List<SchedulerListShortItem>
         tt.sortedWith(kotlin.Comparator { v1, v2 ->
             if (v1.allDay) return@Comparator -1
@@ -171,23 +169,10 @@ class DayFragment : BaseFragment(), ClassesAdapter.Delegate, ContextMenuRegistra
     override fun onResume() {
         Log.i("LIFECIRCLE", "day: onResume")
         super.onResume()
-        val mainActivity = parentFragment as? StudyFragment ?: return
-        if (day - 1 == mainActivity.page && shouldShowTips()) {
-            Handler().post {
-                if (!empty) {
-//                    mainActivity.listItemView = recycler.layoutManager?.findViewByPosition(0)
-                }
-//                mainActivity.showTips()
-            }
-        }
     }
 
     override fun onDestroy() {
         Log.i("LIFECIRCLE", "day: onDestroy")
-        // Free memory
-        if (!empty) {
-//            view?.findViewById<ImageView>(R.id.imageView)?.setImageBitmap(null)
-        }
         super.onDestroy()
     }
 

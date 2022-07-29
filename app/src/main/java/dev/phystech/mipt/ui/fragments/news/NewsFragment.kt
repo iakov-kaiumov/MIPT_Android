@@ -65,9 +65,6 @@ class NewsFragment : BaseFragment() {
     }
 
     fun setViewPager() {
-        val miptBundle = Bundle()
-        miptBundle.putString(NewsPageFragment.TITLE_KEY, "MIPT")
-
         val newsBundle = Bundle()
         newsBundle.putInt("type", News.Type.News.index)
         newsBundle.putString(NewsPageFragment.TITLE_KEY, getString(R.string.tabbar_news))
@@ -76,19 +73,10 @@ class NewsFragment : BaseFragment() {
         eventBundle.putInt("type", News.Type.Events.index)
         eventBundle.putString(NewsPageFragment.TITLE_KEY, getString(R.string.tabbar_events))
 
-        val chairBundle = Bundle()
-        chairBundle.putInt("type", News.Type.Chair.index)
-        chairBundle.putString(NewsPageFragment.TITLE_KEY, getString(R.string.tabbar_inner))
-
 
         val fragmentCreator = FragmentPagerItems.with(mainActivity)
-//                .add("MIPT", NewsPageFragment::class.java, miptBundle)
             .add(getString(R.string.tabbar_news), NewsPageFragment::class.java, newsBundle)
             .add(getString(R.string.tabbar_events), NewsPageFragment::class.java, eventBundle)
-
-        if (UserRepository.shared.userRole != UserRole.Guest) {
-//            fragmentCreator.add(getString(R.string.tabbar_inner), NewsPageFragment::class.java, chairBundle)    // бывшая "Кафедры"
-        }
 
         val adapter = FragmentPagerItemAdapter(
             childFragmentManager, fragmentCreator.create()

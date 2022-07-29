@@ -33,9 +33,6 @@ class ApiClient private constructor() {
         @GET("api/history")
         fun getHistoryById(@Query("filter[id]") id: String): Observable<HistoryDataResponseModel>
 
-        @GET("api/news")
-        fun getNews(@Query("filter[language.id][]") lang: Int = getLanguageID()): Observable<NewsDataResponseModel>
-
         @GET("api/event")
         fun getEvents(
             @Query("page") page: Int = 1,
@@ -158,7 +155,7 @@ class ApiClient private constructor() {
             @Query("filter[places.id][]") places: String? = null,
             @Query("filter[teachers.id][]") teachers: String? = null,
             @Query("filter[course.id][]") courseId: Int? = null,
-            @Query("perpage") perpage: Int = 1000
+            @Query("perpage") perpage: Int = 30
         ): Observable<SchedulerIndexResponseModel>
 
         @GET("api/schedule/subscribe/{id}")
